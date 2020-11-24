@@ -1,12 +1,21 @@
-site_name: Spatial Computing Project Template
+site_name: Spatial Computing Project
 
 nav:
   - Home: "index.md"
-  - Planning: "a1_planning.md"
-  - Configuring: "a2_configuring.md"
-  - Massing: "a3_massing.md"
-  - Forming: "a4_forming.md"
   - About: "about.md"
+  - A1_Planning: 
+      - Process: "A1_Planning/a1_planning_process.md"
+      - Product: "A1_Planning/a1_planning_product.md"
+  - A2_Configuring: 
+      - Process: "A2_Configuring/a2_configuring_process.md"
+      - Product: "A2_Configuring/a2_configuring_product.md"
+  - A3_Massing:
+      - Process: "A3_Massing/a3_massing_process.md"
+      - Product: "A3_Massing/a3_massing_product.md"
+  - A4_Forming:
+      - Process: "A4_Forming/a4_forming_process.md"
+      - Product: "A4_Forming/a4_forming_product.md"
+  - Final_Deliverables: "Final_Deliverables/readme.md"
   - Index:
       - Scripts: "index/scripts.md"
       - Figures: "index/figures.md"
@@ -16,9 +25,18 @@ nav:
       - Instructions: "documenting/instructions.md"
       - Folder Structure: "documenting/folder_structure.md"
       - Guidelines: "documenting/guidelines.md"
+  - Quotes: "quotes.md"
 
-theme:
-  name: "material"
+theme: 
+  name: material
+# material
+# windmill-dark
+  palette:
+    scheme: slate
+    primary: amber
+    accent: purple
+
+
 
 markdown_extensions:
   - codehilite

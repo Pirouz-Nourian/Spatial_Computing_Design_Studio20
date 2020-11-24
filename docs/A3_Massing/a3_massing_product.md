@@ -1,0 +1,3 @@
+# Product of massing
+
+:monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey:
