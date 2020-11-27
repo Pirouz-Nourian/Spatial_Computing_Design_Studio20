@@ -8,7 +8,7 @@ nav:
       - Product: "A1_Planning/a1_planning_product.md"
   - A2_Configuring: 
       - Process: "A2_Configuring/a2_configuring_process.md"
-      - Product: "A2_Configuring/a2_configuring_product.md"
+      - Product: "notebooks/Projectgroup1notebook.ipynb"
   - A3_Massing:
       - Process: "A3_Massing/a3_massing_process.md"
       - Product: "A3_Massing/a3_massing_product.md"
@@ -36,6 +36,10 @@ theme:
     primary: amber
     accent: purple
 
+plugins:
+  - mknotebooks:
+      enable_default_jupyter_cell_styling: false
+      enable_default_pandas_dataframe_styling: false
 
 
 markdown_extensions:
