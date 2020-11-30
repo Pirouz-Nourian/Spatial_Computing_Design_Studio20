@@ -1,12 +1,13 @@
-# Process of planning
+# Process of planning, forming the Programing of Requirements 
 
-## Building identity
+## *Building identity*
+<center> <img src="https://cdn.discordapp.com/attachments/775754717346791494/782981018256408686/Tekengebied_1_1.png" alt="collective" style="width:280px;"><img src="https://cdn.discordapp.com/attachments/604635622451183616/781921391473066004/Tekengebied201.png" alt="collective" style="width:280px;height:300px;"> <img src="https://cdn.discordapp.com/attachments/775754717346791494/782981023218008074/Tekengebied_1_2.png" style="width:400px;"> 
+</center>
+
 The building exploits the benefits of collectivity as much as possible while limiting its disadvantages. With keeping privacy in mind, the collectivity will provide a better housing situation and a stronger social connection for every inhabitant. The green of the building and surroundings will contribute to a better and resilient neighbourhood. The energy-neutral building in combination with the green and sustainable design will be ready for the future and will form an example and a benchmark for other buildings. 
 
-<br>
-</br>
 
-## User Experience
+## *User Experience*
 ### **Students**
 The live-work-play coöperative forms a home basis for the students, where they are not only living with other students, but where they find collective spaces with many extra possibilities. They can make use of the co-cooking kitchen to invite friends and family over and enjoy all the other facilities provided in this building, like the gym and the co-working spaces. The mix with other users gives the student the opportunity to get a discount on their rent by spending time with and helping the elderly and by babysitting the children of the starters. To make this work, a bulletin board is central in the community centre, where people can ask for and give help, products or even leftovers. The community centre forms a place to connect with other users, but also provides a lounge space where they can relax and enjoy a drink, read a book or have friends over. 
 
@@ -20,14 +21,16 @@ The building gives starters the opportunities to work near their home with offic
 ### **Externals**
 By adding this building to the neighbourhood, the area gets more lively and all the shops and restaurants will get an economic boost. Thereby, the overall quality of the area can improve and it gets more interesting to go there. A second improvement where externals profit from, is the addition of greenery in the scene. These greenspaces will make the place less rough and gives it even more the reason to go there and enjoy the lively neighbourhood. 
 
-<br>
-</br>
+<center> <img src="https://cdn.discordapp.com/attachments/775754717346791494/782981023218008074/Tekengebied_1_2.png" style="width:400px;"> 
+</center>
 
 ## Key Performance Indicators
 **Collectivity**
 
 * Connect all residents by creating collective (indoor and outdoor) spaces, providing an inclusive living environment.
 * Give the different target groups the option to mix together, but also be able to seclude from each other to have the perks of living together, but not the disadvantages. 
+
+<center> <img src="https://cdn.discordapp.com/attachments/604635622451183616/781921391473066004/Tekengebied201.png" alt="collective" style="width:280px;height:300px;"> </center>
 
 **Home quality**
 
@@ -45,54 +48,29 @@ By adding this building to the neighbourhood, the area gets more lively and all 
 
 * An opportunity for a green focussed design, where collectivity and sustainability can be connected
 * optimize roof and orientation for solar panels
+* Modularity 
+<center> <img src="https://cdn.discordapp.com/attachments/775754717346791494/782981018256408686/Tekengebied_1_1.png" alt="collective" style="width:280px;"> </center>
 
 **Self-sufficient**
 
 * Energy-neutral (BENG)
 * implement vegetable garden to actively involve residents in sustainability and connect with each other (> close to co-cooking)
 
-<br>
-</br>
 
-## Improvements on the site
+## *Improvements on the site*
 
 * Offering students of the nearby hospitality school the possibility to gain experience in the cocooking kitchens and pub. 
-* Linking the greenery of the surrounding are with the greenery on site to improve the green image of the neighbourhood. 
+* Linking the greenery of the surrounding are with the greenery on site to improve the green image of the neighbourhood.
+
+![Image of greenery in the enviroment](../img/kaarten_groen.png)
+
 * Connecting local amenities towards the public amenities on site so that the local amenities attract more business. 
 * Improving the overall ambiance of the neighbourhood 
 
-
-Images here scattered for now:
-![Image of greenery in the enviroment](../img/kaarten_groen.png)
-
-![Title](../img/Tekengebied 1.png)
-
-
-``` HTML
-need to get this to work for resizing (markdown resizing doesnt work) ; '
-suggestions from forum:
-<img src="../img/Tekengebied 1.png" width="200" height="200" />
-<img src="../img/Tekengebied 1.png" width="200">
-[<img src="../img/Tekengebied 1.png" width="250"/>](Tekengebied 1.png)
-![Title](../img/Tekengebied 1.png){ width=50% }
-
-for some reason i can only get it work for sources that are links instead of local files D:
-```
-
-<img src="https://cdn.discordapp.com/attachments/604635622451183616/781921391473066004/Tekengebied201.png" alt="test" style="width:280px;height:300px;">
-
-
-
-![Title](../img/Tekengebied 1_1.png)
-![Title](../img/Tekengebied 1_2.png)
-
-
 ![Image of route](../img/kaarten_route.png)
 
-<br>
-</br>
 
-## Space sizes
+## *Space sizes*
 ### Estimation internal and external occupation/traffic
 Internal inhabitants: 30 elders, 80 students + 100 * (2.0) = 200 starters. This equals 310 internal tenants. 
 
@@ -105,9 +83,10 @@ Estimation community:
 310 * 0.12 = 37.2 = 38 internal people will engage in hobby like activities
 310 * 0.15 = 64.5 = 65 internal will engage in voluntary work for elders/neighbors/disabled
 
-### Space areas (click on space name for source)
-**0 Community centre**
-cinema + co-cooking + library + workshop room + 15%
+### Space areas
+<p> <span style="color:yellow"> <b>
+0 Community centre </span></b>
+cinema + co-cooking + library + workshop room + 15%</p>
 
 [**1 Cinematheque**](https://www.acousticfrontiers.com/wp-content/uploads/2015/03/17a-View-angle-plan.gif)
 35 m2 for 15 people

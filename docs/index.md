@@ -1,5 +1,9 @@
 # [Under Construction] Spatial Computing Project Group 1
 
+<p style="font-size:60px">
+IGNORE THIS PAGE FOR NOW, THANKS
+</p>
+
 <PlugIcon size={24} />
 <PlugIcon size={24} />
 <PlugIcon size={24} />
