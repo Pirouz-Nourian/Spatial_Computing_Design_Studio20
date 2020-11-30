@@ -1,4 +1,4 @@
-# Process of planning, forming the Programing of Requirements 
+# Process of planning, forming the Program of Requirements 
 
 ## *Building identity*
 <center> <img src="https://cdn.discordapp.com/attachments/775754717346791494/782981018256408686/Tekengebied_1_1.png" alt="collective" style="width:280px;"><img src="https://cdn.discordapp.com/attachments/604635622451183616/781921391473066004/Tekengebied201.png" alt="collective" style="width:280px;height:300px;"> <img src="https://cdn.discordapp.com/attachments/775754717346791494/782981023218008074/Tekengebied_1_2.png" style="width:400px;"> 

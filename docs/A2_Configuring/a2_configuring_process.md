@@ -87,7 +87,8 @@ The tartan grid is the place where the structural profiles or the walls can come
 ## Space criteria 
 
 ### Criteria to spaces 
-???????? WHEN FINISHED PUT IT HERE
+Process flowchart for now
+<iframe frameborder="0" style="width:100%;height:2603px;" src="https://viewer.diagrams.net/?highlight=000000&edit=_blank&layers=1&nav=1&title=process%20flowchart#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D19GJQO6n8Q_KqAivSHi9RTUaXpw6ekvTw%26export%3Ddownload"></iframe>
 
 
 ### Table/Matrix of relations
