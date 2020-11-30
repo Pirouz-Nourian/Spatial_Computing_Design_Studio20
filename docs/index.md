@@ -4,37 +4,15 @@
 IGNORE THIS PAGE FOR NOW, THANKS
 </p>
 
-<PlugIcon size={24} />
-<PlugIcon size={24} />
-<PlugIcon size={24} />
-
-:monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey:
 
 This is a project repository of Minor Spatial Computing 2020-2021, project group 1. The mid-term and Final submission can be found here. 
 
+
+:monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey::monkey:
+ 
+
 [I hate emojis why is this even an extension](https://github.com/ikatyang/emoji-cheat-sheet#smileys--emotion) :thumbsdown:
 
-several quick notes for myself
-
-
-```
-conda activate test
-
-```
-
-http://127.0.0.1:8000/
-
-```ctrl c``` to turn off server
-
-```mkdocs serve``` to launch
-
-```mkdocs gh-deploy``` to upload
-
-website link https://edaakaltun.github.io/spatial_computing_project_template/
-
-settings tab
-
-https://github.com/EdaAkaltun/spatial_computing_project_template/settings
 
 
 Code in document:
