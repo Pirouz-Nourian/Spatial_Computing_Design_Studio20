@@ -84,16 +84,16 @@ The tartan grid is the place where the structural profiles or the walls can come
 <br>
 </br>
 
-# Space criteria 
+## Space criteria 
 
-## Criteria to spaces 
+### Criteria to spaces 
 ???????? WHEN FINISHED PUT IT HERE
 
 
-## Table/Matrix of relations
+### Table/Matrix of relations
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRqEuxSvQ-N81oncdb5fiRDmU_GB6HNdrPEpVIXcBHApoIXwiqt6-PNKeYbD71hgQ/pubhtml?gid=1256579589&single=true" style="width:150%; height:600px;" frameborder="0">
 </iframe>
 
-## Program of Requirements with integration of the voxelsize and layers of spaces
+### Program of Requirements with integration of the voxelsize and layers of spaces
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSmJnATJOBL1HdyT0rUhv993Z_nf_2vW9hOOsqYQvNYhO_EVGhiPI_OFTCAWAi-FQ/pubhtml?gid=1171988855&single=true" style="width:150%; height:600px;" frameborder="0">
 </iframe>
