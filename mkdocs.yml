@@ -8,7 +8,7 @@ nav:
       - Product: "A1_Planning/a1_planning_product.md"
   - A2_Configuring: 
       - Process: "A2_Configuring/a2_configuring_process.md"
-      - Product: "A2_Configuring/a2_configuring_product.md"
+      - Product: "notebooks/w1_voxelization/notebooks/w1_voxelization.ipynb"
   - A3_Massing:
       - Process: "A3_Massing/a3_massing_process.md"
       - Product: "A3_Massing/a3_massing_product.md"
