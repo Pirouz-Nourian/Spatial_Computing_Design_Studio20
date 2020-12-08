@@ -2,10 +2,18 @@ site_name: Spatial Computing Project Template
 
 nav:
   - Home: "index.md"
-  - Planning: "a1_planning.md"
-  - Configuring: "a2_configuring.md"
-  - Massing: "a3_massing.md"
-  - Forming: "a4_forming.md"
+  - Planning: # "a1_planning.md"
+      - Process: "a1.1_Process.md"
+      - Products: "a1.1_Product.md"
+  - Configuring: #"a2_configuring.md"
+      - Process: "a2.1_Process.md"
+      - Products: "a2.1_Product.md"
+  - Massing: #"a3_massing.md"
+      - Process: "a3.1_Process.md"
+      - Products: "a3.1_Product.md"
+  - Forming: #"a4_forming.md"
+      - Process: "a4.1_Process.md"
+      - Products: "a4.1_Product.md"
   - About: "about.md"
   - Index:
       - Scripts: "index/scripts.md"
