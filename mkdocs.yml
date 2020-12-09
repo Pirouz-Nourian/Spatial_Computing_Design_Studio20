@@ -1,4 +1,4 @@
-site_name: Spatial Computing Project
+site_name: Spatial Computing Project Group 1
 
 nav:
   - Home: "index.md"
@@ -8,7 +8,7 @@ nav:
       - Product: "A1_Planning/a1_planning_product.md"
   - A2_Configuring: 
       - Process: "A2_Configuring/a2_configuring_process.md"
-      - Product: "notebooks/w1_voxelization/notebooks/w1_voxelization.ipynb"
+      - Product: "A2_Configuring/a2_configuring_product.md"
   - A3_Massing:
       - Process: "A3_Massing/a3_massing_process.md"
       - Product: "A3_Massing/a3_massing_product.md"
@@ -17,7 +17,15 @@ nav:
       - Product: "A4_Forming/a4_forming_product.md"
   - Final_Deliverables: "Final_Deliverables/readme.md"
   - Index:
-      - Scripts: "index/scripts.md"
+      - Scripts:
+        - Voxelization highres and lowres: "insert"
+        - Solar enveloppe + interpolation: "insert"
+        - Shadow analysis + interpolation: "insert"
+        - Skyview: "insert"
+        - Noise: "insert"
+        - Pathfinding + interpolation: "insert"
+        - Agent based generation: "insert"
+        - Shaping: "insert"
       - Figures: "index/figures.md"
       - Presentations: "index/presentations.md"
       - Bibliography: "index/bibliography.md"
@@ -26,6 +34,7 @@ nav:
       - Folder Structure: "documenting/folder_structure.md"
       - Guidelines: "documenting/guidelines.md"
   - Quotes: "quotes.md"
+
 
 theme: 
   name: material
