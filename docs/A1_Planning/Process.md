@@ -6,7 +6,7 @@ In this project the challenge is to design a housing complex incorporating sever
 
 ## Program of requirements
 
-
+here is an example of PR
 
 ## Sequences
 
