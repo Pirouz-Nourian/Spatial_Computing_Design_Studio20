@@ -67,4 +67,4 @@ dependencies:
       - testpath==0.4.4
       - traitlets==5.0.5
       - webencodings==0.5.1
-prefix: /Users/shervinazadi/opt/miniconda3/envs/sc_docs
+prefix: /Users/shervinazadi/opt/miniconda3/envs/sc_doc
