@@ -4,6 +4,8 @@ nav:
   - Home: "index.md"
   - Planning: "a1_planning.md"
   - Configuring: "a2_configuring.md"
+  - Solar notebook: Notebooks/solar_studies.ipynb
+  # - notebook: Notebooks/test.ipynb
   - Massing: "a3_massing.md"
   - Forming: "a4_forming.md"
   - About: "about.md"
