@@ -11,7 +11,7 @@ The objective for this course was to develop and create housing, work and recrea
 
 #### Programme of requirements
 
-The design brief states that the plot in [Rotterdam, The block betweenVijverhofstraat, Zomerhofstraat, Schoterbosstraat, and Teilingerstraat](https://www.google.com/maps/place/Startup+Noord/@51.9292516,4.4767546,373m/data=!3m2!1e3!4b1!4m5!3m4!1s0x47c434a9cf625753:0xb8615a4c444b9d57!8m2!3d51.9292516!4d4.4779013) is to be redeveloped. Here we could choose between the compulsory or optional plot as shown in the figure below. 
+The design brief states that the plot in [Rotterdam, The block between Vijverhofstraat, Zomerhofstraat, Schoterbosstraat, and Teilingerstraat](https://www.google.com/maps/place/Startup+Noord/@51.9292516,4.4767546,373m/data=!3m2!1e3!4b1!4m5!3m4!1s0x47c434a9cf625753:0xb8615a4c444b9d57!8m2!3d51.9292516!4d4.4779013) is to be redeveloped. Here we could choose between the compulsory or optional plot as shown in the figure below. 
 
 ![the Plot](../img/plot.png)
 
