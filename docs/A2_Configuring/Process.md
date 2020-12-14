@@ -1,6 +1,8 @@
 # Configuring
 
-## Mapping relations
+## Program of requirements
+
+## Matrix of connections
 
 Before we dived into the analyses with python, we first wanted to visualize the mapping of the relations between relation.
 We did this in several subdivisions with each there own main focus. These different themes are shown below.
@@ -19,7 +21,7 @@ We did this in several subdivisions with each there own main focus. These differ
 
 ![title](../img/Volumes_acces_green.png)
 
-### Noise analysis
+### Noise repel
 
 ![title](../img/Volumes_Geluid_tijd.png)
 
@@ -32,4 +34,8 @@ After we developped a clear notice of our wants for the building, we were able t
 </th></tr></thead><tbody><tr class="odd"><td></td><td></td><td></td><td></td><td>3600x3600 mm</td></tr><tr class="even"><td></p></td></tr></tbody></table>
 </td></tr><tr class="even"><td></p></td></tr></tbody></table>
 
-![title](../img/Volumes_Geluid_tijd.png)
+## Building Envelope
+
+Now that we have a specified voxel size, we are able to voxelize our envelope.
+
+**Render afbeelding voxelized enevelope**
