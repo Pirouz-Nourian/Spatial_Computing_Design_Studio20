@@ -6,10 +6,12 @@ With the computed sun rays and the given context mesh we have computed the inter
 
 We wanted our building to stay on the ground and not remove all of the lower voxels to keep a good connection between the shops and the hofbogen. For this reason, we have removed the voxels that have less than 55 percent of access to the sun. 
 
-**Sun access before removing voxels**
+***Sun access before removing voxels***
+
 ![Title](../img/sun1.jpg)
 
-**Sun access after the voxels have been removed**
+***Sun access after the voxels have been removed***
+ 
 ![Title](../img/sun2.jpg)
 
 
