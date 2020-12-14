@@ -9,7 +9,13 @@ nav:
       - Process: "A2_Configuring/Process.md"
       - Product: "A2_Configuring/Products.md"
   - A3_Massing:
-      - Process: "A3_Massing/Process.md"
+      - Process:
+          Sun analysis: "A3_Massing/Process/Sun analysis/Sun analysis.md"
+          Shadow analysis: "A3_Massing/Process/Shadow analysis/Shadow analysis.md"
+          Visibility analysis: "A3_Massing/Process/Visibility analysis/Visibility analysis.md"
+          Public entrance analysis: "A3_Massing/Process/Public entrance analysis/Public entrance analysis.md"
+          Green analysis: "A3_Massing/Process/Green analysis/Green analysis.md"
+          Noise analysis: "A3_Massing/Process/Noise Analysis/Noise analysis.md"
       - Product: "A3_Massing/Products.md"
   - A4_Forming: 
       - Process: "A4_Forming/Process.md"
