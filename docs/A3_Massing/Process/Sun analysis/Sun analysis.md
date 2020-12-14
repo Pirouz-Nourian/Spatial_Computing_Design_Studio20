@@ -1,8 +1,8 @@
-# Massing
+# Sun analysis
 
-> Here you should include the process and product of your 3rd activity: **Massing**
+With the sun analysis we first wanted to gain insight into the sunny and not sunny places of the building. This analysis of the sun acces on each part of the building is usefull when placing different agents in an optimal place. 
 
-| Title     | Massing (process): Composition (product)                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Objective | Logically place the functional spaces in between bridges within the building envelope.                                                                                                                                                                                                                                                                                                                                                                    |
-| Procedure | Compute a Solar Envelope, i.e. an envelope of cuboids/voxels, some of which are removed because they are in the way of the neighbouring buildings receiving some standard/minimum level of direct sunlight. Fit the circulation manifold into the solar envelope. From the standing platforms corresponding to functional spaces, grow them into voxel clouds within your voxelated envelope. Colour the voxel clouds according to their functionalities. |
+With the computed sun rays and the given context mesh we have computed the intersection between them. When an intersection is found, the calculated voxel does not fully see the sun and thus, has a low percentage of sun access. 
+
+We wanted our building to stay on the ground and not remove all of the lower voxels to keep a good connection between the shops and the hofbogen. For this reason, we have removed the voxels that have less than 55 percent of access to the sun. 
+

@@ -1,6 +1,6 @@
 # Green Analysis
 
-In this analysis we wanted to create some atraction to green spaces in the direct neighborhood of the envelope. The eventual goal is to minimize the graph distance of a voxel which is in need of green space, and the green space its self. To accomplish this we used the notebook offered by Shervin Azadi.
+In this analysis we wanted to create some attraction to green spaces in the direct neighborhood of the envelope. The eventual goal is to minimize the graph distance of a voxel which is in need of green space, and the green space its self. To accomplish this we used the notebook offered by Shervin Azadi.
 
 ### Park
 The first green space we defined is the small park between the Almondestraat and the Schoterbosstraat. We did this by extracting the index number 422, which represents the park, from the distance matrix.

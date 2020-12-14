@@ -36,6 +36,6 @@ After we developped a clear notice of our wants for the building, we were able t
 
 ## Building Envelope
 
-Now that we have a specified voxel size, we are able to voxelize our envelope. We have chosen to make the existing building mass with the football field available as a new envelope. To keep as much greenery as possible, the park behind the building will be retain. 
+Now that we have a specified voxel size, we are able to voxelize our envelope. We have chosen to make the existing building mass with the football field in between available as a new envelope. To keep as much greenery as possible, the park behind the building will be retain. 
 
-![title](../img/voxelized_envelope.png)
+![voxelized envelope](../img/voxelized_envelope.png)
