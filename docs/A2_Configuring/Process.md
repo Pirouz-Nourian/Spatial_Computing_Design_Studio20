@@ -1,7 +1,35 @@
 # Configuring
 
-# Voxel Size
+## Mapping relations
 
-> Here you should include the process and product of your 2nd activity: **Configuring**
+Before we dived into the analyses with python, we first wanted to visualize the mapping of the relations between relation.
+We did this in several subdivisions with each there own main focus. These different themes are shown below.
 
-<table><thead><tr class="header"><th>Title</th><th>Configuring (process): Circulation Manifold (product)</th></tr></thead><tbody><tr class="odd"><td>Objective</td><td>Formulate a spatial (topological) concept, design a modular circulation manifold on a pixel/voxel grid.</td></tr><tr class="even"><td>Procedure</td><td><p>Construct a voxelated model of the site with a maximum height of 100 meters. Orient the voxel grid to a global coordinate system (e.g. geographical North-East-West-South). Size the voxels carefully based on the modular height of steps and the length of stair flights and ramps so that they fit in X/Y directions into multiple pixels. Choose the Z size of voxels according to step risers and choose the same size for X and Y as a whole multiple of step threads.</p><p>There are three types of spaces in terms of pedestrian movement in buildings, metaphorically speaking, spaces to <strong>walk</strong> through (e.g. corridors, ramps, and stairs), spaces to <strong>stand</strong> on (e.g. platforms connecting doors to corridors and stairs) and spaces to <strong>sit</strong> on (functional rooms/spaces). Construct a simplified mesh model of all bridges (corridors, ramps, stairs) connected by standing platforms in a modular grid of voxels/pixels. Take into account the free-height necessary for all spaces and pack them into the bounding volume of the building. For every functional space, leave a single pixel as a standing platform and colour it with the corresponding colour.</p></td></tr></tbody></table>
+![title](../img/Overzicht analyses.png)
+
+### Sun acces
+
+![title](../img/Volumes_Licht.png)
+
+### Public Entrance acces
+
+![title](../img/Volumes_Entrance.png)
+
+### Green acces
+
+![title](../img/Volumes_acces_green.png)
+
+### Noise analysis
+
+![title](../img/Volumes_Geluid_tijd.png)
+
+## Voxel Size
+
+After we developped a clear notice of our wants for the building, we were able to start thinking of a proper voxel size. For this we started on the micro scale namely the stairs.
+
+<table><thead><tr class="header"><th>Riser-Thread</th><th>2x Riser 1x Thread</th><th>Ratio</th><th>Common Denominator</th><th>Voxel Size</th></tr></thead><tbody><tr class="odd"><td>180mm x 240mm</td><td>(2 x 180) + (1 x 240) = 610</td><td>3:4</td><td>6</td><td>900x900 mm
+</th></tr></thead><tbody><tr class="odd"><td></td><td></td><td></td><td></td><td>1800x1800 mm
+</th></tr></thead><tbody><tr class="odd"><td></td><td></td><td></td><td></td><td>3600x3600 mm</td></tr><tr class="even"><td></p></td></tr></tbody></table>
+</td></tr><tr class="even"><td></p></td></tr></tbody></table>
+
+![title](../img/Volumes_Geluid_tijd.png)
