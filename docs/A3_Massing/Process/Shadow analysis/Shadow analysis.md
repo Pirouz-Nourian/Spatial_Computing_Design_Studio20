@@ -50,5 +50,5 @@ We continue the next analysis with the newly created envelope.
 
 ***New envelope***
 
-![Title](../img/shadow2.jpg)
+![Title](..//img/shadow2.jpg)
 
