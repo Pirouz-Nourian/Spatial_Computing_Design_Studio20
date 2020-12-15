@@ -23,6 +23,6 @@ We wanted our building to stay on the ground and not remove all of the lower vox
  
 ![Title](../../../img/sun2.jpg)
 
-[Sun analysis python full python code](notebooks/sun/)
+[Sun analysis full python code](notebooks/sun/)
 
 
