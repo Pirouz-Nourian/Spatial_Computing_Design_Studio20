@@ -51,7 +51,7 @@ We did this in several subdivisions with each there own main focus. These differ
 
 ![title](../img/Overzicht analyses.png)
 
-### Sun acces
+### Sun analysis
 
 ![title](../img/Volumes_Licht.png)
 
