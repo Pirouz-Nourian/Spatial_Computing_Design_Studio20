@@ -2,8 +2,14 @@
 
 ### Program of requirements
 
+After we have figured out the size of the different spaces and came up with the suitable voxel size, we have placed the program of requirements in a table. First, we have figured out the amount of voxels required for the surface. Secondly, the voxel size for the height was taken into account. The total amount of voxels can be used for the agent based model. 
+
 ![Title](../img/matrix.png)
 
 moet nog scherper 
+
+### Matrix of connections
+
+After creating the metronetwork.... 
 
 Matrix met connecties erbij
