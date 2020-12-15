@@ -20,16 +20,20 @@ print(sky_vectors.shape)
 ```
 Then we have computed the intersections between the sky rays and the context. The context exists only of the street around the building. This is because we only need to check if people walking by can not see the sky because of the building we are making. The other context can be left out.
 
-![Title](../img/street.png)
+![Title](../../../img/street.png)
 
 We have done the calculation on the envelope on the envelope that remained after the sun and shadow analysis. 
 
 ***Visibility analysis***
 
-![title](../img/svf1.jpg)
+![title](../../../img/svf1.jpg)
 
 
 ***Final envelope***
 
-![title](../img/svf2.jpg)
+![title](../../../img/svf2.jpg)
+
+[Visibility analysis full python code](notebooks/visibility/)
+
+
 

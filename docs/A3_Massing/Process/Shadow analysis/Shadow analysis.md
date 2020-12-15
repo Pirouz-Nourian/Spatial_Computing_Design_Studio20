@@ -30,11 +30,11 @@ Because we want to keep the park behind the building, we also think it is import
 
 ***Without park***
 
-![Title](../img/shadow_no_park.jpg)
+![Title](../../../img/shadow_no_park.jpg)
 
 ***With park***
 
-![Title](../img/shadow1.jpg)
+![Title](../../../img/shadow1.jpg)
 
 We have removed the voxels that have over 45 percent of intersections by generating an envelope based on the selection. 
 ``` python
@@ -50,5 +50,8 @@ We continue the next analysis with the newly created envelope.
 
 ***New envelope***
 
-![Title](..//img/shadow2.jpg)
+![Title](../../../img/shadow2.jpg)
+
+
+[Shadow analysis full python code](notebooks/shadow/)
 

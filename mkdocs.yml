@@ -23,6 +23,10 @@ nav:
   - About: "about.md"
   - Index:
       - Scripts: "index/scripts.md"
+      - Voxelization: "notebooks/voxelization.ipynb"
+      - Sun analysis: "notebooks/sun.ipynb"
+      - Shadow analysis: "notebooks/shadow.ipynb"
+      - Visibility analysis: "notebooks/visibility.ipynb"
       - Figures: "index/figures.md"
       - Presentations: "index/presentations.md"
       - Bibliography: "index/bibliography.md"
@@ -55,3 +59,6 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.highlight
   - pymdownx.emoji
+
+plugins:
+  - mknotebooks

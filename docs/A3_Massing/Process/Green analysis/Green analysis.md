@@ -16,7 +16,7 @@ max_valid = np.ma.masked_invalid(park_dist).max()
 park_dist[park_dist == np.inf] = max_valid + 1
 
 ```
-![title](../img/Park.png)
+![title](../../../img/Park.png)
 
 ### Raingarden
 The same process we repeated for the second green space which is the Raingarden on the south east side of the envelope.
@@ -114,7 +114,7 @@ dist_interest[dist_interest == np.inf] = max_valid + 1
 min_dist = np.min(dist_interest, axis=0)
 ```
 
-![title](../img/Hofbogen.png)
+![title](../../../img/Hofbogen.png)
 
 ## Roof garden acces
 
@@ -167,6 +167,6 @@ workshop, 2, 0.5, 0.5, 0.0, 1, 1.0
 
 ### 1.2 Running the simulation
 
-![title](../img/W+2_mcda_seed_allocation_atraction.PNG)
+![title](../../../img/W+2_mcda_seed_allocation_atraction.PNG)
 
 In this visualisation we see that the workshop agent is...
