@@ -43,6 +43,13 @@ Work group areas of 7,5 m² per employee. Place for 100 employees = 750 m²
 Minimum of 105 parking places times 12,5 m². The total area, including the walking area = 2500 m²
 </p></td></tr></tbody></table>
 
+## Flowchart
+
+Now that we have a program we can start thinking of the analyses we want to do for the building. We came up with six different analyses. 
+
+<iframe src="https://docs.google.com/gview?url=https://github.com/FrankVahstal/spatial_computing_project_template/tree/master/docs/pdf?raw=true&embedded=true" style="width:100%; height:400px;" frameborder="0"></iframe>
+
+
 
 ## Matrix of connections
 
