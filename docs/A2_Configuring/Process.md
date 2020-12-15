@@ -80,8 +80,11 @@ After we developped a clear notice of our wants for the building, we were able t
 
 <table><thead><tr class="header"><th>Riser-Thread</th><th>2x Riser 1x Thread</th><th>Ratio</th><th>Common Denominator</th><th>Voxel Size</th></tr></thead><tbody><tr class="odd"><td>180mm x 240mm</td><td>(2 x 180) + (1 x 240) = 610</td><td>3:4</td><td>6</td><td>900x900 mm
 </th></tr></thead><tbody><tr class="odd"><td></td><td></td><td></td><td></td><td>1800x1800 mm
-</th></tr></thead><tbody><tr class="odd"><td></td><td></td><td></td><td></td><td>3600x3600 mm</td></tr><tr class="even"><td></p></td></tr></tbody></table>
-</td></tr><tr class="even"><td></p></td></tr></tbody></table>
+</th></tr></thead><tbody><tr class="odd"><td></td><td></td><td></td><td></td><td>3600x3600 mm</td></tr><tr></tbody></table>
+
+![title](../img/Studie_voxels_1.PNG)
+
+![title](../img/Studie_voxels_2.PNG)
 
 ## Building Envelope
 
