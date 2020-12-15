@@ -35,7 +35,4 @@ The bigger the sky view, the more intersections between the rays and the street 
 
 ![title](../../../img/svf2.jpg)
 
-[Visibility analysis full python code](notebooks/visibility/)
-
-
-
+[Visibility analysis full python code](/notebooks/visibility/)

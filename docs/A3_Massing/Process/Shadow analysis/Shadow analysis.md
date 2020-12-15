@@ -44,5 +44,5 @@ We continue the next analysis with the newly created envelope (*new_avail_lattic
 ![Title](../../../img/shadow2.jpg)
 
 
-[Shadow analysis full python code](notebooks/shadow/)
+[Shadow analysis full python code](/notebooks/shadow/)
 
