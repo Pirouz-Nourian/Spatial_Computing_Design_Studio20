@@ -48,9 +48,11 @@ Minimum of 105 parking places times 12,5 m². The total area, including the walk
 
 ## Flowchart
 
+<iframe src="https://drive.google.com/file/d/1Jk-lnSuOwX9CxJESQCCwzEAuu9EqvZts/preview" width="640" height="480"></iframe>
+
 Now that we have a program we can start thinking of the analyses we want to do for the building. We came up with six different analyses, that are important for achieving our design goal.
 
-<iframe src="https://drive.google.com/file/d/1Jk-lnSuOwX9CxJESQCCwzEAuu9EqvZts/view?usp=sharing" style="width:100%; height:400px;" frameborder="0"></iframe>
+
 
 
 
