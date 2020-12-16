@@ -27,6 +27,7 @@ Because we want to preserve the park behind the building, we also think it is im
 
 ![Title](../../../img/shadow1.jpg)
 
+
 We have removed the voxels that have over 45 percent of intersections by generating an envelope based on the selection. 
 ``` python
 # 7.2. Generating an envelope based on the selection

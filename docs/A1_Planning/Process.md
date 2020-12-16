@@ -13,7 +13,7 @@ Before we specify the conditions of our project on the building scale we did a s
 ## Sequences
 
 ### Sequences with entrances
-![title](../img/Program with sequences_entrances_1.png)
+![title](../img/Program_with_sequences_entrances_1.png)
 
 ![title](../img/Program with sequences_entrances_2.png)
 

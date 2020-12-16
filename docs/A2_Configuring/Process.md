@@ -1,9 +1,9 @@
 # Configuring
 
-The configuration consists of listing the information in matrices and thinking about how we want to use this information in the analyses, simulations and optimizations on the building envelope. The size of the voxels is determined and we have started with the first part of the analyses.
+The configuration consists of listing information in matrices and thinking about how we want to use this information in the analyses, simulations and optimizations on the building envelope. The size of the voxels is determined and we have started with the first part of the analyses.
 
 ## Program of requirements
-After finishing the metronetwork, the square meters and some properties of the different spaces are specified in the table below.
+After finishing the metronetwork, we have specified the square meters and some properties of the different spaces in the table below.
 
 <table><thead><tr class="header"><th>Area</th><th>m² and explanation</th></tr></thead><tbody><tr class="odd"><td>Student housing</td><td>30 m² times 80 units = 2400 m²</p><p> 
 - Small private kitchen </p><p>
@@ -48,17 +48,14 @@ Minimum of 105 parking places times 12,5 m². The total area, including the walk
 
 ## Flowchart
 
+Now that we have a program we can start thinking of the analyses we want to apply on the building. The first step is to voxelize the optional envelope. Next, we came up with six different analyses, that are important for achieving our design goal. When all of these analysis are finished we are left with the final envelope. To determine which area should be placed inside which voxels of this envelope, we will model the envelope based on the preferences and characteristics of the agents.
+
 <iframe src="https://drive.google.com/file/d/1Jk-lnSuOwX9CxJESQCCwzEAuu9EqvZts/preview" width="640" height="480"></iframe>
 
-Now that we have a program we can start thinking of the analyses we want to do for the building. We came up with six different analyses, that are important for achieving our design goal.
 
+## Relations
 
-
-
-
-## Matrix of connections
-
-Before we dived into the analyses with python, we first wanted to visualize the mapping of the relations between the spaces in the building.
+Before we dived into the analyses with python, we first wanted to visualize the most important mapping of the relation between the spaces in the building and a part of the analysis.
 We did this in several subdivisions with each there own main focus. These different themes are shown below.
 
 ![title](../img/Overzicht analyses.png)
@@ -68,21 +65,27 @@ The sun analysis is important for placing the spaces that require most sun in th
 
 ![title](../img/Volumes_Licht.png)
 
-### Public Entrance acces
+### Public Entrance access
+
+Because the building has a great variation between public and private spaces it is important to know which one should have the best access to an entrance. The more public the space, the more important is the access to an entrance, and so the higher is the number on the scale bar.
 
 ![title](../img/Volumes_Entrance.png)
 
 ### Green access
 
+Because we want to make a green atrium and path through the building, we think most spaces will have a good access to green. In the scale bar below is, on a scale from 10 (require green access the most) to 1 (does not need to have green access) shown which spaces want to have the best access to a green outside space. 
+
 ![title](../img/green_volumes.png)
 
 ### Noise repel
+
+The table below is showing the noise repel from each different space in a certain timeframe. the timeframe shows at what time the space in question produces the most sound, and could therefore be annoying to surrounded spaces. 
 
 ![title](../img/Volumes_Geluid_tijd.png)
 
 ## Voxel Size
 
-After we developped a clear notice of our wants for the building, we were able to start thinking of a proper voxel size. For this we started on the micro scale namely the stairs.
+After we have developed a clear notice of our wants for the building, we were able to start thinking of a proper voxel size. For this we started on the micro scale, namely the stairs.
 
 <table><thead><tr class="header"><th>Riser-Thread</th><th>2x Riser 1x Thread</th><th>Ratio</th><th>Common Denominator</th><th>Voxel Size</th></tr></thead><tbody><tr class="odd"><td>180mm x 240mm</td><td>(2 x 180) + (1 x 240) = 610</td><td>3:4</td><td>6</td><td>900x900 mm
 </th></tr></thead><tbody><tr class="odd"><td></td><td></td><td></td><td></td><td>1800x1800 mm
@@ -94,7 +97,7 @@ After we developped a clear notice of our wants for the building, we were able t
 
 ## Building Envelope
 
-Now that we have a specified voxel size, we are able to voxelize our envelope. We have chosen to make the existing building mass with the football field in between available as a new envelope. To keep as much greenery as possible, the park behind the building will be retain.  
+Now that we have specified a voxel size, we are able to voxelize our envelope. We have chosen to make the existing building mass with the football field in between available as a new envelope. To keep as much greenery as possible, the park behind the building will be retain.  
 
 [Voxelization full python code](/notebooks/voxelization/)
 
