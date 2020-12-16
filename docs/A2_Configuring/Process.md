@@ -1,6 +1,7 @@
 # Configuring
 
 ## Program of requirements
+After finishing the metronetwork, we have specified the square meters and some properties of the different spaces.
 
 <table><thead><tr class="header"><th>Area</th><th>m² and explanation</th></tr></thead><tbody><tr class="odd"><td>Student housing</td><td>30 m² times 80 units = 2400 m²</p><p> 
 - Small private kitchen </p><p>
