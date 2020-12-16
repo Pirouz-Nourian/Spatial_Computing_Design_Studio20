@@ -73,7 +73,7 @@ Because the building has a great variation between public and private spaces it 
 
 ### Green access
 
-Because we want to make a green atrium and path through the building, we think most spaces will have a good access to green. In the scale bar below is, on a scale from 10 (require green access the most) to 1 (does not need to have green access) shown which spaces want to have the best access to a green outside space. 
+Because we want to make a green atrium and path through the building, we think most spaces will have a good access to green. In the scale bar below is, on a scale from 10 (require green access the most) to 1 (does not need to have green access) shown which spaces want to have the best access to a green outside space.
 
 ![title](../img/green_volumes.png)
 
