@@ -31,9 +31,9 @@ Before we specify the conditions of our project on the building scale we did a s
 
 ### Sequences with entrances
 ![title](../img/Program_with_sequences_entrances_1.png)
-=======
+
 ![title](../img/Axo_hart.png)
->>>>>>> cb7497956b4286a947c326a406a5e8157f4be1c7
+
 
 ### Visibility
 
