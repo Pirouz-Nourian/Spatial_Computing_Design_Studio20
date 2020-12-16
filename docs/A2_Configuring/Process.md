@@ -1,6 +1,9 @@
 # Configuring
 
+The configuration consists of listing the information in matrices and thinking about how we want to use this information in the analyses, simulations and optimizations on the building envelope. The size of the voxels is determined and we have started with the first part of the analyses.
+
 ## Program of requirements
+After finishing the metronetwork, the square meters and some properties of the different spaces are specified in the table below.
 
 <table><thead><tr class="header"><th>Area</th><th>m² and explanation</th></tr></thead><tbody><tr class="odd"><td>Student housing</td><td>30 m² times 80 units = 2400 m²</p><p> 
 - Small private kitchen </p><p>
@@ -45,7 +48,7 @@ Minimum of 105 parking places times 12,5 m². The total area, including the walk
 
 ## Flowchart
 
-Now that we have a program we can start thinking of the analyses we want to do for the building. We came up with six different analyses. 
+Now that we have a program we can start thinking of the analyses we want to do for the building. We came up with six different analyses, that are important for achieving our design goal.
 
 <iframe src="https://docs.google.com/gview?url=https://github.com/FrankVahstal/spatial_computing_project_template/tree/master/docs/pdf?raw=true&embedded=true" style="width:100%; height:400px;" frameborder="0"></iframe>
 
@@ -53,12 +56,13 @@ Now that we have a program we can start thinking of the analyses we want to do f
 
 ## Matrix of connections
 
-Before we dived into the analyses with python, we first wanted to visualize the mapping of the relations between relation.
+Before we dived into the analyses with python, we first wanted to visualize the mapping of the relations between the spaces in the building.
 We did this in several subdivisions with each there own main focus. These different themes are shown below.
 
 ![title](../img/Overzicht analyses.png)
 
 ### Sun analysis
+The sun analysis is important for placing the spaces that require most sun in those parts of the building that have most access to the sun. Because we want the building to have an open character, it is important that there is a lot of sun and daylight. The required sun access is placed on a scale bar with a scale from 10 (as much indirect en direct light as possible) to 1 (no daylight needed)
 
 ![title](../img/Volumes_Licht.png)
 
@@ -68,7 +72,7 @@ We did this in several subdivisions with each there own main focus. These differ
 
 ### Green access
 
-![title](../img/Volumes_acces_green.png)
+![title](../img/green_volumes.png)
 
 ### Noise repel
 
