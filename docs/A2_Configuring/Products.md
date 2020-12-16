@@ -16,4 +16,4 @@ Matrix met connecties erbij
 
 ## Rel Chart and KPI
 
-<iframe src="https://docs.google.com/spreadsheets/d/1tsKA5Auevvdf0kE9jOL3UBmeWBqYTC8YpvTXf3Z_0cU/edit#gid=630556087" style="width:100%;height:100%;"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSxkJLHgXnG7z4V3w8bLhW5B7hEuHZxS-DQJASGFukEIE06dZy_Lg0yGLB9TiQhrV5TrAztLctIXmdF/pubhtml?gid=287661459&single=true" style="width:100%;height:600px;"></iframe>
