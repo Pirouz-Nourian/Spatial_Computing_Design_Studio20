@@ -5,7 +5,22 @@ In this analysis we wanted to create some attraction to green spaces in the dire
 ### Park
 The first green space we defined is the small park between the Almondestraat and the Schoterbosstraat. We did this by extracting the index number 422, which represents the park, from the distance matrix.
 
+<<<<<<< HEAD
 ![title](../../img/Park.png)
+=======
+``` python
+# select the corresponding row in the matrix
+park_dist = dist_mtrx[422]
+
+# find the maximum valid value
+max_valid = np.ma.masked_invalid(park_dist).max()
+
+# set the infinities to one more than the maximum valid values
+park_dist[park_dist == np.inf] = max_valid + 1
+
+```
+![title](../../../img/Park.png)
+>>>>>>> f264c65ce4c935ca7e78dd8c645f7afaa24905f9
 
 ### Raingarden
 The same process we repeated for the second green space which is the Raingarden on the south east side of the envelope.
@@ -18,7 +33,7 @@ For the third green space The Hofbogen, we adjusted the code a little bit since 
 **1.4 Construct Distance to Hogbogen Lattice**
 
 
-![title](../img/Hofbogen.png)
+![title](../../../img/Hofbogen.png)
 
 ## Roof garden acces
 
@@ -39,6 +54,6 @@ workshop, 2, 0.5, 0.5, 0.0, 1, 1.0
 </th></tr></thead><tbody><tr class="odd"><td></td><td></td><td></td><td></td><td>3600x3600 mm</td></tr><tr></tbody></table>
 
 
-![title](../img/W+2_mcda_seed_allocation_atraction.PNG)
+![title](../../../img/W+2_mcda_seed_allocation_atraction.PNG)
 
 In this visualisation we see that the workshop agent is...
