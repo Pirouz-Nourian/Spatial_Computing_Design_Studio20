@@ -65,14 +65,11 @@ The sun access analysis is important for placing the spaces that require most su
 
 <iframe src="https://drive.google.com/file/d/1ZRZ_vMbT6kePPZcM8ElBhymZCF-Tktzc/preview" width="640" height="480"></iframe>
 
-![title](../img/Volumes_Licht.png)
-
 ### Public Entrance access
 
 Because the building has a great variation between public and private spaces it is important to know which one should have the best access to an entrance. The more public the space, the more important is the access to an entrance, and so the higher is the number on the scale bar.
 
 <iframe src="https://drive.google.com/file/d/1Yvx8JlNY1SeCOMAfz2wEllVa-TceJzgE/preview" width="640" height="480"></iframe>
-![title](../img/Volumes_Entrance.png)
 
 ### Green access
 
@@ -80,14 +77,11 @@ Because we want to make a green atrium and path through the building, we think m
 
 <iframe src="https://drive.google.com/file/d/18gm8s6EVgV-J4K4K2yDkz-NrdefSEERP/preview" width="640" height="480"></iframe>
 
-![title](../img/green_volumes.png)
-
 ### Noise repel
 
 The table below is showing the noise repel from each different space in a certain timeframe. the timeframe shows at what time the space in question produces the most sound, and could therefore be annoying to surrounded spaces. 
 
 <iframe src="https://drive.google.com/file/d/16AffU4GKKGdLBlafOJTAFakhrvYy5UnQ/preview" width="640" height="480"></iframe>
-![title](../img/Volumes_Geluid_tijd.png)
 
 ## Voxel Size
 
