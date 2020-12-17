@@ -63,9 +63,6 @@ Before we create any form whatsoever we want the state the clear notion that we 
 
 ### Centre
 
-### Sequences with entrances
-![title](../img/Program_with_sequences_entrances_1.png)
-
 ![title](../img/Axo_hart.png)
 
 

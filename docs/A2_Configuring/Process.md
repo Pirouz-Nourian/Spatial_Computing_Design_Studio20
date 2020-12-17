@@ -60,8 +60,10 @@ We did this in several subdivisions with each there own main focus. These differ
 
 ![title](../img/Overzicht analyses.png)
 
-### Sun analysis
-The sun analysis is important for placing the spaces that require most sun in those parts of the building that have most access to the sun. Because we want the building to have an open character, it is important that there is a lot of sun and daylight. The required sun access is placed on a scale bar with a scale from 10 (as much indirect en direct light as possible) to 1 (no daylight needed)
+### Sun access
+The sun access analysis is important for placing the spaces that require most sun in those parts of the building that have most access to the sun. Because we want the building to have an open character, it is important that there is a lot of sun and daylight. The required sun access is placed on a scale bar with a scale from 10 (as much indirect en direct light as possible) to 1 (no daylight needed)
+
+<iframe src="https://drive.google.com/file/d/1ZRZ_vMbT6kePPZcM8ElBhymZCF-Tktzc/preview" width="640" height="480"></iframe>
 
 ![title](../img/Volumes_Licht.png)
 
@@ -69,11 +71,14 @@ The sun analysis is important for placing the spaces that require most sun in th
 
 Because the building has a great variation between public and private spaces it is important to know which one should have the best access to an entrance. The more public the space, the more important is the access to an entrance, and so the higher is the number on the scale bar.
 
+<iframe src="https://drive.google.com/file/d/1Yvx8JlNY1SeCOMAfz2wEllVa-TceJzgE/preview" width="640" height="480"></iframe>
 ![title](../img/Volumes_Entrance.png)
 
 ### Green access
 
 Because we want to make a green atrium and path through the building, we think most spaces will have a good access to green. In the scale bar below is, on a scale from 10 (require green access the most) to 1 (does not need to have green access) shown which spaces want to have the best access to a green outside space.
+
+<iframe src="https://drive.google.com/file/d/18gm8s6EVgV-J4K4K2yDkz-NrdefSEERP/preview" width="640" height="480"></iframe>
 
 ![title](../img/green_volumes.png)
 
@@ -81,6 +86,7 @@ Because we want to make a green atrium and path through the building, we think m
 
 The table below is showing the noise repel from each different space in a certain timeframe. the timeframe shows at what time the space in question produces the most sound, and could therefore be annoying to surrounded spaces. 
 
+<iframe src="https://drive.google.com/file/d/16AffU4GKKGdLBlafOJTAFakhrvYy5UnQ/preview" width="640" height="480"></iframe>
 ![title](../img/Volumes_Geluid_tijd.png)
 
 ## Voxel Size
