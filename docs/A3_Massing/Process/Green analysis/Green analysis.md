@@ -8,6 +8,19 @@ In this analysis we wanted to create some attraction to green spaces in the dire
 
 The first public green space we have defined is the small park betweenn the Almondestraat and the Schoterbosstraat. As described above in the flowchart we did this by extracting a representing voxel from the distance field matrix. Below you can see the visualization. 
 
+``` python
+
+# select the corresponding row in the matrix
+ent_2_dist = dist_mtrx[422]
+
+# find the maximum valid value
+max_valid = np.ma.masked_invalid(ent_2_dist).max()
+
+# set the infinities to one more than the maximum valid values
+ent_2_dist[ent_2_dist == np.inf] = max_valid + 1
+
+```
+
 ![title](../../../img/Park.png)
 
 ### Raingarden
