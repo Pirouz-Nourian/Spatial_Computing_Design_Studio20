@@ -13,4 +13,4 @@ For example, if it took us 4 steps in the metronetwork to get from space A to B,
 
 The second part of the matrix is about the key performance indicators. All of the indicators we are using in the different analyses are mentioned in these columns and are divided into three different types: the distance euclidian, the distance graph and the visibility. The higher the number, the more important that indicator is to that space. The number is derived from the, in the [Process](/A2_Configuring/Process/#relations) discussed scale bars. 
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQcpjVZX_gdd3hFW6zgmu7Q4eKo0jPqa0bc6EQ1h4m_2R7WvXYYZ_3wB0C8myXJ2_uJgH-8gq1pUT8o/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" style="width:100%;height:530px;"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQcpjVZX_gdd3hFW6zgmu7Q4eKo0jPqa0bc6EQ1h4m_2R7WvXYYZ_3wB0C8myXJ2_uJgH-8gq1pUT8o/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" style="width:800px;height:530px;"></iframe>
