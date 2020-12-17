@@ -7,7 +7,7 @@
 ## Sequences
 
 ### Sequences with entrances
-![title](../img/Program_with_sequences_entrances_1.png)
+![title](../img/Program with sequences_entrances_1.png)
 
 ![title](../img/Program with sequences_entrances_2.png)
 
