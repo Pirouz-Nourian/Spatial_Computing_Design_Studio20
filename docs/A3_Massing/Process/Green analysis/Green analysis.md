@@ -37,7 +37,7 @@ For the third green space The Hofbogen, we extracted a complete row in the XY-di
 
 ## Roof garden acces
 
-Besides the three main green spaces in the near neighborhood of the envelope, there are more green space to which function could have a connection namely the roof gardens and the gardens inside of the building. These gardens don’t have a fixed location in the building and could potentially change constantly. The relation between a function and a roof garden is therefore called a dynamic relation. For now we could say that a roof garden needs to be accessible from the side, so we stated that if a voxel has no voxel above it, and at least one voxel in the XY-direction, than we make it a roof garden. To define the connectivity between a function and this dynamic location of the roof garden we altered the code a little bit which is explained in the flowchart below.
+Besides the three main green spaces in the near neighborhood of the envelope, there are more green space to which function could have a connection namely the roof gardens and the gardens inside of the building. These gardens don’t have a fixed location in the building and could potentially change constantly. The relation between a function and a roof garden is therefore called a dynamic relation. To define the connectivity between a function and this dynamic location of the roof garden we altered the code a little bit which is explained in the flowchart below.
 
 ![title](../../../img/Flowchart_roofgarden_acces.png)
 
