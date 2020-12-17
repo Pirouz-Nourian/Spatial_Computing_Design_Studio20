@@ -59,3 +59,7 @@ For the sake of clarity we specified a small program which will make things clea
 As you can see in the visualization our agents behave in a manner we want them to behave. We have created a tendency in the workshop function to grow towards the roof-garden no matter what its location will be.
 
 ![title](../../../img/W+2_mcda_seed_allocation_atraction.PNG)
+
+#### To do
+
+We would still like to write a piece of code for the allocation of the roof gardens in the manner described above. 
