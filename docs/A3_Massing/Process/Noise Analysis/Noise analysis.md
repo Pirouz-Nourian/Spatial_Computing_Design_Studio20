@@ -18,10 +18,14 @@ We have implemented this again in a test case with a very small program.
 
 ![title](../../../img/W+2_mcda_seed_allocation_repel.PNG)
 
-As we can see in this visualization the pub does repel the library, which is eventually what we want. 
+As we can see in this visualization the pub does repel the library, which is eventually what we want.
+
 
 #### To do
 
-If we want to use this code, we need to be able to combine it with the same code for attraction. We need to find a way to do this, because a value 0 on the scale of repel is still something totally different than a value 1 on the scale of attraction. 
+-The code we used in the example uses graph distance, where we need Euclidean distance.
+
+-If we want to use this code, we need to be able to combine it with the same code for attraction. We need to find a way to do this, because a value 0 on the scale of repel is still something totally different than a value 1 on the scale of attraction. 
+
 
 ## Exterior noise
