@@ -7,7 +7,7 @@
 ## Sequences
 
 ### Sequences with entrances
-![title](../img/Program with sequences_entrances_1.png)
+![title](../img/Program_with_sequences_entrances_1.png)
 
 ![title](../img/Program with sequences_entrances_2.png)
 
@@ -19,4 +19,4 @@
 
 ## Metro Network
 
-![title](../img/Program with sequences_map_triangle.png)
+<iframe src="https://drive.google.com/file/d/1-vunn0FCk5iqgueF3Buxj29uu4vuLhay/preview" width="700" height="520"></iframe>
