@@ -7,10 +7,12 @@
 | Objective | Logically place the functional spaces in between bridges within the building envelope.                                                                                                                                                                                                                                                                                                                                                                    |
 | Procedure | Compute a Solar Envelope, i.e. an envelope of cuboids/voxels, some of which are removed because they are in the way of the neighbouring buildings receiving some standard/minimum level of direct sunlight. Fit the circulation manifold into the solar envelope. From the standing platforms corresponding to functional spaces, grow them into voxel clouds within your voxelated envelope. Colour the voxel clouds according to their functionalities. |
 
+## MCDA
 #### MCDA Seed Allocation
 | 1. Initial location             |  2. Attraction |  3. Final location |
 :-------------------------:|:-------------------------:|:-------------------------:
-![MCDA1](../img/MCDA1.png)|![MCDA2](../img/MCDA2.png)|![MCDA3](../img/MCDA3.png)
+![MCDA3](../img/placeholder.png)| ![MCDA3](../img/placeholder.png)|![MCDA3](../img/placeholder.png)
+<img src="../img/MCDA1.png" width="250">|<img src="../img/MCDA2.png" width="250">|![MCDA3](../img/MCDA3.png)
 The location of the seed agents is calculated by looking at the <strong>static environmental data</strong>: Entrance access, street noise, sky view factor, etc.|The different seed agents are attracted to each other, based on the <strong>connectivity matrix</strong>. They ‘walk’ around, until they have reached an ideal location based on internal attraction and external data.|The seed agents have reached an equilibrium.
 
 <table><thead><tr class="header"><th>Pseudocode</th><th></th></tr></thead><tbody><tr class="odd"><td>Input</td><td>Static env-data, preference and connectivity matrix</td></tr><tr class="even"><td>Output</td><td><p>Seed agent positions</p></td></tr>
@@ -60,6 +62,7 @@ All the agent seeds are evaluated and their best neighbour is chosen based on th
 
 </td></tr></tbody></table>
 
+## Spatial behaviours
 #### Squareness 
 If there is the need for a space to be <strong>more rectangular<strong>, instead of free-form, the squareness algorithm can be used.
 

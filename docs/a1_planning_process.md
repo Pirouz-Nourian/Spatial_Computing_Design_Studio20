@@ -61,6 +61,7 @@ Having visited the site and conducted research on the context and local communit
 
 1.  <u>Creating clusters</u>
     <br>The residential functions are <strong>clustered</strong> around their preferred communal node (for example, the study space). This way they are more <strong>accessible</strong> to those that use them the most, while also <strong>separating</strong> the users with different lifestyles.
+
     <img src="../img/design_goal_1.png" width="250">
 
 2.  <u>Separating public/private</u>
@@ -83,16 +84,36 @@ Having visited the site and conducted research on the context and local communit
 
 #### Network
 
-The first step of design involved creating a network graph reflecting main trips inside the building based on our design goals.
+The first step of design involved creating a network graph reflecting main trips inside the building based on our design goals:
 
-While designing the graph and human experiences reflected by it, we referred to our 1st design goal and conciously clustered the residential functions around communal nodes that are most relevant to the resident group.
 <!-- [this one](https://miro.com/app/board/o9J_lfSaOlk=/). -->
-![Proposed model](../img/Proposed model.jpg)
+![Proposed model](../img/Network_graph.png)
 
-Implementing the 2nd and 3rd design goals of creating gradients between the public and the private, the residents' living spaces and communal spaces are centered around the more quiet and peaceful garden, while the more public functions are centered around the hub.
+While designing the graph and human experiences reflected by it, we referred to our design goals.
 
-Shops and restaurants are not directly connected to the Hub or the Garden but to the street. This way the most public area is distinguished distinguising
+1. The residential functions are clustered around communal nodes that are most relevant to the resident group. (Students' living next to study spaces, assisted living next to workshops etc.)
 
-we're inviting people to dine and shop in the very public and lively part of the building. This aligns with the 4th goal of activating the street.
+2. To ensure a transition between very private and very public spaces, several routes are made between the residential part of the builing and communal / private working area, while the most public area on the street connects to the communal/ private working are with one main route for everyone to use. 
 
-The 4th design goal of activating the street is 
+2. Implementing the 2nd and 3rd design goals of creating gradients between the public and the private, the residents' living spaces and communal spaces are centered around the more quiet and peaceful garden, while the more public functions are centered around the hub.
+
+3. Shops and restaurants are not directly connected to the Hub or the Garden but to the street. This way the most public area is distinguished, thus inviting people to dine and shop in the open and lively part of the building. This aligns with the 4th goal of activating the street.
+<br />
+<br />
+
+#### REL chart and preferences
+
+The relationship and preference matrix is used to seed agents, grow the spaces and determine a hierrachy of spaces.
+
+ Hierarchy
+
+According to our design strategy with privacy gradients and the decision to cluster functions around hubs, a hierachy of spaces arises. When the growth algorithm seeds and grows spaces, the matrix is used to look up which spaces should grow or "follow" which spaces. However, not every space finds it important to follow another. Some spaces are dependant on the location of the hubs but the hubs themselves are not affected by the spaces following them. This relationship indicated in the matrix by lack of symmetry across the diagnol.
+
+![Proposed model](../img/matrix_2.png)
+
+<br />
+<br />
+
+#### Computational Process Flowchart
+![Proposed model](../img/process (1).png)
+

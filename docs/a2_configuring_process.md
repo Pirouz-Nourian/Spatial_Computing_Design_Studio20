@@ -1,13 +1,12 @@
 # Process
 
-> here we are testing collaboration
-
 > Here you should include the process and product of your 2nd activity: **Configuring**
 
 <table><thead><tr class="header"><th>Title</th><th>Configuring (process): Circulation Manifold (product)</th></tr></thead><tbody><tr class="odd"><td>Objective</td><td>Formulate a spatial (topological) concept, design a modular circulation manifold on a pixel/voxel grid.</td></tr><tr class="even"><td>Procedure</td><td><p>Construct a voxelated model of the site with a maximum height of 100 meters. Orient the voxel grid to a global coordinate system (e.g. geographical North-East-West-South). Size the voxels carefully based on the modular height of steps and the length of stair flights and ramps so that they fit in X/Y directions into multiple pixels. Choose the Z size of voxels according to step risers and choose the same size for X and Y as a whole multiple of step threads.</p><p>There are three types of spaces in terms of pedestrian movement in buildings, metaphorically speaking, spaces to <strong>walk</strong> through (e.g. corridors, ramps, and stairs), spaces to <strong>stand</strong> on (e.g. platforms connecting doors to corridors and stairs) and spaces to <strong>sit</strong> on (functional rooms/spaces). Construct a simplified mesh model of all bridges (corridors, ramps, stairs) connected by standing platforms in a modular grid of voxels/pixels. Take into account the free-height necessary for all spaces and pack them into the bounding volume of the building. For every functional space, leave a single pixel as a standing platform and colour it with the corresponding colour.</p></td></tr></tbody></table>
 
-
+## Static data
 #### Solar envelope
+>Create an envelope based on solar blockage
 
 The created envelope will be used as the base availability lattice on which all other calculations for static data and the growing of the agends are built upon. 
 
@@ -40,6 +39,8 @@ Export this lattice as the new availability lattice.</p></td></tr></tbody></tabl
 ![Solar icons3](../img/Solar icons3.png)
 
 #### Solar accessibility
+>Ensure spaces get enough sunlight
+
 This data is used for the growing algorithm by certain agents that prefer
 a high solar accessibility, for instance: the residential quarters and study
 spaces.
@@ -67,7 +68,7 @@ in a range from 0 to 1.</p></td></tr></tbody></table>
 ![Solar icons](../img/Solar icons.png)
 
 #### Sky view factor
-
+>Ensure functions are able to see enough of the sky
 This data is used for the growing algorithm by certain agents that prefer
 a high sky view factor, for instance: the office spaces and garden.
 
@@ -94,7 +95,7 @@ in a range from 0 to 1.</p></td></tr></tbody></table>
 ![Solar icons2](../img/Solar icons2.png)
 
 #### Floor level preference 
-
+>Set floor levels for agents
 This data is used for the growing algorithm by certain agents that prefer
 a proximity to certain floors, for instance: the hub and garden prefer to
 be on the ground floor.
@@ -116,6 +117,8 @@ unoccupied voxels to 0 and export it</li></ul></td></tr></tbody></table>
 ![Ground floor preference](../img/Ground floor preference.png)
 
 #### Closeness to the facade
+>Ensure access to the facade
+
 This is another parameter to optimize the placement of spaces that need direct daylight or adjacency to the street. 
 
 ![closeness to facade](../img/closeness to facade.png)
@@ -139,30 +142,68 @@ This is another parameter to optimize the placement of spaces that need direct d
 
 ![Closeness to facade_icon](../img/Closeness to facade_icon.png)
 
-#### Quietness from street noise 
-The two main streets around the plot produce significant traffic noise. According to European Environment Agency, these streets produce 50 and 70db of noise. By mapping the noise fall-off from the street, the growth algorithm can take into account the spaces where quietness is especially preferable, such as the library.
+#### Closeness to a specific facade
 
-![Quietness from street noise](../img/Quietness from street noise.png)
+>Orient for site accessability on a specific side
 
-<table><thead><tr class="header"><th>Pseudocode</th><th></th></tr></thead><tbody><tr class="odd"><td>Input</td><td>Avalability lattice, meshes representing the streets with different noise levels</td></tr><tr class="even"><td>Output</td><td><p>Quietness from street noise lattice</p></td></tr><tr class="odd"><td>Code</td><td><p>Load several meshes representing streets with different noise levels.
-<br>Get all voxel centers as points.</p>
+Some spaces and entrances require access to a specific facade based on traffic routes and greenery on the site. While they need to be dajcent to the facade, they do not need to be fixed in a specific place. The data field is used to create axes on each facade, to let the program choose the best location on it.
 
-<p><strong>For</strong> each voxel:
-<br>Calculate the smallest euclidian distance from voxel center to the first street mesh, using trimesh.proximity.
-<br>Using the inverse square law, calculate noise values from the acquired distance and data of level of noise on the street. 
-<br>Add the noise value to the corresponding voxel in the value field.</p>
+![closeness to facade](../img/closeness to facade.png)
 
+<table><thead><tr class="header"><th>Pseudocode</th><th></th></tr></thead><tbody><tr class="odd"><td>Input</td><td>Availability lattice, custom stencil</td></tr><tr class="even"><td>Output</td><td><p>Specific facade closeness lattice</p></td></tr><tr class="odd"><td>Code</td><td><p><li>efine stencil where only one voxel represents the neighborhood and this neighbor is oriented in the direction of the desired facade</li>
+<li>Apply the stencil to the voxel envelope.</li>
+<li>Find the number of neighbors for each voxel in the lattice.</li></p>
 
-<p>Map the inverse field of noise values to a field of quietness values from 0 - 1, where 0 is the least quiet value and 1 is the quietest value.</p>
+<p><li>Create a condition for specific facade boundary voxels, where the number of neighbors is < 1</li>
+<li>Check envelope with the condition, create a new envelope with only specific facade boundary voxels</li>
+<li>Create an adjacency matrix full of 0’s</li>
+<li><strong>For</strong> each available voxel in the envelope:<br>Fill in its neighbor’s ID’s in the adjacency matrix</li></p>
 
-<p>Repeat quietness value field construction for the second street.
-<br>Combine the quietness value fields by choosing the lowest quietness values for each point in the field.</p>
+<p><li>Compute distances from all voxels to all voxels.</li>
+<li>Select the distances between boundary voxels and all other voxels.</li>
+<li>Find the minimum distance for all voxels to any specific facade boundary voxel</li>
+<li>Add the minimum distance to the corresponding voxel value field.</li>
+<li>Map the field distance values from 0 - 1, where 0 is the furthest distance and 1 is the closest to the specific facade</li></p>
 
 </td></tr></tbody></table>
 
 ![Closeness to NE facade_icon](../img/Closeness to NE facade_icon.png)
 
+#### Quietness from street noise 
+>Orient according to traffic noise fall-off
+
+The two main streets around the plot produce significant traffic noise. According to European Environment Agency, these streets produce 50 and 70db of noise. By mapping the noise fall-off from the street, the growth algorithm can take into account the spaces where quietness is especially preferable, such as the library.
+
+![Quietness from street noise](../img/Quietness from street noise_2.png)
+
+<table><thead><tr class="header"><th>Pseudocode</th><th></th></tr></thead><tbody><tr class="odd"><td>Input</td><td>Avalability lattice, meshes representing the streets with different noise levels</td></tr><tr class="even"><td>Output</td><td><p>Quietness from street noise lattice</p></td></tr><tr class="odd"><td>Code</td><td><p>Load several meshes representing streets with different noise levels.
+
+<br>Get all voxel centers as points.</p>
+Get all voxel 3d IDs
+Initialize a distance lattice full of 0s
+
+<p><strong>For</strong> each voxel:
+<br> Calculate the smallest euclidian distance from voxel center to the first street mesh, using trimesh.proximity.
+<br>Write the distance value in the distance lattice for the current voxel
+<br>Compute the noise dB’s for each voxel in a lattice from the distance lattice using noise formula and noise level for first street</p>
+
+<p>Initialize a summing lattice 
+<br>Convert the logarithmic scale into a decimal scale, sum it to the summing lattice<p>
+
+<p>Repeat the for loop for the second street
+<br>Convert the logarithmic scale into a decimal scale, sum it to the summing lattice<p>
+
+<p>Compute the aggregated noise lattice by converting the summing lattice back to logarithmic scale<p>
+
+<p>Map the inverse field of noise values to a field of quietness values from 0 - 1, where 0 is the least quiet value and 1 is the quietest value.<p>
+
+</td></tr></tbody></table>
+
+![Closeness to NE facade_icon](../img/Quietness from street noise (2).png)
+
 #### Entrance accessibility
+>Ensure access to an entrance
+
 To make sure the agents who need to be close to an entrace can grow in that direction, an entrance accessibility lattice must be created.
 
 ![entrance access](../img/entrance access.png)
@@ -175,4 +216,4 @@ To make sure the agents who need to be close to an entrace can grow in that dire
 <br>Construct the entrance lattice. 
 </td></tr></tbody></table>
 
-![Quietness from street noise (2)](../img/Quietness from street noise (2).png)
+![Quietness from street noise (2)](../img/Accessibility_coloured.png)
