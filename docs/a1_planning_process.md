@@ -109,7 +109,7 @@ The relationship and preference matrix is used to seed agents, grow the spaces a
 
 According to our design strategy with privacy gradients and the decision to cluster functions around hubs, a hierachy of spaces arises. When the growth algorithm seeds and grows spaces, the matrix is used to look up which spaces should grow or "follow" which spaces. However, not every space finds it important to follow another. Some spaces are dependant on the location of the hubs but the hubs themselves are not affected by the spaces following them. This relationship indicated in the matrix by lack of symmetry across the diagnol.
 
-![Proposed model](../img/Matrix.png)
+![Proposed model](../img/Matrix_2.png)
 
 <br />
 <br />
