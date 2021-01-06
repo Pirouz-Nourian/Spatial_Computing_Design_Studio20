@@ -1,4 +1,4 @@
-site_name: Spatial Computing Project Template
+site_name: Spatial Computing Project - Group 2
 
 nav:
   - Home: "index.md"
@@ -8,9 +8,13 @@ nav:
   - Configuring: #"a2_configuring.md"
       - Process: "a2.1_Process.md"
       - Products: "a2.1_Product.md"
+      - Notebook W1: "notebooks/placeholder_w1_Notebook.md"
   - Massing: #"a3_massing.md"
       - Process: "a3.1_Process.md"
       - Products: "a3.1_Product.md"
+      - Notebooks:
+        - Notebook W2: "notebooks/placeholder_w2_Notebook.md"
+        - Notebook W3: "notebooks/placeholder_w3_Notebook.md"
   - Forming: #"a4_forming.md"
       - Process: "a4.1_Process.md"
       - Products: "a4.1_Product.md"
@@ -27,9 +31,22 @@ nav:
 
 theme:
   name: "material"
+  palette:
+    primary: red
+  features:
+    - search
+
 
 markdown_extensions:
   - codehilite
   - pymdownx.keys
   - pymdownx.highlight
   - pymdownx.emoji
+
+plugins:
+  - search:
+      prebuild_index: true
+  - mknotebooks:
+      enable_default_jupyter_cell_styling: false
+      enable_default_pandas_dataframe_styling: false
+  - git-revision-date-localized
