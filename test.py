@@ -33,3 +33,7 @@ toevoegen in mkdocs:
 
 **refereren naar afbeeldingen**
 [woord](link)
+
+**refereren naar hoofdstuk**
+[woord](link)
+  link is te vinden in bovenkant website
