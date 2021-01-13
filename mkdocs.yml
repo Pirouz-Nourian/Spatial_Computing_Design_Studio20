@@ -1,4 +1,4 @@
-site_name: Spatial Computing Project Group 1
+site_name: Project Apidae
 
 nav:
   - Home: "index.md"
@@ -38,18 +38,32 @@ nav:
 
 theme: 
   name: material
+  logo: ../img/logo/apidae_solo_black.png
+  favicon: ../img/logo/apidae.png
+  font:
+    text: Tajawal
 # material
 # windmill-dark
   palette:
     scheme: slate
-    primary: amber
-    accent: purple
+    primary: white
+    accent: amber
+  features:
+    - search.suggest
+    - search.share
+    - header.autohide
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/EdaAkaltun/spatial_computing_project_template
 
 plugins:
   - mknotebooks:
       enable_default_jupyter_cell_styling: false
       enable_default_pandas_dataframe_styling: false
-
+  - search:
+      lang: en
 
 markdown_extensions:
   - codehilite

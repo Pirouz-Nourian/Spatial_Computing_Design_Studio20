@@ -1,4 +1,5 @@
 *<h1> The Preacher Quotes </h1>* 
+_by Pirouz Noumain_
 
 * _Our purpose is not to make people happy, our purpose is to learn people_
 
@@ -17,7 +18,4 @@
 * _It doesn't particularly have a brain, but it loves oats_
 
 * _How on earth can a creature that doesn't even have a brain design something like that?_
-
-
-![Image of timmy turner big brain moment](img/bigbrain.png)
 

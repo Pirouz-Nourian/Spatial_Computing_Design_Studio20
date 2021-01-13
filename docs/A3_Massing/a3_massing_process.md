@@ -17,6 +17,10 @@ eindresultaat voxels removen
 
 ## skyview and noise ???
 
+## Shafts
+
+## Corridors
+
 ## Shortest path
 Not sure if needed, but perhaps explain the approach? (for example taking an entire line instead of only one voxel as an entrance)
 

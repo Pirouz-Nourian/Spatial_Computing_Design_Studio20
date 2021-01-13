@@ -1,20 +1,24 @@
 # About
+## Spatial Computing in Architectural Design
+This documentation is part of the final project of the minor Spatial Computing in Architectural Design, course: Computational Design Studio (BK7083). 
 
-> Include your name, the tutors names, and the course name here
+For more information regarding the minor see link below:
 
-<h1>Spatial Computing in Architectural Design</h1>
 [Course Description](https://www.tudelft.nl/bk/studeren/minoren-en-keuzevakken/spatial-computing-in-architectural-design/)
 
-<br>
-</br>
-
+## Project Apidae members
 Project group 1 consists of the following students:
 
-|    Student     | Nickname | Student number |     Role      |         Email address          |
-|:--------------:|:--------:|:---------------|:-------------:|:------------------------------:|
-| Siebren Meines |   tba    | 4880412        | Puzzle solver |  S.Meines@student.tudelft.nl   |
-|  Eda Akaltun   |   tba    | 5419123        |  Journalist   |  e.akaltun@student.tudelft.nl  |
-| Maartje Damen  |   tba    | 4716736        |  Diagrammer   |  m.h.damen@student.tudelft.nl  |
-|  Tim de Boer   |   old and worn out   | 4731166        | Reflectionist | t.deboer-10@student.tudelft.nl |
+Student | Student number  | Role
+---------|----------|---------
+ Siebren Meines | 4880412 | Puzzle solver
+ Eda Akaltun  | 5419123 | Journalist 
+ Maartje Damen  | 4716736 | Diagrammer 
 
-Tutors:
+## Tutors
+
+Name | Faculty
+---------|----------
+ Dr. Ir. P. Nourain | TU Delft, Design Informatics
+ Ir. H. Hoogeboom | TU Delft, Design Informatics
+ Ir. S. Azadi | TU Delft, Design Informatics 
