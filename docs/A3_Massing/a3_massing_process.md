@@ -6,6 +6,8 @@ Based on the ladybug sunpath we first calculated the solar and shadow envelope i
 ### Lowres size decisions
 when first running our interpolated shadow file, we used a low res envelope which was only 2 voxels high. This resulted in the shadow casting calculation becoming much to generalized. In this situation it would calculate the entire bottom half of the building as not casting shadow on the neighbouring buildings, thus not showing them in the shadow casting and only showing the top half of the building in the visualisation. To solve this problem we changed the low res envelope from being 2 voxels, to being 3 voxels high. This resulted in a visualisation of the entire ennvelope. 
 
+<img src="../img/midterm/lowreshighres.png" style="width:280px;">
+
 ### difference between shadow and solar
 The result of our interpolated shadow envelope and the interpolated solar envelope, are both processed in a different way. Fundamentaly we want our building to be of least disturbance for the surrounding area, so it wouldn't make sense to keep voxles which cast too much shadow. This is why we remove the voxels which cast too much shadow on the surrounding areas. The solar value of each voxel however, you could argue that for the sake of the building, it would be best too only keep the voxels which have optimal sun access. However, this would result in removing the voxels on the ground level. We want to have functions on the lower level, and pathwise it wouldn't make sense as well to remove (almost) all voxels on the ground level. Besides that, in the growth script for our different rooms, the room types that want to have a lot of sun access, will automatically grow towards the voxels which have optimal sun access. 
 
@@ -15,11 +17,25 @@ For our treshold value we chose 0.4. Every voxel that in more than 40% of the ti
 ### Removing voxels
 eindresultaat voxels removen
 
-## skyview and noise ???
+<iframe src="https://thumbs.gfycat.com/ValidImaginativeChihuahua-size_restricted.gif" style="width:150%; height:430px;" frameborder="0"></iframe>
+
+<img src="../img/midterm/lattice.png" style="width:280px;">
+
+## skyview
+
+## noise
+
+## greenery
+<img src="../img/midterm/greenery.png" style="width:280px;">
 
 ## Shafts
+<img src="../img/midterm/shafts.png" style="width:280px;">
 
 ## Corridors
+
+## entrances
+<img src="../img/midterm/entrances.png" style="width:280px;">
+
 
 ## Shortest path
 Not sure if needed, but perhaps explain the approach? (for example taking an entire line instead of only one voxel as an entrance)
@@ -54,4 +70,8 @@ Explain how script works.
 ### Definitive program table result (input for generative relations simulation)
 The following table has been made based on the agent criterias, this has been used in the definitive script for generating the agent based design. 
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRBfjaAFNv4mAaDcMxI9AJf91QjGnhEDCYvvPLZC6GWHoceZO_pG81HI14bg5hD9g/pubhtml?gid=1256579589&amp;single=true&amp;widget=true&amp;headers=false"style="width:150%; height:600px;" frameborder="0"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRBfjaAFNv4mAaDcMxI9AJf91QjGnhEDCYvvPLZC6GWHoceZO_pG81HI14bg5hD9g/pubhtml?gid=1256579589&amp;single=true&amp;widget=true&amp;headers=false"style="width:150%; height:600px;"></iframe>
+
+### The simulation
+
+<iframe src="https://thumbs.gfycat.com/LittleAdmiredBufeo-size_restricted.gif" style="width:150%; height:400px;" frameborder="0"></iframe>

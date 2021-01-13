@@ -82,6 +82,8 @@ The tartan grid is the place where the structural profiles or the walls can come
 
 <img src="https://cdn.discordapp.com/attachments/775754717346791494/782968683973705728/3d_representation_of_grid.jpg">
 
+<img src="../img/midterm/stairs.png" alt="collective" style="width:300px;"> 
+
 <br>
 </br>
 
