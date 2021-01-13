@@ -1,5 +1,6 @@
 ## **_Intro_**
-![title](../img/logo/proapidae_white.png)
+<center> ![title](../img/logo/proapidae_with text.png) </center>
+
 
 This is a project repository of Minor Spatial Computing 2020-2021, project group 1. The mid-term and Final submission's process, final products and underlying code/input can be found in this repository. 
 
@@ -9,7 +10,7 @@ We as Project Apidae are requested to design a housing complex incorporating sev
 
 The requested housing complex will be the new home of garduate students, young professionals and elderly who are in need of assisted living. The complex has to provide communal and public facilities to ensure collectivity. 
 
-## **_Start point_**
+## **_Starting point_**
 ```html
 The following program of requirements has been given:
 

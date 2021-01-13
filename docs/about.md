@@ -22,3 +22,6 @@ Name | Faculty
  Dr. Ir. P. Nourain | TU Delft, Design Informatics
  Ir. H. Hoogeboom | TU Delft, Design Informatics
  Ir. S. Azadi | TU Delft, Design Informatics 
+
+
+ <img src="../img/logo/apidae_black.png" alt="collective" style="width:280px;"> 
