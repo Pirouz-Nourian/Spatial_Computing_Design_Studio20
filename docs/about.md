@@ -24,4 +24,4 @@ Name | Faculty
  Ir. S. Azadi | TU Delft, Design Informatics 
 
 
- <img src="../img/logo/apidae_black.png" alt="collective" style="width:280px;"> 
+<img src="../img/logo/apidae_black.png" alt="collective" style="width:280px;"> 

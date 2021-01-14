@@ -1,4 +1,6 @@
-<center> <img src="../img/logo/apidae_with text.png" alt="collective" style="width:600px;"> </center>
+<center> <img src="../img/logo/apidae_with_text.png" alt="collective" style="width:600px;"> </center>
+
+<img src="../img/logo/apidae_black.png" alt="collective" style="width:280px;"> 
 
 This is a project repository of Minor Spatial Computing 2020-2021, project group 1. The mid-term and Final submission's process, final products and underlying code/input can be found in this repository. 
 
