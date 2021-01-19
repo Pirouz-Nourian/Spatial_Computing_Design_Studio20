@@ -19,6 +19,7 @@ Housing:
 * Student Housing 80 units
 * Assisted Living 30 units
 * Starter Housing 100 units
+* testing spaces
 
 
 Communal spaces:
