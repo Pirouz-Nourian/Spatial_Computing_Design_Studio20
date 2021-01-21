@@ -1,11 +1,10 @@
 <center> <img src="img/logo/apidae_with_text.png" alt="collective" style="width:600px;"> </center>
 
-<img src="https://edaakaltun.github.io/spatial_computing_project_template/img/logo/apidae_black.png" alt="collective" style="width:280px;"> 
-
-This is a project repository of Minor Spatial Computing 2020-2021, project group 1. The mid-term and Final submission's process, final products and underlying code/input can be found in this repository. 
-
 Apidae is the name of a large  bee family. Bees have a mutualistic relationship with their context, live in communal hives with lots of social interaction but also have individual specific tasks related to their age. Beehives are formed in an instinctively optimized way, by creating the most efficient routes, adapting to wind orientation and other factors. 
 Just like the bees, the building has a mutualistic relationship with its context, as the context is to benefit from the placement of the building and the building is a response to the context. The building is communal with the possibility of lots of social interaction, but also the possibility to seclude from the community. The people in our building help each other with specific tasks related to their age. Young people can help elderly with grocery shopping, and the elderly can help the young people with life advice. Just like the beehive, our building is formed in an optimized way. Other than the beehive, in this case it’s done with the usage of scripts.
+
+
+This is a project repository of Minor Spatial Computing 2020-2021, project group 1. The mid-term and Final submission's process, final products and underlying code/input can be found in this repository. 
 
 ## **_The design challenge_**
 
