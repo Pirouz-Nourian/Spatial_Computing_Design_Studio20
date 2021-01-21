@@ -10,3 +10,8 @@ for cell_neigh in cell_neighbors:
         if neigh != -1 and neigh > cell:
             edges.append((cell, neigh))
 ```
+
+
+
+##Notebook 4
+For more information about [Notebook 4](..\notebooks\w4_generative_relations_mcda.3.ipynb), see [Massing - Notebook 4](..\a3.2_Notebook4.md).

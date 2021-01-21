@@ -4,6 +4,11 @@
   <figcaption>Figure X: Given design goals</figcaption>
 </figure>
 
+**afbeelding links of rechts van tekst**
+<figure>
+  <img align="left" src="..\img\3\3_entrances.jpg" alt="-" style="width:80%; height:80%;">
+</figure>
+
 
 **website met tekst**
 <figure>
