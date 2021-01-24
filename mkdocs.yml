@@ -28,7 +28,7 @@ nav:
   - About: "about.md"
   - index:
       - scripts: 
-          Voxelization: "index/scripts/voxelization.ipynb"
+          Voxelization: "index/scripts/Voxelization.ipynb"
           Shadow analysis: "index/scripts/shadow.ipynb"
           Visibility analysis: "index/scripts/visibility.ipynb"
           Sun analysis: "index/scripts/sun.ipynb"
