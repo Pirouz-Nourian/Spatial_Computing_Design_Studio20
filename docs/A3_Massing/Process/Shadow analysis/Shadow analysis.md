@@ -5,18 +5,18 @@ The second analysis is the shadow casting analysis. With this analysis we want t
 
 To see which exact voxels these are, we are computing intersections between shooting rays and the context mesh. If a ray does not intersect with the context, a voxel has stand in the way and will cause shadow.
 
-***Envelope before***
+### Envelope before
 
 ![Title](../../../img/shadow_before.jpg)
 
-***Envelope after***
+### Envelope after
 
 ![Title](../../../img/shadow_after.jpg)
 
 
 We have removed the voxels that have over 47 percent of intersections by generating an envelope based on the selection.
 
-***Pseudo code***
+### Pseudo code
 
 ``` python
 Input: voxelized envelope csv 

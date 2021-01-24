@@ -17,7 +17,10 @@ nav:
           Public entrance analysis: "A3_Massing/Process/Public entrance analysis/Public entrance analysis.md"
           Green analysis: "A3_Massing/Process/Green analysis/Green analysis.md"
           Noise analysis: "A3_Massing/Process/Noise Analysis/Noise analysis.md"
-      - Product: "A3_Massing/Products.md"
+      - Product: 
+          Seed allocation: "A3_Massing/Products/Seed allocation/Seed allocation.md"
+          Shortest paths: "A3_Massing/Products/Shortest paths/Shortest paths.md"
+          Agent growth: "A3_Massing/Products/Agent growth/Agent growth.md"
   - A4_Forming: 
       - Process: "A4_Forming/Process.md"
       - Product: "A4_Forming/Products.md"

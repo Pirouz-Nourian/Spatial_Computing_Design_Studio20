@@ -6,18 +6,18 @@ One of our starting points is to create a building that makes different connecti
 We have started this analysis by creating a new context mesh. The context mesh only exists of the streets through and around the envelope. After importing the sky vectors we needed to compute the intersections between the rays in sky direction and the context. If a ray does not intersect with the street, there are voxels hindering the sky view
 
 
-***Envelope before***
+### Envelope before
 
 ![Title](../../../img/svf_before.jpg)
 
-***Envelope after***
+### Envelope after
 
 ![Title](../../../img/svf_after.jpg)
 
 
 We have removed the voxels that have over 40 percent of intersections by generating an envelope based on the selection.
 
-***Pseudo code***
+### Pseudo code
 
 ``` python
 Input: voxelized envelope after shadow analysis (low and high res), context mesh streets
