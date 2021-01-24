@@ -10,6 +10,7 @@ nav:
       - Product: "A2_Configuring/Products.md"
   - A3_Massing:
       - Process:
+          Atrium Allocation: "A3_Massing/Process/Atrium allocation/Atrium allocation.md"         
           Sun analysis: "A3_Massing/Process/Sun analysis/Sun analysis.md"
           Shadow analysis: "A3_Massing/Process/Shadow analysis/Shadow analysis.md"
           Visibility analysis: "A3_Massing/Process/Visibility analysis/Visibility analysis.md"

@@ -27,7 +27,7 @@ On this map we see the plot with the green spaces in the neihborhood.
 
 On this map we see the plot with its neighboring buildings and the amount of noise which is created by for example traffic.
 
-![title](../img/Geluid.png)
+![title](../img/Noise_new.png)
 
 
 ## Design Goal
