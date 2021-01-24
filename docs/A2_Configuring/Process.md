@@ -97,6 +97,6 @@ After we have developed a clear notice of our wants for the building, we were ab
 
 Now that we have specified a voxel size, we are able to voxelize our envelope. We have chosen to make the existing building mass with the football field in between available as a new envelope. To keep as much greenery as possible, the park behind the building will be retain.  
 
-[Voxelization full notebook](/notebooks/voxelization/)
+[Voxelization full notebook](/spatial_computing_project_template/index/scripts/Voxelization/)
 
 ![title](../img/voxelized_envelope.jpg)
