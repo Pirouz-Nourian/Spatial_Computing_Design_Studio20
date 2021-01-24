@@ -24,6 +24,7 @@ nav:
   - A4_Forming: 
       - Process: "A4_Forming/Process.md"
       - Product: "A4_Forming/Products.md"
+  - A5_Result: "A5_Result.md"      
   - About: "about.md"
   - Index:
       - Scripts: "index/scripts.md"
