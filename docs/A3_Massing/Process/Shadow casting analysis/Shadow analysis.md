@@ -1,4 +1,4 @@
-# Shadow analysis 
+# Shadow casting analysis 
 ### Explanation
 
 The second analysis is the shadow casting analysis. With this analysis we want to see which part of the building is casting shadow on the surroundings (including the park). The voxels that casts most shadow are being removed from the envelope. 
@@ -56,5 +56,5 @@ Output: voxelized envelope after shadow analysis (low and high res)
 
 ```
 
-[Shadow analysis full python code](/notebooks/shadow/)
+[Shadow casting analysis full notebook](/spatial_computing_project_template/index/scripts/shadow/)
 

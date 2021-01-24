@@ -53,4 +53,4 @@ Output: final envelope (low and high res)
 
 ```
 
-[Visibility analysis full python code](/notebooks/visibility/)
+[Visibility analysis full notebook](/spatial_computing_project_template/index/scripts/visibility/)

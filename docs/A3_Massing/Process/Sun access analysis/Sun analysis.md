@@ -1,4 +1,4 @@
-# Sun analysis
+# Sun access analysis
 ### Explanation
 
 With the sun access analysis we wanted to gain insight into the amount of sunlight  on different places in the building. We want to use this information for placing the different agents in an optimal place.
@@ -45,6 +45,6 @@ Output: sun access csv (low and high res)
 
 ```
 
-[Sun analysis full python code](/notebooks/sun/)
+[Sun analysis full notebook](/spatial_computing_project_template/index/scripts/sun/)
 
 

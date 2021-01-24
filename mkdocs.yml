@@ -11,9 +11,9 @@ nav:
   - A3_Massing:
       - Process:
           Atrium Allocation: "A3_Massing/Process/Atrium allocation/Atrium allocation.md" 
-          Shadow casting analysis: "A3_Massing/Process/Shadow analysis/Shadow analysis.md"
+          Shadow casting analysis: "A3_Massing/Process/Shadow casting analysis/Shadow analysis.md"
           Visibility analysis: "A3_Massing/Process/Visibility analysis/Visibility analysis.md"        
-          Sun access analysis: "A3_Massing/Process/Sun analysis/Sun analysis.md"
+          Sun access analysis: "A3_Massing/Process/Sun access analysis/Sun analysis.md"
           Public entrance analysis: "A3_Massing/Process/Public entrance analysis/Public entrance analysis.md"
           Green analysis: "A3_Massing/Process/Green analysis/Green analysis.md"
           Noise analysis: "A3_Massing/Process/Noise Analysis/Noise analysis.md"
@@ -29,9 +29,9 @@ nav:
   - index:
       - scripts: 
           Voxelization: "index/scripts/Voxelization.ipynb"
-          Shadow analysis: "index/scripts/shadow.ipynb"
+          Shadow casting analysis: "index/scripts/shadow.ipynb"
           Visibility analysis: "index/scripts/visibility.ipynb"
-          Sun analysis: "index/scripts/sun.ipynb"
+          Sun access analysis: "index/scripts/sun.ipynb"
           Shafts and shortest paths: "index/scripts/corridors.ipynb"
       - Figures: "index/figures.md"
       - Presentations: "index/presentations.md"

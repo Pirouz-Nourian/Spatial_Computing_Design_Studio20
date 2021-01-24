@@ -14,7 +14,7 @@ In the third and last part of creating corridors we are again finding the two sh
 ### Corridors
 ![Title](../../../img/corridors_with_bridges.jpg)
 
-We have used the [metronetwork](/A1_Planning/Products/#metro-network) for placing the entrances and the shafts and have also tried to achieve these connections in our corridor lattice. 
+We have used the [metronetwork](/spatial_computing_project_template/A1_Planning/Products/#metro-network) for placing the entrances and the shafts and have also tried to achieve these connections in our corridor lattice. 
 
 ![Title](../../../img/corridors_metronetwork.png)
 
@@ -59,4 +59,4 @@ Output: final corridor lattice
 = shaft lattice + corridor lattice + corridor lattice2 	+ corridor lattice3	
 ```
 
-[Shortest path finding full python code](/notebooks/visibility/)
+[Shortest path finding full notebook](/spatial_computing_project_template/index/scripts/corridors/)
