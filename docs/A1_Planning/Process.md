@@ -49,7 +49,7 @@ We started this project of course with an envelope. This is the complete optiona
 
 ### Modularity
 
-Before we create any form whatsoever we want the state the clear notion that we are designing a system with a modular grid as a result. This fact has some useful properties; first of all we think that a modular building is very sustainable in the sense of de-construction. 
+Before we create any form whatsoever we want to state the clear notion that we are designing a system with a modular grid as a result. This fact has some useful properties; first of all we think that a modular building is very sustainable in the sense of de-construction. 
 
 ![title](../img/Axo_modularity.png)
 
