@@ -1,49 +1,60 @@
 # Shadow analysis 
 ### Explanation
 
-After removing the voxels with too little sun access, we have analysed the shadow casting of the new envelope. 
+The second analysis is the shadow casting analysis. With this analysis we want to see which part of the building is casting shadow on the surroundings (including the park). The voxels that casts most shadow are being removed from the envelope. 
 
-A part of the building envelope would provide shade for the surroundings. Because the building has a high height and is close to other buildings, we wanted to remove the voxels that have a major influence on the shadow on certain parts of the immediate context.
+To see which exact voxels these are, we are computing intersections between shooting rays and the context mesh. If a ray does not intersect with the context, a voxel has stand in the way and will cause shadow.
 
-Just like in the sun analysis, we compute many intersections. This time, however, we are shooting rays downwards, from the pixels that represents the ecliptic to the voxels. In the code, the directions of the sun vectors are opposite to those in the sun analysis. 
+***Envelope before***
+
+![Title](../../../img/shadow_before.jpg)
+
+***Envelope after***
+
+![Title](../../../img/shadow_after.jpg)
+
+
+We have removed the voxels that have over 47 percent of intersections by generating an envelope based on the selection.
+
+***Pseudo code***
 
 ``` python
-# constructing the sun direction from the sun vectors in a numpy array
-sun_dirs = np.array(sun_vectors)
+Input: voxelized envelope csv 
+(low and high res), context mesh 
 
-``` 
-When an intersection between the ray and the voxel is found, the sun did not reach the building behind. This means the voxel casts shadows on the 
-surroundings.
+1. Import Meshes 
 
-### The park 
+2. Import Lattice 
 
-Because we want to preserve the park behind the building, we also think it is important that this remains a sunny place. That is why we have taken this into account in our analysis. we have changed the immediate context In Rhino and placed a building with a height of 1.75 meters (human height) on the place of the park. You can clearly see the difference in the shadow casting of the envelope. 
+3. Import Sun Vectors 
+import sunpath (ladybug) coordinates Rotterdam 
+reduce the number of sun vectors (days and hours) 
 
-***Without taking the park into account***
+4. Compute intersection 
+sun direction = sun_vectors 
+find the centroids of the voxels 
+shoot rays from the pixels that represent the sun to all of the centroids 
+find intersections of the rays with the context mesh 
 
-![Title](../../../img/shadow_no_park.jpg)
-
-***With taking the park into account***
-
-![Title](../../../img/shadow1.jpg)
+5. Make Shadow Casting lattice 
+make a list out of the rays that had an 
+intersection 
 
 
-We have removed the voxels that have over 45 percent of intersections by generating an envelope based on the selection. 
-``` python
-# 7.2. Generating an envelope based on the selection
-lower_bound = 0.01
-upper_bound = 0.45
-lower_condition = shadow_casting_lattice > lower_bound
-upper_condition = shadow_casting_lattice < upper_bound
-new_avail_lattice = lower_condition * upper_condition
+initiate the list of ratio 
+    iterate over all of the voxels 
+    count the intersection 
+        iterate over all of the sun rays 
+    compute the percentage of rays that did not intersect 
+    (that voxels is causing shadow) 
+    add to the list = vox_shadow_casting 
+
+6. Interpolate shadow casting lattice and voxe¬lized envelope csv (high res) 
+
+Output: voxelized envelope after shadow analysis (low and high res)
+
 
 ```
-
-### New envelope
-We continue the next analysis with the newly created envelope (*new_avail_lattice*).
-
-![Title](../../../img/shadow2.jpg)
-
 
 [Shadow analysis full python code](/notebooks/shadow/)
 

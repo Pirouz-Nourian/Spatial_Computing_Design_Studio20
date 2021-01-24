@@ -10,10 +10,10 @@ nav:
       - Product: "A2_Configuring/Products.md"
   - A3_Massing:
       - Process:
-          Atrium Allocation: "A3_Massing/Process/Atrium allocation/Atrium allocation.md"         
-          Sun analysis: "A3_Massing/Process/Sun analysis/Sun analysis.md"
+          Atrium Allocation: "A3_Massing/Process/Atrium allocation/Atrium allocation.md" 
           Shadow analysis: "A3_Massing/Process/Shadow analysis/Shadow analysis.md"
-          Visibility analysis: "A3_Massing/Process/Visibility analysis/Visibility analysis.md"
+          Visibility analysis: "A3_Massing/Process/Visibility analysis/Visibility analysis.md"        
+          Sun analysis: "A3_Massing/Process/Sun analysis/Sun analysis.md"
           Public entrance analysis: "A3_Massing/Process/Public entrance analysis/Public entrance analysis.md"
           Green analysis: "A3_Massing/Process/Green analysis/Green analysis.md"
           Noise analysis: "A3_Massing/Process/Noise Analysis/Noise analysis.md"
