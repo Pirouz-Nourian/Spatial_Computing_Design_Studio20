@@ -1,4 +1,4 @@
-site_name: Spatial Computing Project - Group 2
+site_name: Spatial Computing Project - Zoho’s Pearl
 
 nav:
   - Home: "index.md"
@@ -8,17 +8,18 @@ nav:
   - Configuring: #"a2_configuring.md"
       - Process: "a2.1_Process.md"
       - Products: "a2.1_Product.md"
-      # - Notebook W1: "notebooks/placeholder_w1_Notebook.md"
+      - Notebook 1: "a2.2_Notebook1.md"
   - Massing: #"a3_massing.md"
-      - Process: "a3.1_Process.md"
-      - Products: "a3.1_Product.md"
+      # - Process: "a3.1_Process.md"
+      # - Products: "a3.1_Product.md"
       - Notebook 2: "a3.2_Notebook2.md"
       - Notebook 4: "a3.2_Notebook4.md"
   - Forming: #"a4_forming.md"
-      - Process: "a4.1_Process.md"
-      - Products: "a4.1_Product.md"
+      # - Process: "a4.1_Process.md"
+      # - Products: "a4.1_Product.md"
       - Notebook 5: "a4.2_Notebook5.md"
       - Notebook 6: "a4.2_Notebook6.md"
+      - Results: "a4.2_Results.md"
   - About: "about.md"
   - Index:
       - Scripts: "index/scripts.md"
