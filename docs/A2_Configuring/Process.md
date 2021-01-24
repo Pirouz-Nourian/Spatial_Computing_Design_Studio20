@@ -5,53 +5,51 @@ The configuration consists of listing information in matrices and thinking about
 ## Program of requirements
 After finishing the metronetwork, we have specified the square meters and some properties of the different spaces in the table below.
 
-<table><thead><tr class="header"><th>Area</th><th>m² and explanation</th></tr></thead><tbody><tr class="odd"><td>Student housing</td><td>30 m² times 80 units = 2400 m²</p><p> 
+<table><thead><tr class="header"><th>Area</th><th>m² and explanation</th></tr></thead><tbody><tr class="odd"><td>Student housing</td><td>30 m² times 100 units = 3000 m²</p><p> 
 - Small private kitchen </p><p>
 - Small private living room </p><p>
 - Private bathroom </p><p>
-- Common areas such as co-cooking and the community center. </td></tr><tr class="even"><td>Assisted living</td><td><p>
-35 m² times 30 units = 1050 m²</p><p>
+- Common areas such as co-cooking and living areas. </td></tr><tr class="even"><td>Assisted living</td><td><p>
+37 m² times 50 units = 1850 m²</p><p>
 - Small private kitchen </p><p>
 - Small private living room </p><p>
 - Private bathroom </p><p>
-- Common areas such as co-cooking and the community center. <tr class="odd"><td>Starter housing</td><td>
-75 m² times 100 units = 7500 m²</p><p>  
+- Common areas such as co-cooking and living areas. <tr class="odd"><td>Starter housing</td><td>
+80 m² times 100 units = 8000 m²</p><p>  
 -   bedroom, bathroom, livingroom, kitchen, extra bedroom/ study room
 </td></tr><tr class="even"><td>Restaurant</td><td><p>
 80 places to sit = 104 m² (= 60% of total area)</p><p>
 The kitchen is 70 m² (= 40% of total area)</p><p>  
 Total of 180 m² <tr class="odd"><td>Shop</td><td>
 Supermarket 800 m² </td></tr><tr class="even"><td>Co-cooking</td><td><p>
-Next to the common area, 100 m² <tr class="odd"><td>Atrium/ community center</td><td>
-200 m². A place just for the residents, where people can meet their neighbours. Important is that there are different spaces from more private to more public.
-![title](../img/atrium.png) 
+Next to the common area, 200 m² <tr class="odd"><td>Atrium/ community center</td><td>
+Will be the outside hart of the building.  
 </td></tr><tr class="even"><td>Pub</td><td><p>
 180 m². 80 places to sit (same as the restaurant)
 <tr class="odd"><td>Gym</td><td>
-220 m². Mostly used by residents 
+325 m². Mostly used by residents 
 </td></tr><tr class="even"><td>Arcade</td><td><p>
-400 m²
+585 m²
 <tr class="odd"><td>Cinematheque</td><td>
-120 visitors. The seating are is 120 m², the walking area ± 80 m²</p><p>
-Total of 200 m²
+300 visitors. The seating are is 225 m², the walking area ± 90 m²</p><p>
+Total of 315 m²
 </td></tr><tr class="even"><td>Offices</td><td><p>
-Shared offices are 18,5 m². There will be room for 50 employees, so 25 shared offices = 460 m²
+Shared offices are 18,5 m². There will be room for 400 employees, so 25 shared offices = 3680 m²
 <tr class="odd"><td>Co-work spaces</td><td>
-Work group areas of 7,5 m² per employee. Place for 100 employees = 750 m²
+Work group areas of 7,5 m² per employee. Place for 400 employees = 3000 m²
 </td></tr><tr class="even"><td>Library</td><td><p>
-200 m²
+650 m²
 <tr class="odd"><td>Fablab</td><td>
-150 m²
+1300 m²
 </td></tr><tr class="even"><td>Parking</td><td><p>
 Minimum of 105 parking places times 12,5 m². The total area, including the walking area = 2500 m²
 </p></td></tr></tbody></table>
 
 ## Flowchart
 
-Now that we have a program we can start thinking of the analyses we want to apply on the building. The first step is to voxelize the optional envelope. Next, we came up with six different analyses, that are important for achieving our design goal. When all of these analysis are finished we are left with the final envelope. To determine which area should be placed inside which voxels of this envelope, we will model the envelope based on the preferences and characteristics of the agents.
+Now that we have a program we can start thinking of the analyses we want to apply on the building. The first step is to voxelize the optional envelope. Next, we came up with three different analyses, that will cause our building to change in size and create our final envelope. The following four analysis are important for achieving our design goal and to determine which area should be placed inside which voxels of this envelope. We will model the envelope based on the preferences and characteristics of the agents.
 
-<iframe src="https://drive.google.com/file/d/19zh0dJO_bUP0E5o-HLOVZijuqnN6kY0a/preview" width="640" height="480"></iframe>
-
+<iframe src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1#G1HaQ5PTKyPxDFbxqR-wJ1XA5VJ8S4JyBo" width="640" height="480"></iframe>
 
 ## Relations
 
