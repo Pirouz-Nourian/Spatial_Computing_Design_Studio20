@@ -1,31 +1,40 @@
-<img src="../img/logo/apidae_black.png" alt="collective" style="width:280px;"> 
-<center> <img src="img/logo/apidae_with_text.png" alt="collective" style="width:600px;"> </center>
+<img src="/img/logo/apidae_black.png" alt="collective" style="width:280px;"> 
+<center> <img src="/img/logo/apidae_with_text.png" alt="collective" style="width:600px;"> </center>
 
 <img src="/img/midterm/lowreshighres.png" style="width:280px;">
 
-1<img src="docs/img/finalscreenshots/0.0_basecontext.png" style="width:280px;">
+1<img src="/img/finalscreenshots/0.0_basecontext.png" style="width:280px;"></img>
 
-2<img src="img/finalscreenshots/0.0_mesh.png" style="width:280px;">
+2<img src="/img/finalscreenshots/0.0_mesh.png" style="width:280px;">
 
-3<img src="img/finalscreenshots/0.1_fulllattice.png" style="width:280px;">
+3<img src="/img/finalscreenshots/0.1_fulllattice.png" style="width:280px;">
 
-4<img src="img/finalscreenshots/2.0_skyaccess.png" style="width:280px;">
 
-5<img src="img/finalscreenshots/2.0_skyview.png" style="width:280px;">
+4<img src="/img/finalscreenshots/2.0_skyaccess.png" style="width:280px;"></img>
 
-6<img src="img/finalscreenshots/2.1.0_selection.png" style="width:280px;">
 
-7<img src="img/finalscreenshots/2.1.1_removed.png" style="width:280px;">
+5<img src="/img/finalscreenshots/2.0_skyview.png" style="width:280px;">
 
-8<img src="../img/finalscreenshots/2.2_newfulllattice.png" style="width:280px;">
 
-9<img src="../img/finalscreenshots/3.1.0_sunaccess.png" style="width:280px;">
+6<img src="/img/finalscreenshots/2.1.0_selection.png" style="width:280px;">
 
-10<img src="../img/finalscreenshots/3.1.2_shadow.png" style="width:280px;">
 
-11<img src="/img/finalscreenshots/3.2_quietness.png" style="width:280px;">
+7<img src="/img/finalscreenshots/2.1.1_removed.png" style="width:280px;">
 
-12<img src="/img/finalscreenshots/3.3_lattice_public_entrances.png" style="width:280px;">
+
+8<img src="/img/finalscreenshots/2.2_newfulllattice.png" style="width:280px;"></img>
+
+
+9<img src="/img/finalscreenshots/3.1.0_sunaccess.png" style="width:280px;"></img>
+
+
+10<img src="/img/finalscreenshots/3.1.2_shadow.png" style="width:280px;"></img>
+
+
+11<img src="/img/finalscreenshots/3.2_quietness.png" style="width:280px;"></img>
+
+
+12<img src="/img/finalscreenshots/3.3_lattice_public_entrances.png" style="width:280px;"></img>
 
 13<img src="/img/finalscreenshots/3.4_lattice_gym.png" style="width:280px;">
 
@@ -81,26 +90,37 @@
 # Process of massing
 
 ## Solar Simulation & Shadow Analysis
-Based on the ladybug sunpath we first calculated the solar and shadow envelope in one file, since they have a largely corresponding steps. Once that worked we splitted the interpolation, because that calculation takes more time, so to protect our modest hardware, we thought it would be better to split them up. 
+Based on the ladybug sunpath the solar and shadow envelope are calculated in one file, since they have a largely corresponding steps. To do so a cast a ray from the centroid of the voxel towards all the points on the sunpath. If a ray is not intersected by the context, then this voxel receives sunlight from this point. If the ray is intersected by the context, then the voxel does not receive sunlight from this point. For all the voxel that have been hit, the rays that were shot towards the sun are reversed, to calculate the shadow. If this ray intersects the context, then the voxel casts a shadow. If the ray does not intersect the context, then the voxel does not cast a shadow. Both the sunlight and the shadow envelope are then interpolated to a highres value, being of our voxel size.  
 
 ### Lowres size decisions
-when first running our interpolated shadow file, we used a low res envelope which was only 2 voxels high. This resulted in the shadow casting calculation becoming much to generalized. In this situation it would calculate the entire bottom half of the building as not casting shadow on the neighbouring buildings, thus not showing them in the shadow casting and only showing the top half of the building in the visualisation. To solve this problem we changed the low res envelope from being 2 voxels, to being 3 voxels high. This resulted in a visualisation of the entire ennvelope. 
+In the first run of the interpolated shadow file,  a low res envelope of 2 voxels high was used. This resulted in the shadow casting calculation becoming much to generalized. In this situation it would see the entire bottom half of the building as not casting shadow on the neighbouring buildings, thus not showing them in the shadow casting and only showing the top half of the building in the visualisation. To solve this problem a lowres envelope of 3 voxels high was used. This resulted in a visualisation of the entire envelope.  
 
 <img src="/img/midterm/lowreshighres.png" style="width:280px;">
 
-### difference between shadow and solar
-The result of our interpolated shadow envelope and the interpolated solar envelope, are both processed in a different way. Fundamentaly we want our building to be of least disturbance for the surrounding area, so it wouldn't make sense to keep voxles which cast too much shadow. This is why we remove the voxels which cast too much shadow on the surrounding areas. The solar value of each voxel however, you could argue that for the sake of the building, it would be best too only keep the voxels which have optimal sun access. However, this would result in removing the voxels on the ground level. We want to have functions on the lower level, and pathwise it wouldn't make sense as well to remove (almost) all voxels on the ground level. Besides that, in the growth script for our different rooms, the room types that want to have a lot of sun access, will automatically grow towards the voxels which have optimal sun access. 
+## Skylight & Skylight blocking
+This script is very similar to the Solar simulation, but instead of loading a sunpath, a sphere is created to represent points in the sky. For each voxel a ray is cast from the centroid of the voxel towards all the points in the sky.  If a ray is not intersected by the context, then this voxel receives skylight from this point. If the ray is intersected by the context, then the voxel does not receive skylight from this point. For all the voxel that have been hit, the rays that were shot towards the sky are reversed, to calculate the skylight blocking. If this ray intersects the context, then the voxel casts blocks skylight from the context. If the ray does not intersect the context, then the voxel does not block skylight from the context. Both the skylight and the skylight blocking envelope are then interpolated to a highres value, being of our voxel size.
 
-### Threshold 
-For our treshold value we chose 0.4. Every voxel that in more than 40% of the time it recieves sun, casts a shadow on the surrounding area, is removed. We chose this number based on an instinct, and because it gave us an interesting shape. We would have preferred to make another analysis of which of the context facades are receiving shadow, and make our selection based on a maximum percentage of the time that the context facades to recieve shadow, our teachers recommended to not do this because it would be to much computing for our hardware, and too big of a challenge for the limited time we have in this course. 
+
+### difference between shadow and solar
+The result of the shadow envelope, solar envelope, skylight envelope and skylight blocking envelope  are processed in 2 ways. Fundamentally we want our building to be of least disturbance for the surrounding area, so it would not make sense to keep voxels that cast too much shadow or block too much skylight. This is why we remove the voxels that cast too much shadow and block too much skylight from the context. 
+For the sun and skylight values a similar argument could be made. For sake of the building one could argue that only the voxels with the best sun and skylight access should be used. However, this would result in removing the voxels on the ground floor. Since building can’t float in the sky(yet), and for the accessibility of public functions its best to have them on the ground floor, the data of sunlight and skylight is stored inside the voxels for the growth model (link to growth model). 
+
 
 ### Removing voxels
+To not cause too much shadow or block too much skylight from the context, the voxels that cast too much shadow or block too much skylight from the context, are removed from the envelope based on a threshold. This results in a new envelope without the “bad voxels” 
 
 <iframe src="https://thumbs.gfycat.com/ValidImaginativeChihuahua-size_restricted.gif" style="width:150%; height:430px;" frameborder="0"></iframe>
 
 <img src="/img/finalscreenshots/2.2_newfulllattice.png" style="width:280px;">
 
-## skyview
+
+##  Sun and Skylight improvements
+Although these scripts are functional, there are still some improvements that could be made. 
+    -	Taking into account the influence of voxels inside the envelope on the sun/skylight and shadow/ skylight blocking. 
+        o	For the initial stage of storing data and removing voxels, solely using the influence of the context on the voxels to be blocking sun or skylight is sufficient. But for later stages when the building is generated (link to growth model), it would be an improvement to take the influence of light and shadow of voxels on each other. This would make that script even heavier, because it will have to calculate a light and shadow value each time it adds voxels. Besides that, a distinction should made with the outer voxels and inner voxels, to have some depth in the building. This depth should also be specified. To solve this, the growth model could be normally ran at first, and then after it has finished going through an evaluation loop to check the shadow and skylight blocking on the context.
+    -	Removing bad voxels based on the shadow the context receives instead of the percentage of the time voxels cause shadow.  
+        o	As of now a threshold is specified to remove voxels from the envelope based on the percentage of time these voxels cast shadow and block skylight from the context. However it would be an improvement if the voxels are removed based on the effect they have on the context. If a voxel casts a shadow on the context 50% of the time, this could mean that it causes it on a different building each time, meaning that although the voxel looks “bad”, the net result on the context is negligible. This calculation should also be taken into the growth model (link to growth model). This does mean this script will become even more heavy as it now has to calculate the shadow and skylight blocking each time it grows as well. To solve this, the growth model could be normally ran at first, and then after it has finished going through an evaluation loop to check the shadow and skylight blocking on the context. 
+
 
 ## noise
 
