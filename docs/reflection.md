@@ -1,21 +1,16 @@
-*<h1> The Preacher Quotes </h1>* 
-_by Pirouz Nourian_
+*<h1> Reflection </h1>* 
 
-* _Our purpose is not to make people happy, our purpose is to learn people_
+### Result 
+Even though our result may not be perfect, it is a good step in the right direction of a better design method. We realize that finishing our project would perhaps have taken a couple years, but we believe that using this method is a great improvement as apposed to the method we were used to. 
 
-* _The easy things in life eventually make life more difficult_
+### Group process
+Our different personalities and beliefs made us as a group very critical towards each other. This made us have long and deep arguments over certain choices that had to be made, which made us even more convinced of the decisions made. Our different personalities and roles in the group complemented each other really well. We discussed the things we wanted to do and achieve with the specific scripts and then someone became  an “expert” for that specific script. This gave each of us more time to dig deeper into the code of a certain script and ultimately made us more understanding of the code. 
 
-* _In computer science we have a problem if we don’t have a problem_
+### Teachers
+We would like to express our thankfulness to Pirouz Nourian, Shervin Azadi and Hans Hoogenboom as they have guided as through this amazing adventure. They have brought us inspiration and knowledge we will carry with us through the rest of our life. They have showed us that architecture can be progressive, efficient, scientific in an extremely fun and exciting way. Each of them described themselves with their own role in the beginning of the course. We would now shortly like to describe the specific role we experienced with each one of them. 
 
-* _If you take a ball of dough and turn it into a duck, then leave if for an hour, it will have turned into a ball again._
+Hans Hoogenboom above all made us have a critical second look on the decisions we made. This led us to either changing these decisions, or improving our reasoning for these decisions. For us, Hans is a Reflectionist. 
 
-* _Imagine your neighbour is shooting to the sun with a gun, every time they hit your building it melts like a swiss cheese_
+Pirouz Nourian  thought us the theory behind some of the methods we later implemented, but mostly he inspired us to become activists of a more scientific and efficient method of design. With his knowledge and inspiration, Pirouz is both a preacher and a Journalist. 
 
-* _Who is supposed to shoot whom? Are you shooting at your neighbour or are your neighbours shooting at you?_
-
-* _There is something divine about 6_
-
-* _It doesn't particularly have a brain, but it loves oats_
-
-* _How on earth can a creature that doesn't even have a brain design something like that?_
-
+Shervin has extremely helped us to become more understanding of coding. His passion and excitement of teaching the code was quite refreshing, even long after ‘’office hours’’ and in weekends he would help us with our code. Shervins role is quite obviously the Guru. 
