@@ -16,3 +16,6 @@
 
 5<img src="/img/Enscape/Enscape_2021-01-20-17-00-52.png" style="width:280px;">
 
+### The simulation
+
+<iframe src="https://thumbs.gfycat.com/LittleAdmiredBufeo-size_restricted.gif" style="width:150%; height:400px;" frameborder="0"></iframe>

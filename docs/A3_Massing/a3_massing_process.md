@@ -148,7 +148,16 @@ To calculate the quietness noise in the building in relation to it’s context a
 ## Shortest path
 Not sure if needed, but perhaps explain the approach? (for example taking an entire line instead of only one voxel as an entrance)
 
-## KPI's to agent criteria 
+
+________________________________________________
+
+NOTEPAD FOR ABM ETC
+
+________________________________________________
+
+
+
+## **KPI's to agent criteria** 
 explain what our criteria for the agents are and how they relate to the KPI's
 The following criteria have been implemented in the agent based simulation:
 
@@ -162,12 +171,12 @@ The following criteria have been implemented in the agent based simulation:
 * Noise (Home quality) + (Collectivity) + (Sustainability)
 
 
-## Configuring spaces to workable values
-In order to implement the design criteria as mentioned before, those had to be converted to workable values. The values have been written for each space versus the criteria varying from 0 to 1. 0 indicates no connection, 1 indicates a strong connection. This has been applied for the following criteria: matrix based relations between spaces, sun access, entrance distance for public, housing, gym, parking and communal spaces, skyview, greenery and noise. 
+## **Configuring spaces to workable values**
+In order to implement the design criteria as mentioned before, those had to be converted to workable values. The values have been written for each space versus the criteria varying from 0 to 1. 0 indicates no connection, 1 indicates a strong connection (Referencing back to the matrix from A1_Configuring). This has been applied for the following criteria: matrix based relations between spaces, sun access, entrance distance for public, housing, gym, parking and communal spaces, skyview, greenery and noise. 
 
 For the space heights and space areas a different approach had to be made since those are hardcoded criteria coming from the Program of Requirements. Hence, those explained in the next paragraph. 
 
-### Space heights to stencils 
+### **Space heights to stencils **
 In order to implement the height differences of spaces given from the Porgram of Requirements into the Apidae method, the initial given stencil (see left stencil in the picture below) has been expanded in the z axes. In the code, this has been done for 1, 2, 3, 4 and 5 voxels high. The highest stencil is 5 x 1.8m = 9 meters into the z axis and 1.8m on the x and y axis.
 
 <img src="https://cdn.discordapp.com/attachments/784009094474366977/803249271100014612/unknown.png">
@@ -202,7 +211,7 @@ s_5.set_index([0,0,0], 0)
 stencils = [s_1, s_2, s_3, s_4, s_5]
 ```
 
-### Space areas to voxel amounts
+### **Space areas to voxel amounts**
 Based on the program of requirements, the required space sizes have been coverted to amount of necessary voxels to meet the area requirement and therefore fulfil it. This has been implemented in the script to maintain the desirded area per spaces, and has been used to limit the growth of the agents. 
 From the Program of Requirements the room areas can be obtained, and by giving every space a stencil id according to the desired free height (as explained before how the desired height can be implemented) the total amount of voxel necessary for the space to grow towards can be determined. This can be done with the following piece of code:
 
@@ -219,21 +228,38 @@ a_room_voxels = a_room_stencil * a_room_vox
 print(a_room_voxels)
 ``` 
 Which gives the following table that can be used later in the growth model:
-<img src="https://cdn.discordapp.com/attachments/784009094474366977/803255219545964564/unknown.png">
 
-### Definitive program table result (input for generative relations simulation)
+<center> <img src="https://cdn.discordapp.com/attachments/784009094474366977/803255219545964564/unknown.png"></center>
+
+## **Definitive program table result (input for generative relations simulation)**
 The following table has been made based on the agent/space criterias, this has been used in the definitive script for generating the agent based design. 
 
-4 kinds of values are included next to the agent/space names and space id's:
+4 kinds of values are included next to [white] the agent/space names and space id's:
+
 1. [blue] Desire to closeness to given entrance (0 to 1)
 2. [yellow] Desire for high values of the given analysis (0 to 1)
 3. [green] Necessary data from the program of requirements (imput specific values)
 4. [grey] Desire to be close to given agent/space (0 to 1)
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRBfjaAFNv4mAaDcMxI9AJf91QjGnhEDCYvvPLZC6GWHoceZO_pG81HI14bg5hD9g/pubhtml?gid=1256579589&amp;single=true&amp;widget=true&amp;headers=false"style="width:150%; height:600px;"></iframe>
+The given entrances for blue and given analysis for yellow are loaded in as csv files. For the making of those csv files, address their corresponding script.
 
-### The simulation
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR3BSCNWlacKeNAtlluEjTCw5SMh3Tet-m3ixMxbSwR_aIhWDu0YJLZGvVQdgqWNg/pubhtml?gid=1634426511&amp;single=true&amp;widget=true&amp;headers=false"style="width:150%; height:600px;"></iframe>
 
-<iframe src="https://thumbs.gfycat.com/LittleAdmiredBufeo-size_restricted.gif" style="width:150%; height:400px;" frameborder="0"></iframe>
 
+________________________________________________
+
+# **The Generative Relations Simulation**
+Since we have a bunch of data and values corresponding to that per agent, and we need to make decisions based on that (design wise), the script for the Multiple-criteria decision analysis for agents was used and further developed to our needs.  
+
+## **How it works**
+-INSERT HERE THE FLOWCHART-
+
+scuffed text incoming herschrijf:
+The growth model works as following:
+We run it for a given timeframe, and for each agent we evaluate the free voxels in the list and store this data
+After this, we start another for loop aka the main agent loop, where we retrieve the free neighbours access them and make sure it doesnt exceed given values such as the Z coordinate
+. After this is done, if there is a free neighbour found it checks the preferences and evaluates it with the fuzzy framework. And after this there’s 2 scenarios; the max area limit has not been reached yet so it picks the highest value neighbouring voxel. Else, it checks if there are better voxels to be occupied (if the given evaluation limit is higher than the agent satisfaction; it departs that bad voxel and occupies the new one. After this is done for all time frames, the new lattice is constructed with the occupation lattice. Which is the final result as I’ve shown before.
+
+### **Different occupation per stencil**
+### **Evaluation**
 
