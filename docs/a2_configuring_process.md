@@ -1,16 +1,66 @@
 # Process
 
-> Here you should include the process and product of your 2nd activity: **Configuring**
+#### REL chart
+With a set program of requirements, we specified each space’s realtive closeness preferences and certain prefered spatial
+qualities.
 
-<table><thead><tr class="header"><th>Title</th><th>Configuring (process): Circulation Manifold (product)</th></tr></thead><tbody><tr class="odd"><td>Objective</td><td>Formulate a spatial (topological) concept, design a modular circulation manifold on a pixel/voxel grid.</td></tr><tr class="even"><td>Procedure</td><td><p>Construct a voxelated model of the site with a maximum height of 100 meters. Orient the voxel grid to a global coordinate system (e.g. geographical North-East-West-South). Size the voxels carefully based on the modular height of steps and the length of stair flights and ramps so that they fit in X/Y directions into multiple pixels. Choose the Z size of voxels according to step risers and choose the same size for X and Y as a whole multiple of step threads.</p><p>There are three types of spaces in terms of pedestrian movement in buildings, metaphorically speaking, spaces to <strong>walk</strong> through (e.g. corridors, ramps, and stairs), spaces to <strong>stand</strong> on (e.g. platforms connecting doors to corridors and stairs) and spaces to <strong>sit</strong> on (functional rooms/spaces). Construct a simplified mesh model of all bridges (corridors, ramps, stairs) connected by standing platforms in a modular grid of voxels/pixels. Take into account the free-height necessary for all spaces and pack them into the bounding volume of the building. For every functional space, leave a single pixel as a standing platform and colour it with the corresponding colour.</p></td></tr></tbody></table>
+![REL](../img/REL v2.png)
 
-## Static data
+#### Weights and preferences hierarchy
+<u>Growth hierarchy</u> 
+<br>According to our design strategy with privacy gradients and the decision
+to cluster functions around hubs, a hierachy of spaces arises. When the
+growth algorithm seeds and grows spaces, the matrix is used to look up
+which spaces should grow or “follow” which spaces. However, not every
+space finds it important to follow another. Some spaces are dependant on
+the location of the hubs but the hubs themselves are not affected by the
+spaces following them. This relationship indicated in the matrix by lack
+of symmetry across the diagonal.
+
+<p>The following bubble diagram illustrates the meaning of this assymetry along the diagonal in the REL chart. For example, co-cooking area and community garden are connected in the metro diagram , this is also reflected in the REL chart. However, because the co-cooking area indicates that it would need to grow toards the garden, and garden does not iindicate any preference for growing towards the co-cooking, a hieracy arises : co-cokking follows garden, not the other way around.</p>
+![Hierarchy](../img/hierarchy.png)
+
+[Hierarchy](../img/hierarchy.png)
+<a href="../pdf/hierarchy.pdf" class="image fit"><img src="images/marr_pic.jpg" alt=""></a>
+
+#### Voxel size 
+Having set design goals and user perspectives, we chose a voxel size that we consider multifunctional enough to form
+spaces with different functions. This voxel size became a base for the voxel cloud used in all following computations.
+
+- Why this size?
+    -  Height and width are the same, therefore it is a regular cube
+    - A staircase fits inside a single voxel from floor to floor
+    - A third of the voxel size is a pleasant width for a small corridor (1080 mm)
+
+
+- Building regulations:
+    - Width stairs: minimum is 800 mm
+    - Riser: minimum is 180 mm
+    - Tread width: minimum is 220 mm
+    - Head room: minimum is 2300 mm
+
+<img src="../img/stair_dimensions.png" width="300"><img src="../img/stairs_3D.png" width="280">
+
+#### Notebook Flowchart 
+The computation process is reflected in the flowchart. 
+
+For optimization purposes, we used 3 lattices with different voxel sizes. The resulting data was always interpolated for
+our main lattice with voxel size 3240x3240.
+
+![Flowchart_notebooks](../img/flowchart_notebooks.png)
+
+[Flowchart_notebooks](../img/flowchart_notebooks.png)
+<a href="../pdf/flowchart_notebooks.pdf" class="image fit"><img src="images/marr_pic.jpg" alt=""></a>
+
+#### Computation Flowchart
+
+### Static data creation 
 #### Solar envelope
 >Create an envelope based on solar blockage
 
 The created envelope will be used as the base availability lattice on which all other calculations for static data and the growing of the agends are built upon. 
 
-![Create an envelope based on solar blockage](../img/Solar envelope in lattice.png)
+<img src="../img/Solar envelope in lattice.PNG" width="500"> 
 
 <table><thead><tr class="header"><th>Pseudocode</th><th></th></tr></thead><tbody><tr class="odd"><td>Input</td><td>Voxelized envelope, context mesh</td></tr><tr class="even"><td>Output</td><td><p>Solar envelope</p></td></tr><tr class="odd"><td>Code</td><td><p>Create a list of all vectors pointing towards the sun locations over the year.</p>
 
@@ -36,7 +86,7 @@ of light blocked.</p>
 
 Export this lattice as the new availability lattice.</p></td></tr></tbody></table>
 
-![Solar icons3](../img/Solar icons3.png)
+<img src="../img/Solar icons3.PNG" width="500"> 
 
 #### Solar accessibility
 >Ensure spaces get enough sunlight
@@ -45,7 +95,7 @@ This data is used for the growing algorithm by certain agents that prefer
 a high solar accessibility, for instance: the residential quarters and study
 spaces.
 
-![Solar accesibility in lattice](../img/Solar accesibility in lattice.png)
+<img src="../img/Solar accesibility in lattice.PNG" width="500"> 
 
 <table><thead><tr class="header"><th>Pseudocode</th><th></th></tr></thead><tbody><tr class="odd"><td>Input</td><td>Solar envelope, context mesh</td></tr><tr class="even"><td>Output</td><td><p>Solar accesibility lattice
 </p></td></tr><tr class="odd"><td>Code</td><td><p>Create a list of all vectors pointing towards the sun locations over the year.</p>
@@ -65,14 +115,14 @@ least amount of light.</p>
 <p>Export the newly created lattice that lists the values of solar accessibility
 in a range from 0 to 1.</p></td></tr></tbody></table>
 
-![Solar icons](../img/Solar icons.png)
+<img src="../img/Solar icons.PNG" width="500"> 
 
 #### Sky view factor
 >Ensure functions are able to see enough of the sky
 This data is used for the growing algorithm by certain agents that prefer
 a high sky view factor, for instance: the office spaces and garden.
 
-![Sky view factor in lattice](../img/Sky view factor in lattice.png)
+<img src="../img/Sky view factor in lattice.PNG" width="500"> 
 
 <table><thead><tr class="header"><th>Pseudocode</th><th></th></tr></thead><tbody><tr class="odd"><td>Input</td><td>Solar envelope, context mesh, dome mesh</td></tr><tr class="even"><td>Output</td><td><p>Sky view factor lattice</p></td></tr><tr class="odd"><td>Code</td><td><p>Instead of creating a list of vectors pointing towards the sun locations over the year, append the normals of a dome mesh to a list, created to
 map the sky in equal proportions. </p>
@@ -92,7 +142,8 @@ factor and 0 the opposite.</p>
 <p>Export the newly created lattice that lists the values of the sky view factor
 in a range from 0 to 1.</p></td></tr></tbody></table>
 
-![Solar icons2](../img/Solar icons2.png)
+<img src="../img/Solar icons2.PNG" width="500"> 
+
 
 #### Floor level preference 
 >Set floor levels for agents
@@ -100,7 +151,7 @@ This data is used for the growing algorithm by certain agents that prefer
 a proximity to certain floors, for instance: the hub and garden prefer to
 be on the ground floor.
 
-![Floor closeness in lattice](../img/Floor closeness in lattice.png)
+<img src="../img/Floor closeness in lattice.PNG" width="500"> 
 
 <table><thead><tr class="header"><th>Pseudocode</th><th></th></tr></thead><tbody><tr class="odd"><td>Input</td><td>Solar envelope</td></tr><tr class="even"><td>Output</td><td><p>Floor level preference</p></td></tr><tr class="odd"><td>Code</td><td><ul><li>Create a list of entries based on the height of the imported lattice</li>
 <li>Create a matrix that maps the neighbouring entries as if connected from
@@ -114,14 +165,15 @@ bottom to top to in a one dimensional array</li>
 <li>Multiply this newly created lattice with the solar envelope to set all
 unoccupied voxels to 0 and export it</li></ul></td></tr></tbody></table>
 
-![Ground floor preference](../img/Ground floor preference.png)
+<img src="../img/Ground floor preference.PNG" width="500"> 
 
-#### Closeness to the facade
+
+#### Closeness to the facade (high resolution)
 >Ensure access to the facade
 
 This is another parameter to optimize the placement of spaces that need direct daylight or adjacency to the street. 
 
-![closeness to facade](../img/closeness to facade.png)
+<img src="../img/closeness to facade.PNG" width="500"> 
 
 <table><thead><tr class="header"><th>Pseudocode</th><th></th></tr></thead><tbody><tr class="odd"><td>Input</td><td>Availability lattice, custom stencil</td></tr><tr class="even"><td>Output</td><td><p>Facade closeness lattice</p></td></tr><tr class="odd"><td>Code</td><td><p><li>Define stencil as Von Neumann neighborhood with top and bottom neighbors removed.</li>
 <li>Apply the stencil to the voxel envelope.</li>
@@ -140,15 +192,15 @@ This is another parameter to optimize the placement of spaces that need direct d
 
 </td></tr></tbody></table>
 
-![Closeness to facade_icon](../img/Closeness to facade_icon.png)
+<img src="../img/Closeness to facade_icon.PNG" width="300"> 
 
-#### Closeness to a specific facade
+#### Closeness to a specific facade (high resolution)
 
 >Orient for site accessability on a specific side
 
 Some spaces and entrances require access to a specific facade based on traffic routes and greenery on the site. While they need to be dajcent to the facade, they do not need to be fixed in a specific place. The data field is used to create axes on each facade, to let the program choose the best location on it.
 
-![closeness to facade](../img/closeness to facade.png)
+<img src="../img/closeness to facade.PNG" width="500"> 
 
 <table><thead><tr class="header"><th>Pseudocode</th><th></th></tr></thead><tbody><tr class="odd"><td>Input</td><td>Availability lattice, custom stencil</td></tr><tr class="even"><td>Output</td><td><p>Specific facade closeness lattice</p></td></tr><tr class="odd"><td>Code</td><td><p><li>efine stencil where only one voxel represents the neighborhood and this neighbor is oriented in the direction of the desired facade</li>
 <li>Apply the stencil to the voxel envelope.</li>
@@ -167,14 +219,14 @@ Some spaces and entrances require access to a specific facade based on traffic r
 
 </td></tr></tbody></table>
 
-![Closeness to NE facade_icon](../img/Closeness to NE facade_icon.png)
+<img src="../img/Closeness to NE facade_icon.PNG" width="300"> 
 
 #### Quietness from street noise 
 >Orient according to traffic noise fall-off
 
 The two main streets around the plot produce significant traffic noise. According to European Environment Agency, these streets produce 50 and 70db of noise. By mapping the noise fall-off from the street, the growth algorithm can take into account the spaces where quietness is especially preferable, such as the library.
 
-![Quietness from street noise](../img/Quietness from street noise_2.png)
+<img src="../img/Quietness from street noise_2.PNG" width="500"> 
 
 <table><thead><tr class="header"><th>Pseudocode</th><th></th></tr></thead><tbody><tr class="odd"><td>Input</td><td>Avalability lattice, meshes representing the streets with different noise levels</td></tr><tr class="even"><td>Output</td><td><p>Quietness from street noise lattice</p></td></tr><tr class="odd"><td>Code</td><td><p>Load several meshes representing streets with different noise levels.
 
@@ -199,14 +251,14 @@ Initialize a distance lattice full of 0s
 
 </td></tr></tbody></table>
 
-![Closeness to NE facade_icon](../img/Quietness from street noise (2).png)
+<img src="../img/Quietness from street noise (2).PNG" width="300"> 
 
-#### Entrance accessibility
+#### Entrance closeness
 >Ensure access to an entrance
 
 To make sure the agents who need to be close to an entrace can grow in that direction, an entrance accessibility lattice must be created.
 
-![entrance access](../img/entrance access.png)
+<img src="../img/entrance access.PNG" width="500"> 
 
 <table><thead><tr class="header"><th>Pseudocode</th><th></th></tr></thead><tbody><tr class="odd"><td>Input</td><td>Voxelized envelope, entrance locations based on street accessibility</td></tr><tr class="even"><td>Output</td><td><p>Entrance Lattice</p></td></tr><tr class="odd"><td>Code</td><td>Set the entrance voxels based on the entrance locations.
 <br>For each non-entrance voxel: 
@@ -216,4 +268,5 @@ To make sure the agents who need to be close to an entrace can grow in that dire
 <br>Construct the entrance lattice. 
 </td></tr></tbody></table>
 
-![Quietness from street noise (2)](../img/Accessibility_coloured.png)
+<img src="../img/Accessibility_coloured.PNG" width="500"> 
+

@@ -3,25 +3,25 @@
 ### Students:
 Puzzle solver:
 
-    Hugo van Rossum - H.A.vanRossum@student.tudelft.nl
+    Hugo van Rossum
 
 Journalist:
 
-    Maren Hengelmolen - m.hengelmolen@student.tudelft.nl
+    Maren Hengelmolen
 
 Diagrammer:
 
-    Liva Sadovska - l.sadovska@student.tudelft.nl
+    Liva Sadovska
 
 Reflectionist:
 
-    Sander Bentvelsen - S.A.Bentvelsen@student.tudelft.nl
+    Sander Bentvelsen
 
 ### Tutors:
 Responsible instructor:
 
-    Dr.ir. P. Nourian - P.Nourian@tudelft.nl
+    Dr.ir. P. Nourian 
 
 Instructor:
 
-    Prof.dr.ir. I.S. Sariyildiz - I.S.Sariyildiz@tudelft.nl
+    Prof.dr.ir. I.S. Sariyildiz
