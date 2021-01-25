@@ -88,17 +88,17 @@ C <img src="https://cdn.discordapp.com/attachments/784009094474366977/8032492711
 
 37<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/midterm/TRAP_2.jpg?raw=true" style="width:280px;">
 
-38 <iframe src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/growthgif.gif?raw=true" style="width:150%; height:400px;" frameborder="0"></iframe>
+38 <iframe src="https://media3.giphy.com/media/9PX5rcQ64S6fxFSiho/giphy.gif" style="width:150%; height:400px;" frameborder="0"></iframe>
 
-39 <iframe src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/ezgif-3-5e6cbec2a182.gif" style="width:150%; height:400px;" frameborder="0"></iframe>
-
-40 <iframe src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/calcgifs.gif?raw=true" style="width:150%; height:400px;" frameborder="0"></iframe>
-
+<iframe src="https://media0.giphy.com/media/2XG01ZsHY4wzcGtt3L/giphy.gif" style="width:150%; height:400px;" frameborder="0"></iframe>
 ________________________________________________
 # Process of massing
 
 ## Solar Simulation & Shadow Analysis
 Based on the ladybug sunpath the solar and shadow envelope are calculated in one file, since they have a largely corresponding step. To do so a cast a ray from the centroid of the voxel towards all the points on the sunpath. If a ray is not intersected by the context, then this voxel receives sunlight from this point. If the ray is intersected by the context, then the voxel does not receive sunlight from this point. For all the voxel that have been hit, the rays that were shot towards the sun are reversed, to calculate the shadow. If this ray intersects the context, then the voxel casts a shadow. If the ray does not intersect the context, then the voxel does not cast a shadow. Both the sunlight and the shadow envelope are then interpolated to a highres value, being of our voxel size. 
+
+<center> <img src="https://cdn.discordapp.com/attachments/775754717346791494/803300922296893470/sun_and_shadow_hoofdstuk_3_sun_and_shadow.jpg"></center>
+
 
 ### Lowres size decisions
 In the first run of the interpolated shadow file,  a lowres envelope of 2 voxels high was used. This resulted in the shadow casting calculation becoming much to generalized. In this situation it would see the entire bottom half of the building as not casting shadow on the neighbouring buildings, thus not showing them in the shadow casting and only showing the top half of the building in the visualisation. To solve this problem a lowres envelope of 3 voxels high was used. This resulted in a visualisation of the entire envelope. 
@@ -107,6 +107,13 @@ In the first run of the interpolated shadow file,  a lowres envelope of 2 voxels
 ________________________________________________
 ## Skylight & Skylight blocking
 This script is very similar to the Solar simulation, but instead of loading a sunpath, a sphere is created to represent points in the sky. For each voxel a ray is cast from the centroid of the voxel towards all the points in the sky.  If a ray is not intersected by the context, then this voxel receives skylight from this point. If the ray is intersected by the context, then the voxel does not receive skylight from this point. For all the voxel that have been hit, the rays that were shot towards the sky are reversed, to calculate the skylight blocking. If this ray intersects the context, then the voxel casts blocks skylight from the context. If the ray does not intersect the context, then the voxel does not block skylight from the context. Both the skylight and the skylight blocking envelope are then interpolated to a highres value, being of our voxel size.
+<img src="https://cdn.discordapp.com/attachments/775754717346791494/803300915749716088/skylight_and_skylight_blocking_hoofdstuk_3_skylight_and_skylight_blocking.jpg" style="width:280px;">
+
+## skylight access
+<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/2.0_skyaccess.png?raw=true" style="width:280px;">
+
+## skylight blocking
+<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/2.0_skyview.png?raw=true" style="width:280px;">
 
 
 ### difference between shadow and solar
@@ -118,7 +125,11 @@ For the sun and skylight values a similar argument could be made. For sake of th
 ### Removing voxels
 To not cause too much shadow or block too much skylight from the context, the voxels that cast too much shadow or block too much skylight from the context, are removed from the envelope based on a threshold. This results in a new envelope without the “bad voxels” 
 
+## Threshold
 <iframe src="https://thumbs.gfycat.com/ValidImaginativeChihuahua-size_restricted.gif" style="width:150%; height:430px;" frameborder="0"></iframe>
+
+## New envelope
+<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/2.2_newfulllattice.png?raw=true" style="width:280px;">
 
 
 ________________________________________________
@@ -136,6 +147,8 @@ ________________________________________________
 ## Quietness
 To calculate the quietness noise in the building in relation to its context a path with noise points on it is loaded inside a script. Each voxel then calculates the distance from the voxel centroid towards the noise point. These distances are added together and converted into a ratio. This script is actually more about business on street level than about quietness, since it imports noise points and not actual decibels from areas. This does not matter too much, since noise could be filtered from a building by adding more insulation and the relative quietness matters more than the actual numbers in decibels
 
+## Noise highres(quietness)
+<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/3.2_quietness.png?raw=true" style="width:280px;">
 ________________________________________________
 ## Entrances and distance lattices to these entrances
 For this script, a design decision is needed in regards to the placement of the entrances. For this, the following site analysis is being done: 
@@ -301,6 +314,7 @@ Which gives the following table that can be used later in the growth model:
 
 <center> <img src="https://cdn.discordapp.com/attachments/784009094474366977/803255219545964564/unknown.png"></center>
 ________________________________________________
+
 ## **Definitive program table result (input for generative relations simulation)**
 The following table has been made based on the agent/space criterias, this has been used in the definitive script for generating the agent based design. 
 
@@ -389,15 +403,20 @@ def mult_occupation(selected_neigh_3d_address, a_id, a_height, agn_locs, agn_src
 ### **Evaluation**
 The current evaluation part of the code measures if an agent is satisfied with the given evaluation value through the program table. If the agent is not satisfied, it allows the agent to grow towards better voxels, where less valuable voxels are swapped for better ones. If the agent is satisfied, it stays the same and stops growing once it reaches it's max area value. 
 
-The agent satisfaction has been tracked over the final result (2500 frames). With this data Panda tables have been made and visualized through graphs. This way, the agent satisfaction can be tracked without constantly having to look at the visualization and voxel growth manually. See graphs below for the results. The agent names correspond to their agent id.
+The agent satisfaction has been tracked over the final result (2500 frames). With this data Panda tables have been made and visualized through graphs. This way, the agent satisfaction can be tracked without constantly having to look at the visualization and voxel growth manually. See graphs below for the results. The agent names correspond to their agent id in the program.
 
+Evaluation over time for public spaces and entrances:
 <center> <img src="https://cdn.discordapp.com/attachments/784009094474366977/803322582107029554/AySsljdNmbF9AAAAAElFTkSuQmCC.png"></center>
 
+Evaluation over time for Assisted living (11), Student housing (17) and Start-up office (19)
 <center> <img src="https://cdn.discordapp.com/attachments/784009094474366977/803322582107029554/AySsljdNmbF9AAAAAElFTkSuQmCC.png"></center>
 
+Evaluation over time for starter housing (16):
 <center> <img src="https://cdn.discordapp.com/attachments/784009094474366977/803322623199150130/B02eVgwU5jOiAAAAAElFTkSuQmCC.png"></center>
 
+### **Final growth**
 
+<iframe src="https://media3.giphy.com/media/WDhRzS8AIleGliAs9s/giphy.gif" style="width:150%; height:300px;" frameborder="0"></iframe>
 
 ### **Improvement points**
 * Distance calculation and evaluation between spaces: 
