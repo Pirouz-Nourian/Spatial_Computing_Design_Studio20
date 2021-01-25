@@ -71,6 +71,9 @@
 
 35<img src="/img/finalscreenshots/7.0_time2500.png" style="width:280px;">
 
+36<img src="/img/midterm/trap.jpg" style="width:280px;">
+37<img src="/img/midterm/TRAP_2.jpg" style="width:280px;">
+
 # Process of massing
 
 ## Solar Simulation & Shadow Analysis
