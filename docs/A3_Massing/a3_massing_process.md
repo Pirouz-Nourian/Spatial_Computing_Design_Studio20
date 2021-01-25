@@ -3,88 +3,91 @@
 
 <img src="/img/midterm/lowreshighres.png" style="width:280px;">
 
-1<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/0.0_basecontext.png?raw=true" style="width:280px;"></img>
+1<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/0.0_basecontext.png?raw=true" style="width:280px;">
 
 2<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/0.0_mesh.png?raw=true" style="width:280px;">
 
-3<img src="/img/finalscreenshots/0.1_fulllattice.png" style="width:280px;">
+3<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/0.1_fulllattice.png?raw=true" style="width:280px;">
 
 
-4<img src="/img/finalscreenshots/2.0_skyaccess.png" style="width:280px;"></img>
+4<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/2.0_skyaccess.png?raw=true" style="width:280px;">
 
 
-5<img src="/img/finalscreenshots/2.0_skyview.png" style="width:280px;">
+5<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/2.0_skyview.png?raw=true" style="width:280px;">
 
 
-6<img src="/img/finalscreenshots/2.1.0_selection.png" style="width:280px;">
+6<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/2.1.0_selection.png?raw=true" style="width:280px;">
 
 
-7<img src="/img/finalscreenshots/2.1.1_removed.png" style="width:280px;">
+7<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/2.1.1_removed.png?raw=true" style="width:280px;">
 
 
-8<img src="/img/finalscreenshots/2.2_newfulllattice.png" style="width:280px;"></img>
+8<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/2.2_newfulllattice.png?raw=true" style="width:280px;">
 
 
-9<img src="/img/finalscreenshots/3.1.0_sunaccess.png" style="width:280px;"></img>
+9<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/3.1.0_sunaccess.png?raw=true" style="width:280px;">
 
 
-10<img src="/img/finalscreenshots/3.1.2_shadow.png" style="width:280px;"></img>
+10<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/3.1.2_shadow.png?raw=true" style="width:280px;">
 
 
-11<img src="/img/finalscreenshots/3.2_quietness.png" style="width:280px;"></img>
+11<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/3.2_quietness.png?raw=true" style="width:280px;">
 
 
-12<img src="/img/finalscreenshots/3.3_lattice_public_entrances.png" style="width:280px;"></img>
+12<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/3.3_lattice_public_entrances.png?raw=true" style="width:280px;">
 
-13<img src="/img/finalscreenshots/3.4_lattice_gym.png" style="width:280px;">
+13<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/3.4_lattice_gym.png?raw=true" style="width:280px;">
 
-14<img src="/img/finalscreenshots/3.5_lattice_parking_entrance.png" style="width:280px;">
+14<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/3.5_lattice_parking_entrance.png?raw=true" style="width:280px;">
 
-15<img src="/img/finalscreenshots/3.6_lattice_housing.png" style="width:280px;">
+15<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/3.6_lattice_housing.png?raw=true" style="width:280px;">
 
-16<img src="/img/finalscreenshots/3.7_lattice_comcen_entrance.png" style="width:280px;">
+16<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/3.7_lattice_comcen_entrance.png?raw=true" style="width:280px;">
 
-17<img src="/img/finalscreenshots/4.1_average_voxel_value.png" style="width:280px;">
+17<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/4.1_average_voxel_value.png?raw=true" style="width:280px;">
 
-18<img src="/img/finalscreenshots/4.1_averagevoxelval.png" style="width:280px;">
+18<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/4.1_averagevoxelval.png?raw=true" style="width:280px;">
 
-19<img src="/img/finalscreenshots/4.2_new_avail_lattice.png" style="width:280px;">
+19<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/4.2_new_avail_lattice.png?raw=true" style="width:280px;">
 
-20<img src="/img/finalscreenshots/5.1_corridors_groundfloor.png" style="width:280px;">
+20<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/5.1_corridors_groundfloor.png?raw=true" style="width:280px;">
 
-21<img src="/img/finalscreenshots/6.1_corridors_groundfloor.png" style="width:280px;">
+21<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/6.1_corridors_groundfloor.png?raw=true" style="width:280px;">
 
-22<img src="/img/finalscreenshots/6.1_corridors_upper_floors.png" style="width:280px;">
+22<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/6.1_corridors_upper_floors.png?raw=true" style="width:280px;">
 
-23<img src="/img/finalscreenshots/6.2_lattice_distance_communal_functions.png" style="width:280px;">
+23<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/6.2_lattice_distance_communal_functions.png?raw=true" style="width:280px;">
 
-24<img src="/img/finalscreenshots/6.2_lattice_distance_upper_floors.png" style="width:280px;">
+24<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/6.2_lattice_distance_upper_floors.png?raw=true" style="width:280px;">
 
-25<img src="/img/finalscreenshots/6.3_shafts.png" style="width:280px;">
+25<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/6.3_shafts.png?raw=true" style="width:280px;">
 
-26<img src="/img/finalscreenshots/6.4_all_shafts_and_corridors.png" style="width:280px;">
+26<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/6.4_all_shafts_and_corridors.png?raw=true" style="width:280px;">
 
-27<img src="/img/finalscreenshots/6.4_shafts_and_corridors.png" style="width:280px;">
+27<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/6.4_shafts_and_corridors.png?raw=true" style="width:280px;">
 
-28<img src="/img/finalscreenshots/6.4_shafts_and_corridors_in_boudningbox.png" style="width:280px;">
+28<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/6.4_shafts_and_corridors_in_boudningbox.png?raw=true" style="width:280px;">
 
-29<img src="/img/finalscreenshots/7.0_initialization.png" style="width:280px;">
+29<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/7.0_initialization.png?raw=true" style="width:280px;">
 
-30<img src="/img/finalscreenshots/7.0_initialization_with_lattice.png" style="width:280px;">
+30<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/7.0_initialization_with_lattice.png?raw=true" style="width:280px;">
 
-31<img src="/img/finalscreenshots/7.0_time0.png" style="width:280px;">
+31<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/7.0_time0.png?raw=true" style="width:280px;">
 
-32<img src="/img/finalscreenshots/7.0_time100.png" style="width:280px;">
+32<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/7.0_time100.png" style="width:280px;">
 
-33<img src="/img/finalscreenshots/7.0_time500.png" style="width:280px;">
+33<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/7.0_time500.png" style="width:280px;">
 
-34<img src="/img/finalscreenshots/7.0_time1000.png" style="width:280px;">
+34<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/7.0_time1000.png?raw=true" style="width:280px;">
 
-35<img src="/img/finalscreenshots/7.0_time2500.png" style="width:280px;">
+35<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/7.0_time2500.png" style="width:280px;">
 
-36<img src="/img/midterm/trap.jpg" style="width:280px;">
-37<img src="/img/midterm/TRAP_2.jpg" style="width:280px;">
+36<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/midterm/trap.jpg?raw=true" style="width:280px;">
+37<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/midterm/TRAP_2.jpg?raw=true" style="width:280px;">
 
+38 <iframe src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/growthgif.gif?raw=true" style="width:150%; height:400px;" frameborder="0"></iframe>
+39 <iframe src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/ezgif-3-5e6cbec2a182.gif" style="width:150%; height:400px;" frameborder="0"></iframe>
+40 <iframe src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/calcgifs.gif?raw=true" style="width:150%; height:400px;" frameborder="0"></iframe>
 
 
 # Process of massing
@@ -95,7 +98,7 @@ Based on the ladybug sunpath the solar and shadow envelope are calculated in one
 ### Lowres size decisions
 In the first run of the interpolated shadow file,  a low res envelope of 2 voxels high was used. This resulted in the shadow casting calculation becoming much to generalized. In this situation it would see the entire bottom half of the building as not casting shadow on the neighbouring buildings, thus not showing them in the shadow casting and only showing the top half of the building in the visualisation. To solve this problem a lowres envelope of 3 voxels high was used. This resulted in a visualisation of the entire envelope.  
 
-<img src="/img/midterm/lowreshighres.png" style="width:280px;">
+<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/midterm/lowreshighres.png?raw=true" style="width:280px;">
 
 ## Skylight & Skylight blocking
 This script is very similar to the Solar simulation, but instead of loading a sunpath, a sphere is created to represent points in the sky. For each voxel a ray is cast from the centroid of the voxel towards all the points in the sky.  If a ray is not intersected by the context, then this voxel receives skylight from this point. If the ray is intersected by the context, then the voxel does not receive skylight from this point. For all the voxel that have been hit, the rays that were shot towards the sky are reversed, to calculate the skylight blocking. If this ray intersects the context, then the voxel casts blocks skylight from the context. If the ray does not intersect the context, then the voxel does not block skylight from the context. Both the skylight and the skylight blocking envelope are then interpolated to a highres value, being of our voxel size.
@@ -111,7 +114,6 @@ To not cause too much shadow or block too much skylight from the context, the vo
 
 <iframe src="https://thumbs.gfycat.com/ValidImaginativeChihuahua-size_restricted.gif" style="width:150%; height:430px;" frameborder="0"></iframe>
 
-<img src="/img/finalscreenshots/2.2_newfulllattice.png" style="width:280px;">
 
 
 ##  Sun and Skylight improvements
@@ -125,15 +127,15 @@ Although these scripts are functional, there are still some improvements that co
 ## noise
 
 ## greenery
-<img src="/img/midterm/greenery.png" style="width:280px;">
+<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/midterm/greenery.png?raw=true" style="width:280px;">
 
 ## Shafts
-<img src="/img/midterm/shafts.png" style="width:280px;">
+<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/midterm/shafts.png?raw=true" style="width:280px;">
 
 ## Corridors
 
 ## entrances
-<img src="/img/midterm/entrances.png" style="width:280px;">
+<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/midterm/entrances.png?raw=true" style="width:280px;">
 
 
 ## Shortest path
