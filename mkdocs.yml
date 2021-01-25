@@ -45,8 +45,8 @@ theme:
 # windmill-dark
   palette:
     scheme: slate
-    primary: white
-    accent: amber
+    primary: amber
+    accent: deep orange
   features:
     - search.suggest
     - search.share
