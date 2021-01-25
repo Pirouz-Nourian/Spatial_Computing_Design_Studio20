@@ -3,9 +3,9 @@
 
 <img src="/img/midterm/lowreshighres.png" style="width:280px;">
 
-1<img src="/img/finalscreenshots/0.0_basecontext.png" style="width:280px;"></img>
+1<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/0.0_basecontext.png?raw=true" style="width:280px;"></img>
 
-2<img src="/img/finalscreenshots/0.0_mesh.png" style="width:280px;">
+2<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/0.0_mesh.png?raw=true" style="width:280px;">
 
 3<img src="/img/finalscreenshots/0.1_fulllattice.png" style="width:280px;">
 
