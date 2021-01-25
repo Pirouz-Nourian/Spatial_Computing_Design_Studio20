@@ -1,14 +1,14 @@
 # Green acces analysis
 
-## Explanation
+### Explanation
 
 Because the three public green spaces in the nearby neighborhood of the building play such a central role in our project, we also wanted to compute the distance to this spaces, because we think it's important that this space should be as reachable as possible for the people who are using the building.
 
-## Distance lattice
+### Distance lattice
 
 ![title](../../../img/Distance_public_green.png)
 
-## Pseudo code
+### Pseudo code
 
 ``` python
 
