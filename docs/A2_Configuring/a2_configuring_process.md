@@ -82,8 +82,9 @@ The tartan grid is the place where the structural profiles or the walls can come
 
 <img src="https://cdn.discordapp.com/attachments/775754717346791494/782968683973705728/3d_representation_of_grid.jpg">
 
-<img src="../img/midterm/stairs.png" alt="collective" style="width:300px;"> 
+<img src="/img/midterm/stairs.png" alt="collective" style="width:300px;"> 
 
+<img src="https://media.discordapp.net/attachments/775754717346791494/803196044015304734/trap.jpg?width=765&height=541" alt="collective" style="width:300px;"> 
 <br>
 </br>
 
@@ -105,3 +106,5 @@ The following definitive Program of Requirements has been formed through the cho
 </iframe>
 
 ## Voxelizing the given lot
+<center><img src="/img/finalscreenshots/0.0_mesh.png" style="width:280px;">
+<img src="/img/finalscreenshots/0.1_fulllattice.png" style="width:280px;"></center>

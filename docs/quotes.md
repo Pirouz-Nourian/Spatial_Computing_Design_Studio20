@@ -1,5 +1,5 @@
 *<h1> The Preacher Quotes </h1>* 
-_by Pirouz Noumain_
+_by Pirouz Nourian_
 
 * _Our purpose is not to make people happy, our purpose is to learn people_
 

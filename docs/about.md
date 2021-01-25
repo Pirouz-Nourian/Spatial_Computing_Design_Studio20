@@ -6,14 +6,18 @@ For more information regarding the minor see link below:
 
 [Course Description](https://www.tudelft.nl/bk/studeren/minoren-en-keuzevakken/spatial-computing-in-architectural-design/)
 
+## Contact us!
+
+apidaemethod@gmail.com
+
 ## Project Apidae members
 Project group 1 consists of the following students:
 
-Student | Student number  | Role
----------|----------|---------
- Siebren Meines | 4880412 | Puzzle solver
- Eda Akaltun  | 5419123 | Journalist 
- Maartje Damen  | 4716736 | Diagrammer 
+Student | Role
+---------|---------
+ Maartje Damen | Diagrammer
+ Eda Akaltun | Journalist  
+ Siebren Meines | Puzzle solver
 
 ## Tutors
 

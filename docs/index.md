@@ -52,9 +52,9 @@ Also, the following design goals have been given:
 
 ## **_Why Apidae?_**
 
-This project is named Apidae --------------siebren have fun explaining
-
-Misschien als bedrijf schrijven? van dit kunnen wij dit willen wij bereiken met project apidae etc :D
+As architecture students we often do things for a reason, without even knowing whether it will actually work. We would design our building in a certain shape, to maximize the amount of sunlight coming into the building, but without any scientific evidence. Besides that, the architecture world is quite conservative. Change, no matter the improvement, takes a long time to be accepted. At the same time, the construction industry is worldwide responsible for 40% of the C02-emission [**[Source]**](https://www.scientias.nl/co2-uitstoot-van-de-bouw-bereikt-recordhoogte/#:~:text=Gebouwen%20en%20de%20bouw%20zorgen,van%20de%20bouw%20een%20recordhoogte).
+A change in the way we design and form our buildings is necessary. 
+This is where the apidae method comes into play. The apidae method scientifically substantiates design choices, makes the process more efficient and modular, while still giving the designer enough room for subjective choices.
 
 ## **_Phasing_**
 The documentation is divided in 4 phases:
@@ -64,13 +64,13 @@ The documentation is divided in 4 phases:
     (KPI, Program of Requirements, Diagrams) with the starting point as input. 
 
 * A2_Configuring:
-    --------------
+    Setting up the plot, determining voxel size
 
 * A3_Massing:
-    --------------
+    All the 
     
 * A4_Forming:
-    --------------
+    Shafts and corridors, Multi criteria, Polygonization
 ```
 
 
