@@ -1,23 +1,23 @@
 <img src="/img/midterm/lowreshighres.png" style="width:280px;">
 
 
-1<img src="/img/finalscreenshots/0.0_basecontext.png" style="width:280px;">
+1<img src="img/finalscreenshots/0.0_basecontext.png" style="width:280px;">
 
-2<img src="/img/finalscreenshots/0.0_mesh.png" style="width:280px;">
+2<img src="img/finalscreenshots/0.0_mesh.png" style="width:280px;">
 
-3<img src="/img/finalscreenshots/0.1_fulllattice.png" style="width:280px;">
+3<img src="img/finalscreenshots/0.1_fulllattice.png" style="width:280px;">
 
-4<img src="/img/finalscreenshots/2.0_skyaccess.png" style="width:280px;">
+4<img src="img/finalscreenshots/2.0_skyaccess.png" style="width:280px;">
 
-5<img src="/img/finalscreenshots/2.0_skyview.png" style="width:280px;">
+5<img src="img/finalscreenshots/2.0_skyview.png" style="width:280px;">
 
-6<img src="/img/finalscreenshots/2.1.0_selection.png" style="width:280px;">
+6<img src="img/finalscreenshots/2.1.0_selection.png" style="width:280px;">
 
-7<img src="/img/finalscreenshots/2.1.1_removed.png" style="width:280px;">
+7<img src="img/finalscreenshots/2.1.1_removed.png" style="width:280px;">
 
-8<img src="/img/finalscreenshots/2.2_newfulllattice.png" style="width:280px;">
+8<img src="img/finalscreenshots/2.2_newfulllattice.png" style="width:280px;">
 
-9<img src="/img/finalscreenshots/3.1.0_sunaccess.png" style="width:280px;">
+9<img src="img/finalscreenshots/3.1.0_sunaccess.png" style="width:280px;">
 
 10<img src="/img/finalscreenshots/3.1.2_shadow.png" style="width:280px;">
 
