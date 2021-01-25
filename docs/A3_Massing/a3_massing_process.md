@@ -1,7 +1,7 @@
 <img src="/img/midterm/lowreshighres.png" style="width:280px;">
 
 
-1<img src="img/finalscreenshots/0.0_basecontext.png" style="width:280px;">
+1<img src="docs/img/finalscreenshots/0.0_basecontext.png" style="width:280px;">
 
 2<img src="img/finalscreenshots/0.0_mesh.png" style="width:280px;">
 
