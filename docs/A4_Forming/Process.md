@@ -25,6 +25,8 @@ The same we did for all the glass.
 
  ![title](../../../img/Tile sets_glass.png) 
 
+ <span style="color: #76AB24;">* We didn't succeed to succesfully aply the tileset for the balconies. The lattice almost becomes like a checkerboard, and therefore the Boolean Marching Cubes algorithm doesn't recognize a lot of corners.*</span>
+
 ### Pseudo code
 
 ``` Python
