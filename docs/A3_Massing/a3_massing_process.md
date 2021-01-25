@@ -1,7 +1,9 @@
 <img src="/img/logo/apidae_black.png" alt="collective" style="width:280px;"> 
 <center> <img src="/img/logo/apidae_with_text.png" alt="collective" style="width:600px;"> </center>
 
-<img src="/img/midterm/lowreshighres.png" style="width:280px;">
+A <img src="/img/midterm/lowreshighres.png" style="width:280px;">
+B <img src="https://cdn.discordapp.com/attachments/784009094474366977/803248102412779550/entrances.jpg" style="width:280px;">
+C <img src="https://cdn.discordapp.com/attachments/784009094474366977/803249271100014612/unknown.png" style="width:280px;">
 
 1<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/0.0_basecontext.png?raw=true" style="width:280px;">
 
@@ -127,7 +129,9 @@ Although these scripts are functional, there are still some improvements that co
         o	As of now a threshold is specified to remove voxels from the envelope based on the percentage of time these voxels cast shadow and block skylight from the context. However it would be an improvement if the voxels are removed based on the effect they have on the context. If a voxel casts a shadow on the context 50% of the time, this could mean that it causes it on a different building each time, meaning that although the voxel looks “bad”, the net result on the context is negligible. This calculation should also be taken into the growth model (link to growth model). This does mean this script will become even more heavy as it now has to calculate the shadow and skylight blocking each time it grows as well. To solve this, the growth model could be normally ran at first, and then after it has finished going through an evaluation loop to check the shadow and skylight blocking on the context. 
 
 
-## noise
+## Quietness
+To calculate the quietness noise in the building in relation to it’s context a path with noise points on it is loaded inside a script. Each voxel then calculates the distance from the voxel centroid towards the noise point. These distances are added together and converted into a ratio. This script is actually more about business on street level than about quietness, since it imports noise points and not actual decibels from areas. This does not matter too much, since noise could be filtered from a building by adding more insulation and the relative quietness matters more than the actual numbers in decibels.
+
 
 ## greenery
 <img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/midterm/greenery.png?raw=true" style="width:280px;">
@@ -159,23 +163,77 @@ The following criteria have been implemented in the agent based simulation:
 
 
 ## Configuring spaces to workable values
-In order to implement the design criteria as mentioned before, those had to been converted to workable values. The values have been written for each space versus the criteria varying from 0 to 1. 0 indicates no connection, 1 indicates a strong connection. This has been applied for the following criteria: matrix based relations between spaces, sun access, entrance distance for public, housing, gym, parking and communal spaces, skyview, greenery and noise. 
+In order to implement the design criteria as mentioned before, those had to be converted to workable values. The values have been written for each space versus the criteria varying from 0 to 1. 0 indicates no connection, 1 indicates a strong connection. This has been applied for the following criteria: matrix based relations between spaces, sun access, entrance distance for public, housing, gym, parking and communal spaces, skyview, greenery and noise. 
 
 For the space heights and space areas a different approach had to be made since those are hardcoded criteria coming from the Program of Requirements. Hence, those explained in the next paragraph. 
 
-### Space heights to stencils Tim __> explain different stencil
-explain why we are using different stencils 
+### Space heights to stencils 
+In order to implement the height differences of spaces given from the Porgram of Requirements into the Apidae method, the initial given stencil (see left stencil in the picture below) has been expanded in the z axes. In the code, this has been done for 1, 2, 3, 4 and 5 voxels high. The highest stencil is 5 x 1.8m = 9 meters into the z axis and 1.8m on the x and y axis.
+
+<img src="https://cdn.discordapp.com/attachments/784009094474366977/803249271100014612/unknown.png">
+
+The creation of the new stencils can be created with the following piece of code:
+In this piece of code new neighbours have been defined for the stencils that need to be higher than 1.8m. For example, s_2 has it's z axis neighbor now set at 2 high. Beware that later in the growth model, the occupation has to be adjusted accordingly.
+
+```python
+# creating neighborhood definition for stencil that is 1.8m high
+s_1 = tg.create_stencil("von_neumann", 1, 1)
+
+# setting the center to zero
+s_1.set_index([0,0,0], 0)
+
+#####################################################################
+# skipping s_2, s_3, s_4 for this example because it's the same way
+#####################################################################
+
+# creating neighborhood definition for stencil that is 9m high
+s_5 = tg.create_stencil("von_neumann", 1, 5)
+# setting the center to zero
+s_5.set_index([0, 0, 0], 0)
+s_5.set_index([0, 0, 1], 0)
+s_5.set_index([0, 0, 5], 1)
+s_5.set_index([0, 0,-1], 0)
+s_5.set_index([0, 0,-5], 1)
+
+# setting the center to zero
+s_5.set_index([0,0,0], 0)
+
+# listing the stencils in order to make them correspond later with the spaces and their height requirement
+stencils = [s_1, s_2, s_3, s_4, s_5]
+```
 
 ### Space areas to voxel amounts
 Based on the program of requirements, the required space sizes have been coverted to amount of necessary voxels to meet the area requirement and therefore fulfil it. This has been implemented in the script to maintain the desirded area per spaces, and has been used to limit the growth of the agents. 
+From the Program of Requirements the room areas can be obtained, and by giving every space a stencil id according to the desired free height (as explained before how the desired height can be implemented) the total amount of voxel necessary for the space to grow towards can be determined. This can be done with the following piece of code:
 
-Explain how script works.
+```python
+# max voxel count per space (here we do the stencil type + 1 
+#times the amount of area needed in order to obtain the total amount of voxels that need to be occupied by the script)
+# pick room area data
+a_room_vox = agn_prefs["room_area"]
+# pick stencil id's and do +1 because we start with 0 instead of 1 (id 2 would have stencil 3 high otherwise)
+a_room_stencil = agn_prefs["stencil_id"] + 1
+# obtain the max amount of voxels needing to be occupied by doing the room area times the height of the space (stencil)
+a_room_voxels = a_room_stencil * a_room_vox
+# print in order to check below if you obtain correct values
+print(a_room_voxels)
+``` 
+Which gives the following table that can be used later in the growth model:
+<img src="https://cdn.discordapp.com/attachments/784009094474366977/803255219545964564/unknown.png">
 
 ### Definitive program table result (input for generative relations simulation)
-The following table has been made based on the agent criterias, this has been used in the definitive script for generating the agent based design. 
+The following table has been made based on the agent/space criterias, this has been used in the definitive script for generating the agent based design. 
+
+4 kinds of values are included next to the agent/space names and space id's:
+1. [blue] Desire to closeness to given entrance (0 to 1)
+2. [yellow] Desire for high values of the given analysis (0 to 1)
+3. [green] Necessary data from the program of requirements (imput specific values)
+4. [grey] Desire to be close to given agent/space (0 to 1)
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRBfjaAFNv4mAaDcMxI9AJf91QjGnhEDCYvvPLZC6GWHoceZO_pG81HI14bg5hD9g/pubhtml?gid=1256579589&amp;single=true&amp;widget=true&amp;headers=false"style="width:150%; height:600px;"></iframe>
 
 ### The simulation
 
 <iframe src="https://thumbs.gfycat.com/LittleAdmiredBufeo-size_restricted.gif" style="width:150%; height:400px;" frameborder="0"></iframe>
+
+
