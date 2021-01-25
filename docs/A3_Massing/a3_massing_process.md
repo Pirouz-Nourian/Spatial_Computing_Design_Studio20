@@ -74,19 +74,22 @@
 
 31<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/7.0_time0.png?raw=true" style="width:280px;">
 
-32<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/7.0_time100.png" style="width:280px;">
+32<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/7.0_time100.png?raw=true" style="width:280px;">
 
-33<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/7.0_time500.png" style="width:280px;">
+33<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/7.0_time500.png?raw=true" style="width:280px;">
 
 34<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/7.0_time1000.png?raw=true" style="width:280px;">
 
-35<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/7.0_time2500.png" style="width:280px;">
+35<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/7.0_time2500.png?raw=true" style="width:280px;">
 
 36<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/midterm/trap.jpg?raw=true" style="width:280px;">
+
 37<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/midterm/TRAP_2.jpg?raw=true" style="width:280px;">
 
 38 <iframe src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/growthgif.gif?raw=true" style="width:150%; height:400px;" frameborder="0"></iframe>
+
 39 <iframe src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/ezgif-3-5e6cbec2a182.gif" style="width:150%; height:400px;" frameborder="0"></iframe>
+
 40 <iframe src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/calcgifs.gif?raw=true" style="width:150%; height:400px;" frameborder="0"></iframe>
 
 
