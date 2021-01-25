@@ -34,6 +34,7 @@ nav:
       - Folder Structure: "documenting/folder_structure.md"
       - Guidelines: "documenting/guidelines.md"
   - Quotes: "quotes.md"
+  - Reflection: "reflection.md"
 
 theme: 
   name: material

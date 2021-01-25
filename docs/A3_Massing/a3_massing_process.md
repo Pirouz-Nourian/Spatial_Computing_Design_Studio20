@@ -99,6 +99,12 @@ Based on the ladybug sunpath the solar and shadow envelope are calculated in one
 
 <center> <img src="https://cdn.discordapp.com/attachments/775754717346791494/803300922296893470/sun_and_shadow_hoofdstuk_3_sun_and_shadow.jpg"></center>
 
+<center> <img src="https://cdn.discordapp.com/attachments/775754717346791494/801507207664762950/sun.png"></center>
+*Sun calculation*
+
+<center> <img src="https://cdn.discordapp.com/attachments/775754717346791494/801507211003822190/shadow.png"></center>
+*Shadow calculation*
+
 
 ### Lowres size decisions
 In the first run of the interpolated shadow file,  a lowres envelope of 2 voxels high was used. This resulted in the shadow casting calculation becoming much to generalized. In this situation it would see the entire bottom half of the building as not casting shadow on the neighbouring buildings, thus not showing them in the shadow casting and only showing the top half of the building in the visualisation. To solve this problem a lowres envelope of 3 voxels high was used. This resulted in a visualisation of the entire envelope. 
@@ -155,38 +161,38 @@ ________________________________________________
 ## Entrances and distance lattices to these entrances
 For this script, a design decision is needed in regards to the placement of the entrances. For this, the following site analysis has been made: 
 
-<img src="https://cdn.discordapp.com/attachments/784009094474366977/803248102412779550/entrances.jpg" style="width:700px;">
+<img src="https://cdn.discordapp.com/attachments/784009094474366977/803248102412779550/entrances.jpg">
 
 As is shown, the accessibility from the city centre is highest on the south and westside of the plot. The main connection with the city centre is the route from the south, via the Luchtsingel and the Hofbogen. To expand the atmosphere of this vivid area, the public functions should have short distance to this place. By placing them across the old metroline along the westside of the plot, the street ambiance will get a new boost, the old metroline can be made in good use and an extension of the vivid street scenery from the city centre is then generated. 
-To make this work, a distance lattice is being made. the distance is calculated from all streetlevel voxels that are along this street. This would attract all functions that care about being close to this public entrance strip; fablabs, café pub restaurant, arcade, shop, co-working spaces and startup office. By not giving them a set entrance, there stays room for these functions to not only grow towards one set entrance but it gives them a range of places where they can grow with considering other important values.  
+To make this work, a distance lattice is being made. the distance is calculated from all streetlevel voxels that are along this street. This would attract all functions that care about having a public entrance; fablabs, café pub restaurant, arcade, shop, co-working spaces and startup office. By not giving them a determined entrance, there stays room for these functions to not only grow towards this set location but it gives them a range of places where they can grow with consideration of other values.  
 As the accessibility from the city centre is also high for the eastside of the building, this could function as a more private, yet highly used entrance side. All communal functions could be located here, as well as the main housing entrances and the gym. For these functions, a few different lattices are generated, as the housing access needs a number of set location on different sides of the building, and the community centre entrance is set next to this housing entrance to have a entrance that brings people together.
 For the parking entrance, the location that has been chosen is close to the housing entrance, yet it should minimize car traffic in the neighbourhood and is therefore determined on the very east side of the building, close to bigger streets. 
 For each lattice, a distance graph is generated for all voxels within the envelope. To minimize these calculations it is done over a bigger voxelsize. After generating this graph, the specific entrance voxels are selected, and with these voxels of interest a distance lattice is generated. After normalizing, interpolation takes place to translate all values to the actual voxelsize that is being used. 
 
 
-<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/3.3_lattice_public_entrances.png?raw=true" style="width:280px;">
+<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/3.3_lattice_public_entrances.png?raw=true">
 
 *distance lattice public entrance*
 
-<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/3.4_lattice_gym.png?raw=true" style="width:700px;">
+<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/3.4_lattice_gym.png?raw=true">
 
 *distance lattice gym*
 
-<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/3.5_lattice_parking_entrance.png?raw=true" style="width:700px;">
+<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/3.5_lattice_parking_entrance.png?raw=true">
 
 *distance lattice parking entrance*
 
-<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/3.6_lattice_housing.png?raw=true" style="width:700px;">
+<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/3.6_lattice_housing.png?raw=true">
 
 *distance lattice housing entrances*
 
-<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/3.7_lattice_comcen_entrance.png?raw=true" style="width:700px;">
+<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/3.7_lattice_comcen_entrance.png?raw=true">
 
 *distance lattice community centre*
 
 ### Improvements 
-To make an even more accurate and generative design, the initial locations of the entrances should not be chosen by hand but determined in a calculation of accessibility of the plot. This would be done by making an extensive model of all surrounding streets: their bustle, their usability for different types of traffic, and their potential. This extensive model could not only be used for generating entrances, but also for a noise calculation to value all voxels based on the traffic. 
-This more detailed way of locating an entrance should only be implemented during the growth model, so closeness of other entrances would be taken into account for generating the wished for street ambiance
+To make an even more accurate and generative design, the initial locations of the entrances should not be chosen by hand but determined in a calculation of accessibility of the plot. This would be done by making an extensive model of all surrounding streets: their bustle, their usability for different types of traffic and their potential. This extensive model could not only be used for generating entrances, but also for a noise calculation to value all voxels based on the traffic. 
+This more detailed way of locating an entrance should be implemented during the growth model, so closeness of other entrances would be taken into account for generating the wished for street ambiance
 
 ________________________________________________
 ## greenery
@@ -196,16 +202,16 @@ For the plot, 30% should be dedicated to becoming a greenspace. The location of 
 2.	By checking which ground level voxels would be most suitable for  greenery; checking for sun, noise and daylight, and also closeness to   certain functions.
 3.	By checking which ground level voxels are least useful for generating the building, and removing those from the growth model.
 
-The first one is a more classic architectural way of designing, and would therefore not fit in our ambitions to create a generative building. The second option would be very interesting. Only this calculation would be useless if the final form of the building would not be taken into account, so doing this the greenery should be part of the agent based model. Not only this, but the agent based model would need an iteration for the sun- and daylight blockage towards the greenery for every growth step, since the most hinder of sun- and daylight would be generated by buildings that are closest to the greenery, being the generative building itself. Next to that, also the voxel values that are above the selected greenery should be taken into account for each iteration. This because by placing a greenery voxel, all voxels above (or all voxels that do not leave a certain value of day-and sunlight available for the voxel) should be removed from the availability lattice. It would be a waste of valuable voxels if these voxels are very valuable, whilst the greenery voxel does not have that high of a value. there is need for a balance of value in voxels that are discarded because of the greenspace and voxels that are selected for greenspace. 
+The first one is a more classic architectural way of designing, and would therefore not fit in our ambitions to create a generative building. The second option would be very interesting. Only this calculation would be useless if the final form of the building would not be taken into account, so doing this the greenery should be part of the agent based model. Not only this, but the agent based model would need an iteration for the sun- and daylight blockage towards the greenery for every growth step, since the most hinder of sun- and daylight would be generated by buildings that are closest to the greenery, being the generative building itself. Next to that, also the voxel values that are above the selected greenery should be taken into account for each iteration. This because by placing a greenery voxel, all voxels above (or all voxels that do not leave a certain value of day-and sunlight available for the voxel) should be removed from the availability lattice. It would be a waste of good voxels if these voxels are very valuable, whilst the greenery voxel would be almost as satisfied with another voxel. There is need for a balance of value in voxels that are discarded because of the greenspace and voxels that are selected for greenspace. 
 Because of the complexity of this system and the lack of worth if not done well, this is not the method that has been executed. For this design, the last method was chosen, finding the average worth of each voxel and removing all voxels that have a low value. This should be done in a two dimensional way, because the greenery will occupy the full height if it takes the ground level voxel. 
  
 For each voxel, the multiplication of all values that are associated with that location are being taken. Then this value is being summed for all voxels in the z-direction, creating a two dimensional value for each location. After normalizing this value, it is copied to all z-voxels so if a value is lower than the threshold, all voxels in that z-direction are being removed. 
 
-<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/4.1_averagevoxelval.png?raw=true" style="width:700px;">
+<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/4.1_averagevoxelval.png?raw=true">
 
 By then determining the minimum voxel value that is needed to clear 30% of the location, all values that are lower are being removed and all other voxels are being multiplied with the availability lattice that had been generated based on shadow. This results in the final availability lattice, and in the space dedicated for greenery. 
 
-<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/4.2_new_avail_lattice.png?raw=true" style="width:700px;">
+<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/4.2_new_avail_lattice.png?raw=true">
 
 ### Evaluation of the location and the shape of the greenery 
 Because of the many entrances that have been generated at the more accessible side of the plot, the distance values of these voxels are relatively impactful for the average value lattice, leaving a low-valued space at the north of the plot. This directly results in a greenspace that is not as open-oriented, but that is more encapsulated behind the building and oriented towards local users. This fits in with our concept of the greenery, that would be a place for retreat and also a place to have a food garden for the neighbourhood and the communal kitchen. 
@@ -213,24 +219,27 @@ Because of the many entrances that have been generated at the more accessible si
 ### Improvements
 As has been stated in the decision for this type of greenery selection, a much more complex way of determining the location of the greenery would be possible, but a self-evaluation loop for sun- and daylight would be needed, as well as the implementation of current voxel value evaluation with implementation of the greenery voxel values. This would be very useful, but was not manageable within the given timeframe. 
 ________________________________________________
+
 ## Shafts and Corridors
 The shafts and corridors have been generated in a way that each floor has a network of corridors without any dead ends. 
 
-<img src="https://cdn.discordapp.com/attachments/784009094474366977/803313289912254514/depth_analysisTekengebied_1.png" style="width:700px;">
+<img src="https://cdn.discordapp.com/attachments/784009094474366977/803363005420011520/depth_analysis_graphTekengebied_1.png">
+
+<img src="https://media.discordapp.net/attachments/784009094474366977/803363007136137216/depth_analysis_legendTekengebied_1.png" style="width:400px;">
 
 As is shown in the depth analysis (a translation of the topological map, with the focus on connections to the street) it can be seen that all public functions have their own entrance, all communal functions are connected to the community centre and all housing functions are connected to the housing entrance. For this corridor generation these two connection-groups are the connections that are being used. Other connections are considered secondary, and are therefore not taken into account. 
 The division in functions (housing entrance and communal entrance) corresponds with the initial location of the functions, where all communal functions are located on the first two floors and the housing functions, along with the co-working spaces and the start-up offices, grow above this. This results in two types of corridor networks; one connecting all communal functions and all shafts to upper floors, and one connecting all functions that grow on the upper floors, along with the shafts.
 For the growth of the communal corridors, the initial seeds of these functions are being placed. Because the location of the shafts is more related to the location of the entrances than it is to the seeds of the voxels, the shafts are located based on these entrance locations.
 
-<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/6.3_shafts.png?raw=true" style="width:700px;">
+<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/6.3_shafts.png?raw=true">
 
 Instead of using the shafts as connections towards each seed, a list of each function seed is used. The shaft locations are then added to this list, and after generating a distance matrix the shortest path between each function in this list is then calculated. These shortest paths are calculated in a two-dimensional plane, and are then copied to all corresponding levels; voxels 1, 2 and 3 for the groundfloor level and voxels 4 and 5 for the second floor. 
 
-<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/5.1_corridors_groundfloor.png?raw=true" style="width:700px;">
+<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/5.1_corridors_groundfloor.png?raw=true">
 
 The same steps are being taken for the higher level functions, but in addition the height of the corridors is limited by the length of the shaft that it is connected to. This because the length of the shaft determines whether or not the floor is accessible. 
 
-<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/6.4_shafts_and_corridors.png?raw=true" style="width:700px;">
+<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/6.4_shafts_and_corridors.png?raw=true">
 
 ### Corridor evaluation
 Because the corridors are all connected, they limit the abm growth by enclosing voxel seeds and therefore we turned them off in this simulation. The location of the shafts led to the corridors growing along the border of the available voxels, occupying valuable space in the building.  The shafts itself are also along the border, but this is a design question that does not have a straightforward answer, as shaft locations differ in each building design. For this situation, a placement along the border had been chosen to minimize walking distance within the building. 
