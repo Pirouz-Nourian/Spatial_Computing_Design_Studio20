@@ -1,5 +1,7 @@
-<img src="/img/midterm/lowreshighres.png" style="width:280px;">
+<img src="../img/logo/apidae_black.png" alt="collective" style="width:280px;"> 
+<center> <img src="img/logo/apidae_with_text.png" alt="collective" style="width:600px;"> </center>
 
+<img src="/img/midterm/lowreshighres.png" style="width:280px;">
 
 1<img src="docs/img/finalscreenshots/0.0_basecontext.png" style="width:280px;">
 
@@ -73,6 +75,8 @@
 
 36<img src="/img/midterm/trap.jpg" style="width:280px;">
 37<img src="/img/midterm/TRAP_2.jpg" style="width:280px;">
+
+
 
 # Process of massing
 
