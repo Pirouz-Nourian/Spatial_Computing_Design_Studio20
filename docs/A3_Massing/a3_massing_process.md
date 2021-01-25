@@ -15,9 +15,9 @@
 
 7<img src="img/finalscreenshots/2.1.1_removed.png" style="width:280px;">
 
-8<img src="img/finalscreenshots/2.2_newfulllattice.png" style="width:280px;">
+8<img src="../img/finalscreenshots/2.2_newfulllattice.png" style="width:280px;">
 
-9<img src="img/finalscreenshots/3.1.0_sunaccess.png" style="width:280px;">
+9<img src="../img/finalscreenshots/3.1.0_sunaccess.png" style="width:280px;">
 
 10<img src="/img/finalscreenshots/3.1.2_shadow.png" style="width:280px;">
 
