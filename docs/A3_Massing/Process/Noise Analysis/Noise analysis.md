@@ -1,31 +1,38 @@
 # Noise analysis
 
+## Exterior noise
+
+Because our plot is located in the centre of a large city (Rotterdam) we need to be able to cope with noise. First of all we need to calculate the exterior noise to which our building will be exposed to. For this we, in the urban analysis, analyzed a map of the "Atlas van de leefomgeving". In here we saw that there is a busy road (Heer Bokelweg) within reach of 100 meters of the plot. The noise level of this road was 70 decibel. To represent this road in our notebook, we have placed several noise points at the location of the street and gave them a noise base level of 70. Thereafter we calculated the Euclidean distance from the road to the plot. TO calculate the noise lattice we used a formula of the book *Environmental Noise* by ... Because a road is a line source we used this formula: 
+
+Lp = LW - 10 log10 (r) – 5 dB
+
+## Noise lattice 
+
+![title](../../../img/noise_field.png)
+
+## Pseudo code
+
+``` python
+
+Input: Final envelope (high res)
+
+1. Import envelope lattice
+
+2. Load noise source points 
+
+3. Creation of Noise field
+Extract the coordinates of the centroids of the voxels
+Set a noise base level for the noise points
+Calculate the Euclidean distance between the centroids and the noise points 
+Compute the noise lattice with the noise base level and the Euclidean distance 
+
+Output: Noise field lattice
+
+
+```
+
+[Noise field full notebook](/spatial_computing_project_template/index/scripts/noise_field/)
+
 ## Interior noise
 
-With interior noise we mean the different amount of noise which could be produced by different functions. This is important in our case beceaus there are several function that allow a very small amount of noise. 
 
-![title](../../../img/Flowchart_interior_noise.png)
-
-We have implemented this again in a test case with a very small program. 
-
-<table><thead><tr class="header"><th>space_name</th><th>space_id</th><th>ent_rep</th><th>sun_rep</th><th>lobby_rep</th><th>library_rep</th><th>pub_rep
-
-</th></tr></thead><tbody><tr class="odd"><td>lobby</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0.5
-</th></tr></thead><tbody><tr class="odd"><td>library</td><td>1</td><td>0.5</td><td>1</td><td>0</td><td>0</td><td>1
-</th></tr></thead><tbody><tr class="odd"><td>pub</td><td>2</td><td>0</td><td>0.5</td><td>0.5</td><td>1</td><td>0
-</p></td></tr></tbody></table>
-
-
-![title](../../../img/W+2_mcda_seed_allocation_repel.PNG)
-
-As we can see in this visualization the pub does repel the library, which is eventually what we want.
-
-
-#### To do
-
--The code we used in the example uses graph distance, where we need Euclidean distance.
-
--If we want to use this code, we need to be able to combine it with the same code for attraction. We need to find a way to do this, because a value 0 on the scale of repel is still something totally different than a value 1 on the scale of attraction. 
-
-
-## Exterior noise

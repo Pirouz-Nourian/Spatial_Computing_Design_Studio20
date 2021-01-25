@@ -29,9 +29,12 @@ nav:
   - index:
       - scripts: 
           Voxelization: "index/scripts/Voxelization.ipynb"
+          Atrium allocation: "index/scripts/atrium allocation and green path finding.ipynb.ipynb"
           Shadow casting analysis: "index/scripts/shadow.ipynb"
           Visibility analysis: "index/scripts/visibility.ipynb"
           Sun access analysis: "index/scripts/sun.ipynb"
+          Green access analysis: "index/scripts/green.ipynb"
+          Noise analysis: "index/scripts/noise field.ipynb"
           Shafts and shortest paths: "index/scripts/corridors.ipynb"
       - Figures: "index/figures.md"
       - Presentations: "index/presentations.md"
