@@ -94,7 +94,7 @@ C <img src="https://cdn.discordapp.com/attachments/784009094474366977/8032492711
 
 40 <iframe src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/calcgifs.gif?raw=true" style="width:150%; height:400px;" frameborder="0"></iframe>
 
-
+________________________________________________
 # Process of massing
 
 ## Solar Simulation & Shadow Analysis
@@ -104,7 +104,7 @@ Based on the ladybug sunpath the solar and shadow envelope are calculated in one
 In the first run of the interpolated shadow file,  a lowres envelope of 2 voxels high was used. This resulted in the shadow casting calculation becoming much to generalized. In this situation it would see the entire bottom half of the building as not casting shadow on the neighbouring buildings, thus not showing them in the shadow casting and only showing the top half of the building in the visualisation. To solve this problem a lowres envelope of 3 voxels high was used. This resulted in a visualisation of the entire envelope. 
 
 <img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/midterm/lowreshighres.png?raw=true" style="width:280px;">
-
+________________________________________________
 ## Skylight & Skylight blocking
 This script is very similar to the Solar simulation, but instead of loading a sunpath, a sphere is created to represent points in the sky. For each voxel a ray is cast from the centroid of the voxel towards all the points in the sky.  If a ray is not intersected by the context, then this voxel receives skylight from this point. If the ray is intersected by the context, then the voxel does not receive skylight from this point. For all the voxel that have been hit, the rays that were shot towards the sky are reversed, to calculate the skylight blocking. If this ray intersects the context, then the voxel casts blocks skylight from the context. If the ray does not intersect the context, then the voxel does not block skylight from the context. Both the skylight and the skylight blocking envelope are then interpolated to a highres value, being of our voxel size.
 
@@ -121,7 +121,7 @@ To not cause too much shadow or block too much skylight from the context, the vo
 <iframe src="https://thumbs.gfycat.com/ValidImaginativeChihuahua-size_restricted.gif" style="width:150%; height:430px;" frameborder="0"></iframe>
 
 
-
+________________________________________________
 ##  Sun and Skylight improvements
 Although these scripts are functional, there are still some improvements that could be made. 
     -	Factoring the influence of voxels inside the envelope on the sun/skylight and shadow/ skylight blocking. 
@@ -132,11 +132,11 @@ Although these scripts are functional, there are still some improvements that co
 
 
 
-
+________________________________________________
 ## Quietness
 To calculate the quietness noise in the building in relation to its context a path with noise points on it is loaded inside a script. Each voxel then calculates the distance from the voxel centroid towards the noise point. These distances are added together and converted into a ratio. This script is actually more about business on street level than about quietness, since it imports noise points and not actual decibels from areas. This does not matter too much, since noise could be filtered from a building by adding more insulation and the relative quietness matters more than the actual numbers in decibels
 
-
+________________________________________________
 ## Entrances and distance lattices to these entrances
 For this script, a design decision is needed in regards to the placement of the entrances. For this, the following site analysis is being done: 
 
@@ -168,7 +168,7 @@ distance lattice community centre
 To make an even more accurate and generative design, the initial locations of the entrances should not be chosen by hand but determined in a calculation of accessibility of the plot. This would be done by making an extensive model of all surrounding streets: their bustle, their usability for different types of traffic, and their potential. This extensive model could not only be used for generating entrances, but also for a noise calculation to value all voxels based on the traffic. 
 This more detailed way of locating an entrance should only be implemented during the growth model, so closeness of other entrances would be taken into account for generating the wished for street ambiance
 
-
+________________________________________________
 ## greenery
 For the plot, 30% should be dedicated to becoming a greenspace. The location of this greenspace could be generated in three different ways: 
 
@@ -192,7 +192,7 @@ Because of the many entrances that have been generated at the more accessible si
 
 ### Improvements
 As has been stated in the decision for this type of greenery selection, a much more complex way of determining the location of the greenery would be possible, but a self-evaluation loop for sun- and daylight would be needed, as well as the implementation of current voxel value evaluation with implementation of the greenery voxel values. This would be very useful, but was not manageable within the given timeframe. 
-
+________________________________________________
 ## Shafts and Corridors
 The shafts and corridors have been generated in a way that each floor has a network of corridors without any dead ends. 
 <img src="https://cdn.discordapp.com/attachments/784009094474366977/803313289912254514/depth_analysisTekengebied_1.png" style="width:600px;">
@@ -221,11 +221,6 @@ For the shafts, a stencil should be used to occupy all voxels that would be occu
 
 ________________________________________________
 
-NOTEPAD FOR ABM ETC
-
-________________________________________________
-
-
 
 ## **KPI's to agent criteria** 
 explain what our criteria for the agents are and how they relate to the KPI's
@@ -240,11 +235,16 @@ The following criteria have been implemented in the agent based simulation:
 * Greenery (Sustainability)
 * Noise (Home quality) + (Collectivity) + (Sustainability)
 
-
+________________________________________________
 ## **Configuring spaces to workable values**
 In order to implement the design criteria as mentioned before, those had to be converted to workable values. The values have been written for each space versus the criteria varying from 0 to 1. 0 indicates no connection, 1 indicates a strong connection (Referencing back to the matrix from A1_Configuring). This has been applied for the following criteria: matrix based relations between spaces, sun access, entrance distance for public, housing, gym, parking and communal spaces, skyview, greenery and noise. 
 
 For the space heights and space areas a different approach had to be made since those are hardcoded criteria coming from the Program of Requirements. Hence, those explained in the next paragraph. 
+
+
+<iframe src="https://thumbs.gfycat.com/LittleAdmiredBufeo-size_restricted.gif" style="width:150%; height:295px;" frameborder="0"></iframe> [Midterm ABM growth simulation]
+
+
 
 ### **Space heights to stencils **
 In order to implement the height differences of spaces given from the Porgram of Requirements into the Apidae method, the initial given stencil for all agents (see left stencil in the picture below) has been expanded in the z axis. In the code, this has been done for 1, 2, 3, 4 and 5 voxels high. The highest stencil is 5 x 1.8m = 9 meters into the z axis and 1.8m on the x and y axis. The picture below shows, in the order of mention, the neighbors for a stencil that is 1.8m high, 3.6m high and 5.4m high.
@@ -300,7 +300,7 @@ print(a_room_voxels)
 Which gives the following table that can be used later in the growth model:
 
 <center> <img src="https://cdn.discordapp.com/attachments/784009094474366977/803255219545964564/unknown.png"></center>
-
+________________________________________________
 ## **Definitive program table result (input for generative relations simulation)**
 The following table has been made based on the agent/space criterias, this has been used in the definitive script for generating the agent based design. 
 
@@ -315,7 +315,11 @@ The given entrances for blue and given analysis for yellow are loaded in as csv 
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR3BSCNWlacKeNAtlluEjTCw5SMh3Tet-m3ixMxbSwR_aIhWDu0YJLZGvVQdgqWNg/pubhtml?gid=1634426511&amp;single=true&amp;widget=true&amp;headers=false"style="width:150%; height:600px;"></iframe>
 
-
+________________________________________________
+________________________________________________
+________________________________________________
+________________________________________________
+________________________________________________
 ________________________________________________
 
 # **The Generative Relations Simulation**
@@ -385,7 +389,7 @@ def mult_occupation(selected_neigh_3d_address, a_id, a_height, agn_locs, agn_src
 ### **Evaluation**
 The current evaluation part of the code measures if an agent is satisfied with the given evaluation value through the program table. If the agent is not satisfied, it allows the agent to grow towards better voxels, where less valuable voxels are swapped for better ones. If the agent is satisfied, it stays the same and stops growing once it reaches it's max area value. 
 
-The agent satisfaction has been tracked over the final result (2500 frames). With this data Panda tables have been made and visualized through graphs. This way, the agent satisfaction can be tracked without constantly having to look at the visualization and voxel growth manually. See graphs below for the results.
+The agent satisfaction has been tracked over the final result (2500 frames). With this data Panda tables have been made and visualized through graphs. This way, the agent satisfaction can be tracked without constantly having to look at the visualization and voxel growth manually. See graphs below for the results. The agent names correspond to their agent id.
 
 <center> <img src="https://cdn.discordapp.com/attachments/784009094474366977/803322582107029554/AySsljdNmbF9AAAAAElFTkSuQmCC.png"></center>
 
@@ -395,25 +399,14 @@ The agent satisfaction has been tracked over the final result (2500 frames). Wit
 
 
 
-### Improvement points 
-Improvement points
-Distance calculation and evaluation between spaces
-Departure departs 1 voxel instead of entire stencil height
-Less timeframes (calculations behind)
-Squareness (conditional neighbour or different stencil) 
-Stencil assigning per floor 
-Shafts and corridors implementation
-
-
+### **Improvement points**
+* Distance calculation and evaluation between spaces: 
 We werent able to implement distance calculations between spaces, so spaces do not pull on each other, in fact they are next to each other only because they have the same preferences. 
-
-Departure departs 1 voxel instead of entire stencil height right now
-
-It is better to find a way to do the frames code wise more efficiently since the current one has to be run the amount of voxels the biggest agent is. Which is kind of inefficient since maybe all others are already done halfway.
-
+* Less timeframes (calculations behind)
+It is better to find a way to do the frames code wise more efficiently since the current one has to be run the amount of voxels the biggest agent is. Which is kind of inefficient since maybe all others are already done halfway. 
+* Squareness (conditional neighbour or different stencil) 
 We weren’t able to implement squareness yet due to the time limit. This could have 2 ways: we could set conditions to the neighbours in order to do so or we could make bigger stencils in the x and y axes as cubes but that actually complicates things regarding neighbouring and occupying.
-
-Also we havent yet been able to implement specific stencils only for specific z coordinates, So the public spaces are now 5 z coordinate high stencils instead of one fo 3 that only grows 2 high stencils above itself. 
-
-Also it is important to combine shafts and corridors, but when we combined those 2 it made the ABM growth get stuck between corridors and not grow further (this happened because we dont want public spaces to grow above  a certain height) -> i personally think pathfinding between spaces after growing them could be the solution to this but this would mean we wouldnt have shortest paths and its a question whether we want to design spaces before giving them their pathing, or do we want an efficient pathing and then give them spaces.
-
+* Stencil assigning per floor 
+Also we havent yet been able to implement specific stencils only for specific z coordinates, So the public spaces are now 5 z coordinate high stencils instead of one fo 3 that only grows 2 high stencils above itself.
+* Shafts and corridors implementation
+It is important to combine shafts and corridors, but when we combined those 2, it made the agents get stuck between corridors and not grow further (this happened because we dont want public spaces to grow above  a certain height). 
