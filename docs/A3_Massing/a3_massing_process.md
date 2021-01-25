@@ -19,7 +19,7 @@
 
 9<img src="../img/finalscreenshots/3.1.0_sunaccess.png" style="width:280px;">
 
-10<img src="/img/finalscreenshots/3.1.2_shadow.png" style="width:280px;">
+10<img src="../img/finalscreenshots/3.1.2_shadow.png" style="width:280px;">
 
 11<img src="/img/finalscreenshots/3.2_quietness.png" style="width:280px;">
 
