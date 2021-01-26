@@ -1,40 +1,20 @@
 # Process of massing
 
-## Solar Simulation & Shadow Analysis
-Based on the ladybug sunpath the solar and shadow envelope are calculated in one file, since they have a largely corresponding step. To do so a cast a ray from the centroid of the voxel towards all the points on the sunpath. If a ray is not intersected by the context, then this voxel receives sunlight from this point. If the ray is intersected by the context, then the voxel does not receive sunlight from this point. For all the voxel that have been hit, the rays that were shot towards the sun are reversed, to calculate the shadow. If this ray intersects the context, then the voxel casts a shadow. If the ray does not intersect the context, then the voxel does not cast a shadow. Both the sunlight and the shadow envelope are then interpolated to a highres value, being of our voxel size. 
+For generating the building, a concatenation of code is needed. To visualize this, a flowchart is generated visualizing the final configuration process, showing all steps and connections. 
 
-<center> <img src="https://cdn.discordapp.com/attachments/775754717346791494/803300922296893470/sun_and_shadow_hoofdstuk_3_sun_and_shadow.jpg"></center>
+<iframe frameborder="0" style="width:100%;height:3000px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=endterm%20flowchart#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1Lfeg7-sNSGbExCiPKm857f5V9qonFM3n%26export%3Ddownload"></iframe>
 
-<center> <img src="https://cdn.discordapp.com/attachments/775754717346791494/801507207664762950/sun.png"></center>
-*Sun calculation*
+*configuration flowchart* 
 
-<center> <img src="https://cdn.discordapp.com/attachments/775754717346791494/801507211003822190/shadow.png"></center>
-*Shadow calculation*
+This process has four main steps: 
+1.	The calculation of the voxel values 
+2.	The selection of the aailable envelope
+3.	The placement of all functions in the envelope with the growth model 
+4.	The polygonization of the façade
 
+The first three steps are being explained on this page, whereas the elaboration on the polygonization is written in the massing process page. 
+The order of all explanations will follow the order in the flowchart. 
 
-### Lowres size decisions
-In the first run of the interpolated shadow file,  a lowres envelope of 2 voxels high was used. This resulted in the shadow casting calculation becoming much to generalized. In this situation it would see the entire bottom half of the building as not casting shadow on the neighbouring buildings, thus not showing them in the shadow casting and only showing the top half of the building in the visualisation. To solve this problem a lowres envelope of 3 voxels high was used. This resulted in a visualisation of the entire envelope. 
-
-<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/midterm/lowreshighres.png?raw=true">
-________________________________________________
-## Skylight & Skylight blocking
-This script is very similar to the Solar simulation, but instead of loading a sunpath, a sphere is created to represent points in the sky. For each voxel a ray is cast from the centroid of the voxel towards all the points in the sky.  If a ray is not intersected by the context, then this voxel receives skylight from this point. If the ray is intersected by the context, then the voxel does not receive skylight from this point. For all the voxel that have been hit, the rays that were shot towards the sky are reversed, to calculate the skylight blocking. If this ray intersects the context, then the voxel casts blocks skylight from the context. If the ray does not intersect the context, then the voxel does not block skylight from the context. Both the skylight and the skylight blocking envelope are then interpolated to a highres value, being of our voxel size.
-
-<img src="https://cdn.discordapp.com/attachments/775754717346791494/803300915749716088/skylight_and_skylight_blocking_hoofdstuk_3_skylight_and_skylight_blocking.jpg">
-
-<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/2.0_skyaccess.png?raw=true">
-
-*skylight access*
-
-
-<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/2.0_skyview.png?raw=true">
-
-*skylight blocking*
-
-### difference between shadow and solar
-The result of the shadow envelope, solar envelope, skylight envelope and skylight blocking envelope  are processed in 2 ways. Fundamentally our building should be of least disturbance for the surrounding area, so it would not make sense to keep voxels that cast too much shadow or block too much skylight. Therefore, the voxels that cast too much shadow and block too much skylight from the context are removed. 
-For the sun and skylight values a similar argument could be made. For sake of the building one could argue that only the voxels with the best sun and skylight access should be used. However, this would result in removing the voxels on the ground floor. Since building can’t float in the sky(yet), and for the accessibility of public functions its best to have them on the ground floor, the data of sunlight and skylight is stored inside the voxels for the growth model (link to growth model). 
- 
 
 
 ### Removing voxels
@@ -51,12 +31,7 @@ To not cause too much shadow or block too much skylight from the context, the vo
 
 *New envelope*
 
-###  Sun and Skylight improvements
-Although these scripts are functional, there are still some improvements that could be made. 
-    -	Factoring the influence of voxels inside the envelope on the sun/skylight and shadow/ skylight blocking. 
-        o	For the initial stage of storing data and removing voxels, solely using the influence of the context on the voxels to be blocking sun or skylight is sufficient. But for later stages when the building is generated (link to growth model), it would be an improvement to take the influence of light and shadow of voxels on each other. This would make that script even heavier, because it will have to calculate a light and shadow value each time it adds voxels. Besides that, a distinction should made with the outer voxels and inner voxels, to have some depth in the building. This depth should also be specified. To solve this, the growth model could be normally ran at first, and then after it has finished going through an evaluation loop to check the shadow and skylight blocking on the context.
-    -	Removing bad voxels based on the shadow the context receives instead of the percentage of the time voxels cause shadow.  
-        o	As of now a threshold is specified to remove voxels from the envelope based on the percentage of time these voxels cast shadow and block skylight from the context. However, it would be an improvement if the voxels are removed based on the effect they have on the context. If a voxel casts a shadow on the context 50% of the time, this could mean that it causes it on a different building each time, meaning that although the voxel looks “bad”, the net result on the context is negligible. This calculation should also be taken into the growth model (link to growth model). This does mean this script will become even more heavy as it now must calculate the shadow and skylight blocking each time it grows as well. To solve this, the growth model could be normally ran at first, and then after it has finished going through an evaluation loop to check the shadow and skylight blocking on the context. 
+
 
 
 

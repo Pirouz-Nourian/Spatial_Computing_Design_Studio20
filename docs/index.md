@@ -63,21 +63,20 @@ The documentation is divided in 4 phases:
     Preliminary spatial analysis on the site and idea proposal 
     (KPI, Program of Requirements, Diagrams) with the starting point as input. 
 
+    Formulate the design problems, form a programme of requirements, form a network, formulate your design principles and the idea (spatial sequences/experience/stories visible in a network).
+
 * A2_Configuring:
     Setting up the plot, determining voxel size
 
+    Formulate a spatial (topological) concept, design a modular circulation manifold on a pixel/voxel grid.
+
 * A3_Massing:
+    Logically place the functional spaces in between bridges within the building envelope.
+
     All the 
     
 * A4_Forming:
+    Document the process and products and provide explanations to ensure reusability of materials.
+    
     Shafts and corridors, Multi criteria, Polygonization
 ```
-
-
-
-Saving this for later";
-```
-<div style="line-height:150%;">
-    <br>
-</div>
-``` 

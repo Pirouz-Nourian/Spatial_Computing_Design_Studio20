@@ -7,10 +7,18 @@ nav:
       - Process: "A1_Planning/a1_planning_process.md"
       - Product: "A1_Planning/a1_planning_product.md"
   - A2_Configuring: 
-      - Process: "A2_Configuring/a2_configuring_process.md"
+      - Process: 
+        - Space criterias: "A2_Configuring/a2_configuring_Spacecriteria.md"
+        - Voxelsize determination: "A2_Configuring/a2_configuring_Determiningvoxelsize.md"
+        - Voxelizing the lattice: "A2_Configuring/a2_configuring_Voxelizingthelot.md"
       - Product: "A2_Configuring/a2_configuring_product.md"
   - A3_Massing:
-      - Process: "A3_Massing/a3_massing_process.md"
+      - Process:
+        - Intro: "A3_Massing/a3_configuring_intro.md"
+        - Spatial Analysis: "A3_Massing/a3_configuring_Spatial_Analysis.md"
+        - Designing the Lattice: "A3_Massing/a3_configuring_Designing_The_Lattice.md"
+        - Shafts and Corridors: "A3_Massing/a3_configuring_shafts.md"
+        - ABM Growth: "A3_Massing/a3_configuring_ABM_Simulation.md"
       - Product: "A3_Massing/a3_massing_product.md"
   - A4_Forming:
       - Process: "A4_Forming/a4_forming_process.md"

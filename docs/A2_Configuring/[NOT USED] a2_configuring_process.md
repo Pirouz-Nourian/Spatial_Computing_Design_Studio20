@@ -105,6 +105,21 @@ The following definitive Program of Requirements has been formed through the cho
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSmJnATJOBL1HdyT0rUhv993Z_nf_2vW9hOOsqYQvNYhO_EVGhiPI_OFTCAWAi-FQ/pubhtml?gid=1171988855&single=true" style="width:150%; height:600px;" frameborder="0">
 </iframe>
 
-## Voxelizing the given lot
-<center><img src="/img/finalscreenshots/0.0_mesh.png" style="width:280px;">
-<img src="/img/finalscreenshots/0.1_fulllattice.png" style="width:280px;"></center>
+## Voxelizing the lattice
+As the final voxelsize is determined, the location can be voxelized. The given 'compulsory envelope' is being filled with voxels sized 1.8m * 1.8m * 1.8m, which results in the full lattice. 
+
+<img src="https://cdn.discordapp.com/attachments/784009094474366977/803578469933252658/mesh.png">
+
+*compulsory envelope*
+
+<img src="https://cdn.discordapp.com/attachments/784009094474366977/803578468969086976/ful_lowres_lattice.png">
+
+*voxelized envelope* 
+
+
+
+Because of the relatively small voxelsize, next to this a second lattice is being generated, with voxelsizes of 15m *15m *15m. This 'low-resolution' lattice could later be used to make the more heavy calculations, and by interpolation of these values a good estimate of the 'high-resolution' voxels is being generated.  
+
+<img src="https://cdn.discordapp.com/attachments/784009094474366977/803578466447786074/ful_lattice.png">
+
+*low-resolution voxelized envelope*
