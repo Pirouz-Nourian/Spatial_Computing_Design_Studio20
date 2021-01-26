@@ -10,6 +10,8 @@ Lp = LW - 10 log10 (r) – 5 dB
 
 ![title](../../../img/noise_field.png)
 
+  <span style="color: #76AB24;">* As you can see in this visualization we used source points for the noise, though in the explenation above we came to the conclusion that a road is a line source. We weren't able to convert the source points.csv into a line source file.*</span>
+
 ### Pseudo code
 
 ``` python
