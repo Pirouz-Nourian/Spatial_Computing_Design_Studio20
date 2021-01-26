@@ -4,7 +4,7 @@
 
 Before we did any designing on a tileset we wanted to clarify on what parts of the facade we were going to distinguish between. We explained this in the diagram that you can see below. 
 
-![title](../../../img/Diagram_Facade_new.png)
+![title](../img/Diagram_Facade_new.png)
 
 After making sure knew what parts of the building will get a different facade we were easliy able to design some tile sets. As you can see in this diagram we do not differentiate between north, south, east or west but in different lattices with equal facades. Therefor we use the following symmetry stencil: 
 

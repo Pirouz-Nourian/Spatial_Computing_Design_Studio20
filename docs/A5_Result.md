@@ -2,7 +2,7 @@
 
 ### Plans
 
-The last part of our process are the results. We have created maps of the different type of living areas according to our voxelsize. Because they all consist of the same sizes the units can be used like a puzzle and over time, could be easily changed to different functions.
+The last part of our process are the results. We have created maps of the different type of living areas according to our voxelsize. Because they all consist of the same sizes the units can be used like a puzzle and over time, could be easily changed into different functions.
 
 ***Student room***
 

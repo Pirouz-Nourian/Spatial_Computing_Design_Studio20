@@ -1,6 +1,6 @@
 # Forming
 
-On this page you can see the vizualizations we made of our final building. 
+On this page you can see the vizualizations of our final building. 
 
 ![title](../img/FINAL_Renders_2.png)
 

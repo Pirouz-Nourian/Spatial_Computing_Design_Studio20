@@ -62,4 +62,4 @@ Output: final corridor lattice
 [Shortest path finding full notebook](/spatial_computing_project_template/index/scripts/corridors/)
 
 
- <span style="color: #76AB24;">*Even though we have tried to make the connections look as much as possible like the metronetwork, next time we think it would be better to make the shortest path algorithm more agent specific and not thinking so much in clusters. In this way every agent that has a connection in the metronetwork will have a connection in the form of a corridor *</span>
+ <span style="color: #76AB24;">*Even though we have tried to match the metro network with the corridors as much as possible, next time we think it would be better to make the shortest path algorithm more agent specific instead of using clusters. In this way every agent that has a connection in the metronetwork will have a connection in the corridor lattice *</span>
