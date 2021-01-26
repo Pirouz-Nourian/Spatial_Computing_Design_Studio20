@@ -50,6 +50,8 @@ Also, the following design goals have been given:
 * Social integration (Qualitative)
 * Rational spectra of privacy and community (Qualitative)
 ```
+
+The initial scripts can be found [here](https://github.com/shervinazadi/spatial_computing_workshops).
 ________________________________________________
 
 ## **_Why Apidae?_**

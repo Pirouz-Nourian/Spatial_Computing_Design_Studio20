@@ -61,7 +61,7 @@ theme:
   palette:
     scheme: slate
     primary: amber
-    accent: deep orange
+    accent: green
   features:
     - search.suggest
     - search.share
