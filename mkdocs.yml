@@ -1,4 +1,4 @@
-site_name: Spatial Computing Project
+site_name: The Green Valley
 
 nav:
   - Home: "index.md"
@@ -29,12 +29,12 @@ nav:
   - index:
       - scripts: 
           Voxelization: "index/scripts/Voxelize.ipynb"
-          Atrium allocation: "index/scripts/Green.ipynb"
+          Atrium allocation: "index/scripts/atrium_allocation.ipynb"
           Shadow casting analysis: "index/scripts/shadow.ipynb"
           Visibility analysis: "index/scripts/visibility.ipynb"
           Sun access analysis: "index/scripts/sun.ipynb"
-          Public entrance analysis: "" 
-          Green access analysis: "index/scripts/green.ipynb"
+          Public entrance analysis: "index/scripts/entrance_access.ipynb"
+          Green access analysis: "index/scripts/Green.ipynb"
           Noise analysis: "index/scripts/noise field.ipynb"
           Shafts and shortest paths: "index/scripts/corridors.ipynb"
           Agent based model: "index/scripts/abm.ipynb"          
