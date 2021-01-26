@@ -13,39 +13,86 @@ The system consists of 4 parts: the permanent structure and the adaptable facade
 <br><img src="../img/Modular system.PNG" width="400">
 
 #### Construction
-<img src="../img/exploded axo.png" width="300">
+<img src="../img/exploded axo_1.PNG" width="800">
 
-<u>Wooden joint</u>
-<br><img src="../img/joint.png" width="300">
+##### Wooden joint
+<br><img src="../img/joint.png" width="500">
 
-<u>Structure and Infill</u>
-<br><img src="../img/interior wall.png" width="300">
+##### Structure and Infill
+<br><img src="../img/interior wall_1.png" width="700">
 
+#### Modular interior tiles
+##### The tiling system
 
-#### Floorplan tiles
-<u>Houses:</u> 
-<br><img src="../img/V0_Coffeecorner and restaurants.PNG" width="500">
+<p>The tiles are created with an underlying system similar to that often seen
+in tile based board games. The square voxel is subdivided in three parts
+along each edge. One of these subdivisions is equal to the width of a
+small corridor or door.</p>
 
-<u>Offices and Workshops:</u>
+<p>These three parts are then labeled as either a door, wall or open space.
+By combining different tiles that match the corresponding edge types,
+different spaces can be created from simple tiles.</p>
+
+<p>By then also listing the function type of each tile, such as the entrance
+or kitchen (E & K), limitations and recommendations could be added to
+the code which tiles can connect to which tiles. Due to time limitations
+this is something that we have not developed yet, but could be an interesting concept for peers following this course over the following years.</p>
+
+<br><img src="../img/Tiles icon.jpg" width="500">
+
+##### Tiles
+###### Houses 
+<br><img src="../img/V0_Houses.PNG" width="600">
+
+###### Offices and Workshops
 <br><img src="../img/V0_Offices and workshops.PNG" width="300">
 
-<u>Coffeecorner and Restaurants:</u>
+###### Coffeecorner and Restaurants
 <br><img src="../img/V0_Coffeecorner and restaurants.PNG" width="300">
 
-<u>Library and shops:</u>
-<br><img src="../img/V0_Tiles_Library_Shops.PNG" width="500">
+###### Library and shops
+<br><img src="../img/V0_Tiles_Library_Shops.PNG" width="400">
 
-<u>Bathrooms and showers:</u>
-<br><img src="../img/V0_Bathroom.PNG" width="400">
+###### Bathrooms and showers
+<br><img src="../img/V0_Bathroom.PNG" width="350">
 
-<u>Underground parking and bikes:</u> 
+###### Underground parking and bikes
 <br><img src="../img/Underground Parking and bikes.PNG" width="500">
 
-<u>A few examples:</u>
+###### A few examples
 <br><img src="../img/V0_Example_1.PNG" width="300">
 <img src="../img/V0_Example_2.PNG" width="400">
 <img src="../img/V0_Example_3.PNG" width="400">
+<img src="../img/V0_Example_4.PNG" width="200">
+<img src="../img/V0_Example_5.PNG" width="150">
+<img src="../img/V0_Example_6.PNG" width="150">
 
-
-#### Flexible tiling 
+#### Facade tiles 
+##### The tiling system
 The facade tiles are designed to tile vertically and create patterns. Whenever new modules would be added to the structure, new tiles from different tile set could be used for each new addition. This way the building facade would enrich over time. It is another way to emphasize the building’s adaptability and long lifecycle.
+
+<img src="../img/computing-diagram_forming_time-development.png" width="600">
+
+##### Tile creation
+<img src="../img/Tile creation.PNG" width="700">
+
+##### Poligonization
+<img src="../img/computing-diagram_forming.png" width="600">
+
+<table><thead><tr class="header"><th>Pseudocode</th><th></th></tr></thead><tbody><tr class="odd"><td>Input</td><td>envelope lattice, several custom tile sets</td></tr><tr class="even"><td>Output</td><td><p>an .obj of a tiled facade</p></td></tr><tr class="odd"><td>Code</td><td>Load envelope lattice
+<br>Remove interior voxels by creating a Von Neumann stencil to detect
+neighbours 
+<br>Remove voxels whose neighbour count is <=5
+
+<p>Extract cube lattice from envelope lattice
+<br>Tile the envelope lattice with tileset1 
+<br>Select vertical slices in the lattice whose tiles to replace 
+<br>Tile selected slices with tileset 2</p>
+
+<p>Export tiled facades</p>
+
+</td></tr></tbody></table>
+
+##### Tiles voxelized envelope
+<img src="../img/Tiled voxelized envelope.PNG" width="700">
+

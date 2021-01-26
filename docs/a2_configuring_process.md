@@ -7,21 +7,28 @@ qualities.
 ![REL](../img/REL v2.png)
 
 #### Weights and preferences hierarchy
-<u>Growth hierarchy</u> 
-<br>According to our design strategy with privacy gradients and the decision
-to cluster functions around hubs, a hierachy of spaces arises. When the
-growth algorithm seeds and grows spaces, the matrix is used to look up
-which spaces should grow or “follow” which spaces. However, not every
-space finds it important to follow another. Some spaces are dependant on
-the location of the hubs but the hubs themselves are not affected by the
-spaces following them. This relationship indicated in the matrix by lack
-of symmetry across the diagonal.
+[Growth hierarchy](../pdf/hierarchy.pdf)
+<a href="../pdf/hierarchy.pdf" class="image fit"><img src="images/marr_pic.jpg" alt=""></a>
+<br>According to our design strategy with privacy gradients and the
+decision to cluster functions around hubs, a hierarchy of spaces
+arises. When the growth algorithm seeds and grows spaces, the
+matrix is used to look up which spaces should grow or “follow”
+which spaces. However, not every space finds it important to
+follow another. Some spaces are dependant on the location of
+the hubs but the hubs themselves are not affected by the spaces
+following them. This relationship indicated in the matrix by lack
+of symmetry across the diagonal. 
 
-<p>The following bubble diagram illustrates the meaning of this assymetry along the diagonal in the REL chart. For example, co-cooking area and community garden are connected in the metro diagram , this is also reflected in the REL chart. However, because the co-cooking area indicates that it would need to grow toards the garden, and garden does not iindicate any preference for growing towards the co-cooking, a hieracy arises : co-cokking follows garden, not the other way around.</p>
+<p>The following bubble diagram illustrates the meaning of this
+asymmetry along the diagonal in the REL chart. For example,
+the co-cooking area and community garden are connected in
+the metro diagram, this is also reflected in the REL chart. However, because the co-cooking area indicates that it would need
+to grow towards the garden, and the garden does not indicate
+any preference for growing towards the co-cooking, a hierarchy
+arises: co-cooking follows the garden, not the other way around.</p>
 ![Hierarchy](../img/hierarchy.png)
 
-[Hierarchy](../img/hierarchy.png)
-<a href="../pdf/hierarchy.pdf" class="image fit"><img src="images/marr_pic.jpg" alt=""></a>
+
 
 #### Voxel size 
 Having set design goals and user perspectives, we chose a voxel size that we consider multifunctional enough to form
@@ -43,18 +50,17 @@ spaces with different functions. This voxel size became a base for the voxel clo
 <img src="../img/stairs_3D.PNG" width="300"> 
 
 
-#### Notebook Flowchart 
+#### [Notebook Flowchart](../pdf/flowchart_notebooks.pdf)
 The computation process is reflected in the flowchart. 
 
 For optimization purposes, we used 3 lattices with different voxel sizes. The resulting data was always interpolated for
 our main lattice with voxel size 3240x3240.
 
-![Flowchart_notebooks](../img/Flowchart_notebooks.png)
+![Notebook Flowchart](../img/Flowchart_notebooks.png)
 
-[Flowchart_notebooks](../img/Flowchart_notebooks.png)
-<a href="../pdf/flowchart_notebooks.pdf" class="image fit"><img src="images/marr_pic.jpg" alt=""></a>
+#### [Computation Overview Flowchart](../pdf/Process flowchart_final.pdf)
 
-#### Computation Flowchart
+![Computation Flowchart](../img/Process_flowchart.PNG)
 
 ### Static data creation 
 #### Solar envelope

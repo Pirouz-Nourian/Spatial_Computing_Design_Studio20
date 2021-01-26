@@ -34,7 +34,7 @@ every voxel</p>
 
 </p></td></tr></tbody></table>
 
-#### Squareness 
+#### Spatial behaviours: Squareness 
 If there is the need for a space to be <strong>more rectangular<strong>, instead of free-form, the squareness algorithm can be used.
 
 ![Squareness](../img/Squareness.png)
@@ -54,7 +54,7 @@ If there is the need for a space to be <strong>more rectangular<strong>, instead
 
 </td></tr></tbody></table>
 
-#### Distance between functions 
+#### Spatial behaviours: Distance between functions 
 
 <img src="../img/keep distance.png" width="350">
 
@@ -70,7 +70,7 @@ If there is the need for a space to be <strong>more rectangular<strong>, instead
 <br>Sneighbours . append(neighbours-location)
 </td></tr></tbody></table>
 
-#### Maximum building depth
+#### Spatial behaviours: Maximum building depth
 
 | 1.          |  2.  |  3.  |
 :-------------------------:|:-------------------------:|:-------------------------:
@@ -87,7 +87,7 @@ If there is the need for a space to be <strong>more rectangular<strong>, instead
 <br>make remaining n+1th voxel <strong>unavailable</strong></p>
 </td></tr></tbody></table>
 
-#### Roof light 
+#### Spatial behaviours: Roof light 
 
 <img src="../img/roof_light.png" width="500">
 

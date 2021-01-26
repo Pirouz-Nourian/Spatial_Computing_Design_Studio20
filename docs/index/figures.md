@@ -27,7 +27,7 @@
 <br><img src="../../img/Metrodiagram.PNG" width="700">
 
 [Residential perspectives](https://sanderbentvelsen.github.io/spatial_computing_project_template/a1_planning_product/)
-<iframe src="../../pdf/Residential perspectives.pdf" style="width:100%; height:400px;" frameborder="0"></iframe>
+<br><img src="../../img/Residential perspectives.PNG" width="700">
 
 ##### Configuring
 
@@ -43,8 +43,11 @@
 [Stairs 3D](https://sanderbentvelsen.github.io/spatial_computing_project_template/a2_configuring_process/)
 <br><img src="../../img/stairs_3D.PNG" width="200">
 
-[Flowchart_notebooks](https://sanderbentvelsen.github.io/spatial_computing_project_template/a2_configuring_process/)
+[Flowchart notebooks](https://sanderbentvelsen.github.io/spatial_computing_project_template/a2_configuring_process/)
 <br><img src="../../img/Flowchart_notebooks.png" width="700">
+
+[Computation flowchart](https://sanderbentvelsen.github.io/spatial_computing_project_template/a2_configuring_process/)
+<br><img src="../../img/Process_flowchart.PNG" width="700">
 
 [Solar envelope in lattice](https://sanderbentvelsen.github.io/spatial_computing_project_template/a2_configuring_process/)
 <br><img src="../../img/Solar envelope in lattice.png" width="300">
@@ -192,16 +195,19 @@
 <br><img src="../../img/Modular system.PNG" width="400">
 
 [Construction](https://sanderbentvelsen.github.io/spatial_computing_project_template/a4_forming_process/)
-<br><img src="../../img/exploded axo.png" width="300">
+<br><img src="../../img/exploded axo_1.PNG" width="300">
 
 [Wooden joint](https://sanderbentvelsen.github.io/spatial_computing_project_template/a4_forming_process/)
 <br><img src="../../img/joint.png" width="300">
 
 [Interior wall](https://sanderbentvelsen.github.io/spatial_computing_project_template/a4_forming_process/)
-<br><img src="../../img/interior wall.png" width="300">
+<br><img src="../../img/interior wall_1.png" width="300">
+
+[Tiles icons](https://sanderbentvelsen.github.io/spatial_computing_project_template/a4_forming_process/)
+<br><img src="../../img/Tiles icon.jpg" width="500">
 
 [Tiles houses](https://sanderbentvelsen.github.io/spatial_computing_project_template/a4_forming_process/)
-<br><img src="../../img/V0_Coffeecorner and restaurants.PNG" width="300">
+<br><img src="../../img/V0_HOUSES.PNG" width="300">
 
 [Tiles offices and workshops](https://sanderbentvelsen.github.io/spatial_computing_project_template/a4_forming_process/)
 <br><img src="../../img/V0_Offices and workshops.PNG" width="300">
@@ -227,4 +233,23 @@
 [Tiles example 3](https://sanderbentvelsen.github.io/spatial_computing_project_template/a4_forming_process/)
 <br><img src="../../img/V0_Example_3.PNG" width="300">
 
+[Tiles example 4](https://sanderbentvelsen.github.io/spatial_computing_project_template/a4_forming_process/)
+<br><img src="../../img/V0_Example_4.PNG" width="200">
 
+[Tiles example 5](https://sanderbentvelsen.github.io/spatial_computing_project_template/a4_forming_process/)
+<br><img src="../../img/V0_Example_5.PNG" width="200">
+
+[Tiles example 6](https://sanderbentvelsen.github.io/spatial_computing_project_template/a4_forming_process/)
+<br><img src="../../img/V0_Example_6.PNG" width="200">
+
+[Computing diagram forming time development](https://sanderbentvelsen.github.io/spatial_computing_project_template/a4_forming_process/)
+<br><img src="../../img/computing-diagram_forming_time-development.png" width="500">
+
+[Tile creation](https://sanderbentvelsen.github.io/spatial_computing_project_template/a4_forming_process/)
+<br><img src="../../img/Tile creation.PNG" width="500">
+
+[Computing diagram](https://sanderbentvelsen.github.io/spatial_computing_project_template/a4_forming_process/)
+<br><img src="../../img/computing-diagram_forming.png" width="500">
+
+[Tiled voxelized envelope](https://sanderbentvelsen.github.io/spatial_computing_project_template/a4_forming_process/)
+<br><img src="../../img/Tiled voxelized envelope.PNG" width="500">

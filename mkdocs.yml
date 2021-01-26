@@ -14,6 +14,7 @@ nav:
   - Forming: 
       - Process: "a4_forming_process.md"
       - Product: "a4_forming_product.md"
+  - Reflection: "a5_reflection.md"
   - About: "about.md"
   - Index:
       - Scripts: "index/scripts.md"
@@ -22,10 +23,6 @@ nav:
       - Bibliography: "index/bibliography.md"
   - Notebooks:
     - Solar notebook: Notebooks/solar_studies.ipynb
-  - Documenting (TBR):
-      - Instructions: "documenting/instructions.md"
-      - Folder Structure: "documenting/folder_structure.md"
-      - Guidelines: "documenting/guidelines.md"
 
 theme:
   name: "material"
