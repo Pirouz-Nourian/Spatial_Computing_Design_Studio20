@@ -17,8 +17,7 @@ For Skylight all these steps are repeated, but instead of loading a sunpath, a s
 For the sun and skylight values a similar argument could be made as for the shadow and skylight blocking. For sake of the building one could argue that only the voxels with the best sun and skylight access should be used. However, this would result in removing the voxels on the ground floor. Since building can’t float in the sky (yet), and for the accessibility of public functions its best to have them on the ground floor, the data of sunlight and skylight is stored inside the voxels for the growth model (link to growth model).
 
 
-
-<center> <img src="https://cdn.discordapp.com/attachments/784009094474366977/803623386152566874/sun.png">
+<center><img src="https://cdn.discordapp.com/attachments/784009094474366977/803623386152566874/sun.png">
 
 *Sun availability calculation*</center>
 
