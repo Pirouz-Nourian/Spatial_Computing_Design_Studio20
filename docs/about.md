@@ -7,7 +7,7 @@ This web portal documents the design process made by group 2, which concludes th
 
 | Name | Role |
 | --- | --- |
-| Jiri | Puzzle Solver |
+| Jirri | Puzzle Solver |
 | Milou  | Journalist |
 | Nancy | Reflectionist |
 
