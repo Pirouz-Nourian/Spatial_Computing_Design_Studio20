@@ -98,6 +98,10 @@ The following table has been made based on the agent/space criterias, this has b
 
 The given entrances for blue and given analysis for yellow are loaded in as csv files. For the making of those csv files, address their corresponding script.
 
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR3BSCNWlacKeNAtlluEjTCw5SMh3Tet-m3ixMxbSwR_aIhWDu0YJLZGvVQdgqWNg/pubhtml?gid=1634426511&amp;single=true&amp;widget=true&amp;headers=false"style="width:150%; height:600px;"></iframe>
+
+
 ### **Housing plan modularity with stencils**
 
 A highly modular building needs to be adaptable and reusable for different functions over time. The standardised voxels are very suitable for generating this, but more importantly, they give freedom to generate many different housing plans. For the agent based model, an extra layer of information could be added by growing stencil-based for all housing, co-working spaces and start-up offices. 
@@ -124,8 +128,6 @@ The concept of these stencil-based growth is visualised in the picture above. Th
 
 Instead, simpler housing plans are generated. Still based on the voxel-sized plan, but with a standardisation for each housing unit, where there are just a few fixed stencils for each building. This is also not implemented in the growth model due to time limitations. 
  
-
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR3BSCNWlacKeNAtlluEjTCw5SMh3Tet-m3ixMxbSwR_aIhWDu0YJLZGvVQdgqWNg/pubhtml?gid=1634426511&amp;single=true&amp;widget=true&amp;headers=false"style="width:150%; height:600px;"></iframe>
 
 ________________________________________________
 
