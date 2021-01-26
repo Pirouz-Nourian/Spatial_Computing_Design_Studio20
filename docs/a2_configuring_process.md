@@ -10,9 +10,9 @@ qualities.
 [Growth hierarchy](../pdf/hierarchy.pdf)
 <a href="../pdf/hierarchy.pdf" class="image fit"><img src="images/marr_pic.jpg" alt=""></a>
 ![Hierarchy](../img/hierarchy.png)
-<img src="../img/REL_Explanation.PNG" width="500"> 
+<img src="../img/REL_Explanation.PNG" width="400"> 
 
-<br>According to our design strategy with privacy gradients and the
+According to our design strategy with privacy gradients and the
 decision to cluster functions around hubs, a hierarchy of spaces
 arises. When the growth algorithm seeds and grows spaces, the
 matrix is used to look up which spaces should grow or “follow”
