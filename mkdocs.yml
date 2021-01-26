@@ -29,18 +29,20 @@ nav:
   - index:
       - scripts: 
           Voxelization: "index/scripts/Voxelize.ipynb"
-          Atrium allocation: "index/scripts/atrium allocation and green path finding.ipynb.ipynb"
+          Atrium allocation: "index/scripts/Green.ipynb"
           Shadow casting analysis: "index/scripts/shadow.ipynb"
           Visibility analysis: "index/scripts/visibility.ipynb"
           Sun access analysis: "index/scripts/sun.ipynb"
+          Public entrance analysis: "" 
           Green access analysis: "index/scripts/green.ipynb"
           Noise analysis: "index/scripts/noise field.ipynb"
           Shafts and shortest paths: "index/scripts/corridors.ipynb"
+          Seed allocation and Agent growth: ""index/scripts/abm.ipynb"" 
       - Presentations: "index/presentations.md"
       - Film: "index/film.md"
       - Bibliography: "index/bibliography.md"
       - Figures: "index/figures.md"
-      
+
 theme:
   name: "material"
   palette:
