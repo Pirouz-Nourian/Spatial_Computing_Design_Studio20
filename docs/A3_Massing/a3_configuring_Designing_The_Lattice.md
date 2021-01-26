@@ -2,7 +2,7 @@
 For generating the final building, not all voxels are appropriate to use. In this simulation, the growth lattice is being limited by two factors. With generating the building the surroundings are taken into account, and decided is that the building may not cast too much shadow to buildings in the surrounding. Next to that, a limit on the used ground floor space is asked, as 30% of the plot should be reserved for greenery.
 
 
-### Sun and Skylight 
+### Shadow and Skylight blocking
 Based on the ladybug sunpath the shadow envelope is calculated. To do so a ray is cast from the centroids of all the voxel that have received sun, towards the context. If the ray does not intersect the context, then the voxel does not cast a shadow. The shadow envelope is then interpolated to a highres value. 
 
 

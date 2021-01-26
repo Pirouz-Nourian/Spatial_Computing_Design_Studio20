@@ -38,9 +38,8 @@ To give the building a varying appearance, instead of having the same look every
 
 <img src="https://cdn.discordapp.com/attachments/775754717346791494/803300928626753566/used_tiles_hoofdstuk_4_polygonisatie.jpg">
 
-<img src="https://cdn.diiscordapp.com/attachments/775754717346791494/803300920514314250/tiles_changing_hoofdstuk_4_polygonisatie.jpg">
+<img src="https://cdn.discordapp.com/attachments/775754717346791494/803627397932515333/tiles_changing_hoofdstuk_4_polygonisatie.jpg">
 
-<img src="https://cdn.discordapp.com/attachments/775754717346791494/803358655361187871/different_facade_pieces.jpg">
 
 
 This process is yet to be perfect, but the solutions seems to be not to far away. If the linkage between the textures+ texture coordinates and the generated tiles, the 2 extra subtiles are added, the usage of stencils is improved, this should be a good way to design the exterior of the building in a quick and modular way. 
