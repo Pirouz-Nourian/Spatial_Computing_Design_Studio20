@@ -15,4 +15,4 @@ In this vizualization you can see the several different distance lattices we hav
 ### Pseudo code
 
 
-[Public entrance analysis full notebook](..........)
+[Public entrance analysis full notebook](/spatial_computing_project_template/index/scripts/entrance_access/)

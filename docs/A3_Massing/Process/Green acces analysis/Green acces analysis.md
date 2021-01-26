@@ -30,4 +30,4 @@ Output: Distance lattice
 
 ```
 
-[Atrium allocation and green path finding full notebook](/spatial_computing_project_template/index/scripts/atrium_allocation_and_green_path_finding/)
+[Green access analysis full notebook](/spatial_computing_project_template/index/scripts/Green/)
