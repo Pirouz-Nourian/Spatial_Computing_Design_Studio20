@@ -28,7 +28,7 @@ nav:
   - About: "about.md"
   - index:
       - scripts: 
-          Voxelization: "index/scripts/Voxelization.ipynb"
+          Voxelization: "index/scripts/Voxelize.ipynb"
           Atrium allocation: "index/scripts/atrium allocation and green path finding.ipynb.ipynb"
           Shadow casting analysis: "index/scripts/shadow.ipynb"
           Visibility analysis: "index/scripts/visibility.ipynb"

@@ -49,7 +49,7 @@ Minimum of 105 parking places times 12,5 m². The total area, including the walk
 
 Now that we have a program we can start thinking of the analyses we want to apply on the building. The first step is to voxelize the optional envelope. Next, we came up with three different analyses, that will cause our building to change in size and create our final envelope. The following four analysis are important for achieving our design goal and to determine which area should be placed inside which voxels of this envelope. We will model the envelope based on the preferences and characteristics of the agents.
 
-<iframe src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1#G1HaQ5PTKyPxDFbxqR-wJ1XA5VJ8S4JyBo" width="640" height="480"></iframe>
+<iframe src="https://drive.google.com/file/d/1HaQ5PTKyPxDFbxqR-wJ1XA5VJ8S4JyBo/preview?resourcekey=null" width="640" height="480"></iframe>
 
 ## Relations
 
