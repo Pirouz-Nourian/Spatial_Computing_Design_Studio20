@@ -45,4 +45,4 @@ Output: Voxelized envelope atrium allocation and green path finding (high res)
 
 ```
 
-[Atrium allocation and green path finding full notebook](/spatial_computing_project_template/index/scripts/atrium_allocation_and_green_path_finding/)
+[Atrium allocation and green path finding full notebook](/spatial_computing_project_template/index/scripts/atrium_allocation/)
