@@ -69,4 +69,4 @@ neighbours
 
 ##### Tiles voxelized envelope
 <img src="../img/Tiled voxelized envelope.PNG" width="700">
-
+This voxelized envelope is from a previous iteration from the growth algorithm.

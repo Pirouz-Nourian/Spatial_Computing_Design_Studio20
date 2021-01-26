@@ -67,7 +67,9 @@ our main lattice with voxel size 3240x3240.
 #### Solar envelope
 >Create an envelope based on solar blockage
 
-The created envelope will be used as the base availability lattice on which all other calculations for static data and the growing of the agends are built upon. 
+The created envelope will be used as the base availability lattice on which
+all other calculations for static data and the growing of the agends are
+built upon
 
 <img src="../img/Solar envelope in lattice.png" width="500"> 
 
@@ -162,17 +164,17 @@ be on the ground floor.
 
 <img src="../img/Floor closeness in lattice.png" width="500"> 
 
-<table><thead><tr class="header"><th>Pseudocode</th><th></th></tr></thead><tbody><tr class="odd"><td>Input</td><td>Solar envelope</td></tr><tr class="even"><td>Output</td><td><p>Floor level preference</p></td></tr><tr class="odd"><td>Code</td><td><ul><li>Create a list of entries based on the height of the imported lattice</li>
-<li>Create a matrix that maps the neighbouring entries as if connected from
-bottom to top</li>
-<li>Select an entry as you would select a floor level (in the visualization it’s 0)</li>
-<li>Calculate the distance from that entry to every other one</li>
-<li>Map the values from 0 to 1, where 1 is the entry itself and 0 for the entry
+<table><thead><tr class="header"><th>Pseudocode</th><th></th></tr></thead><tbody><tr class="odd"><td>Input</td><td>Solar envelope</td></tr><tr class="even"><td>Output</td><td><p>Floor level preference</p></td></tr><tr class="odd"><td>Code</td><td><ul>Create a list of entries based on the height of the imported lattice
+<br>Create a matrix that maps the neighbouring entries as if connected from
+bottom to top
+<br>Select an entry as you would select a floor level (in the visualization it’s 0)
+<br>Calculate the distance from that entry to every other one
+<br>Map the values from 0 to 1, where 1 is the entry itself and 0 for the entry
 that is the furthest from the selected one. Then append them from
-bottom to top to in a one dimensional array</li>
-<li>Map this array along the z-axis of the entire imported lattice</li>
-<li>Multiply this newly created lattice with the solar envelope to set all
-unoccupied voxels to 0 and export it</li></ul></td></tr></tbody></table>
+bottom to top to in a one dimensional array
+<br>Map this array along the z-axis of the entire imported lattice
+<br>Multiply this newly created lattice with the solar envelope to set all
+unoccupied voxels to 0 and export it</ul></td></tr></tbody></table>
 
 <img src="../img/Ground floor preference.png" width="500"> 
 
@@ -180,24 +182,31 @@ unoccupied voxels to 0 and export it</li></ul></td></tr></tbody></table>
 #### Closeness to the facade (high resolution)
 >Ensure access to the facade
 
-This is another parameter to optimize the placement of spaces that need direct daylight or adjacency to the street. 
+This is another parameter to optimize the placement of spaces that need
+direct daylight or adjacency to the street.
 
 <img src="../img/closeness to facade.png" width="500"> 
 
-<table><thead><tr class="header"><th>Pseudocode</th><th></th></tr></thead><tbody><tr class="odd"><td>Input</td><td>Availability lattice, custom stencil</td></tr><tr class="even"><td>Output</td><td><p>Facade closeness lattice</p></td></tr><tr class="odd"><td>Code</td><td><p><li>Define stencil as Von Neumann neighborhood with top and bottom neighbors removed.</li>
-<li>Apply the stencil to the voxel envelope.</li>
-<li>Find the number of neighbors for each voxel in the lattice.</li></p>
+<table><thead><tr class="header"><th>Pseudocode</th><th></th></tr></thead><tbody><tr class="odd"><td>Input</td><td>Availability lattice, custom stencil</td></tr><tr class="even"><td>Output</td><td><p>Facade closeness lattice</p></td></tr><tr class="odd"><td>Code</td><td><p>Define stencil as Von Neumann neighborhood with top and bottom
+neighbors removed
+<br>Apply the stencil to the voxel envelope
+<br>Find the number of neighbors for each voxel in the lattice. </p>
 
-<p><li>Create a condition for boundary voxels, where the number of neighbors is < 4</li>
-<li>Check envelope with the condition, create a new envelope with only boundary voxels</li>
-<li>Create an adjacency matrix full of 0’s</li>
-<li><strong>For</strong> each available voxel in the envelope:<br>Fill in its neighbor’s ID’s in the adjacency matrix</li></p>
+<p>Create a condition for boundary voxels, where the number of neighbors
+is < 4, then select only the ground level voxels
+<br>Check envelope with the condition, create a new envelope with only
+boundary voxels
+<br><strong>For</strong> each available voxel inside a 2D slice of the envelope:
+<br>Append the ID’s of its neighbours to an adjacency list
+<br>Create a sparce matrix that contains the connectivity data</p>
 
-<p><li>Compute distances from all voxels to all voxels.</li>
-<li>Select the distances between boundary voxels and all other voxels.</li>
-<li>Find the minimum distance for all voxels to any boundary voxel.</li>
-<li>Add the minimum distance to the corresponding voxel value field.</li>
-<li>Map the field distance values from 0 - 1, where 0 is the furthest distance and 1 is the closest</li></p>
+<p>Compute distances from all boundry voxels to all other voxels in a 2D
+slice
+<br>Find the minimum distance for all boundry voxels the other voxels
+<br>Add the minimum distance to the corresponding voxel value field
+<br>Map the field distance values from 0 - 1, where 0 is the furthest distance
+and 1 is the closest
+</p>
 
 </td></tr></tbody></table>
 
@@ -207,24 +216,32 @@ This is another parameter to optimize the placement of spaces that need direct d
 
 >Orient for site accessability on a specific side
 
-Some spaces and entrances require access to a specific facade based on traffic routes and greenery on the site. While they need to be dajcent to the facade, they do not need to be fixed in a specific place. The data field is used to create axes on each facade, to let the program choose the best location on it.
+In accordance to pre-existing program, routes and greenery on the site,
+some spaces and entrances require access from a specific facade. By
+setting their preference to this facade, an axis is created along which the
+algorithm can seed the space.
 
 <img src="../img/closeness to specific facade.png" width="500"> 
 
-<table><thead><tr class="header"><th>Pseudocode</th><th></th></tr></thead><tbody><tr class="odd"><td>Input</td><td>Availability lattice, custom stencil</td></tr><tr class="even"><td>Output</td><td><p>Specific facade closeness lattice</p></td></tr><tr class="odd"><td>Code</td><td><p><li>efine stencil where only one voxel represents the neighborhood and this neighbor is oriented in the direction of the desired facade</li>
-<li>Apply the stencil to the voxel envelope.</li>
-<li>Find the number of neighbors for each voxel in the lattice.</li></p>
+<table><thead><tr class="header"><th>Pseudocode</th><th></th></tr></thead><tbody><tr class="odd"><td>Input</td><td>Availability lattice, custom stencil</td></tr><tr class="even"><td>Output</td><td><p>Specific facade closeness lattice</p></td></tr><tr class="odd"><td>Code</td><td><p>Define stencil as Von Neumann neighborhood with all but one neighbour
+removed
+<br>Apply the stencil to the voxel envelope
+<br>Find the number of neighbors for each voxel in the lattice</p>
 
-<p><li>Create a condition for specific facade boundary voxels, where the number of neighbors is < 1</li>
-<li>Check envelope with the condition, create a new envelope with only specific facade boundary voxels</li>
-<li>Create an adjacency matrix full of 0’s</li>
-<li><strong>For</strong> each available voxel in the envelope:<br>Fill in its neighbor’s ID’s in the adjacency matrix</li></p>
+<p>Create a condition for boundary voxels, where the number of neighbors
+is < 1, then select only the ground level voxels
+<br>Check envelope with the condition, create a new envelope with only
+boundary voxels
+<br><strong>For</strong> each available voxel inside a 2D slice of the envelope:
+<br>Append the ID’s of its neighbours to an adjacency list
+<br>Create a sparce matrix that contains the connectivity data</p>
 
-<p><li>Compute distances from all voxels to all voxels.</li>
-<li>Select the distances between boundary voxels and all other voxels.</li>
-<li>Find the minimum distance for all voxels to any specific facade boundary voxel</li>
-<li>Add the minimum distance to the corresponding voxel value field.</li>
-<li>Map the field distance values from 0 - 1, where 0 is the furthest distance and 1 is the closest to the specific facade</li></p>
+<p>Compute distances from all boundry voxels to all other voxels in a 2D
+slice
+<br>Find the minimum distance for all boundry voxels the other voxels
+<br>Add the minimum distance to the corresponding voxel value field
+<br>Map the field distance values from 0 - 1, where 0 is the furthest distance
+and 1 is the closest</p>
 
 </td></tr></tbody></table>
 

@@ -34,6 +34,10 @@
 [REL](https://sanderbentvelsen.github.io/spatial_computing_project_template/a2_configuring_process/)
 <br><img src="../../img/REL v2.png" width="700">
 
+[REL Explanation](https://sanderbentvelsen.github.io/spatial_computing_project_template/a2_configuring_process/)
+<br><img src="../../img/REL_Explanation.PNG" width="500">
+
+
 [Hierarchy](https://sanderbentvelsen.github.io/spatial_computing_project_template/a2_configuring_process/)
 <br><img src="../../img/hierarchy.png" width="700">
 
@@ -178,13 +182,13 @@
 [Simulation: corridors growth](https://sanderbentvelsen.github.io/spatial_computing_project_template/a3_massing_process/)
 <br><img src="../../img/corridors_4.png" width="300">
 
-[Floorplan](https://sanderbentvelsen.github.io/spatial_computing_project_template/a3_massing_process/)
+[Floorplan](https://sanderbentvelsen.github.io/spatial_computing_project_template/a3_massing_product/)
 <br><img src="../../img/Floorplan.PNG" width="500">
 
-[Legenda floorplan](https://sanderbentvelsen.github.io/spatial_computing_project_template/a3_massing_process/)
+[Legenda floorplan](https://sanderbentvelsen.github.io/spatial_computing_project_template/a3_massing_product/)
 <br><img src="../../img/Legenda_floorplan.PNG" width="500">
 
-[Floorplan 3D](https://sanderbentvelsen.github.io/spatial_computing_project_template/a3_massing_process/)
+[Floorplan 3D](https://sanderbentvelsen.github.io/spatial_computing_project_template/a3_massing_product/)
 <br><img src="../../img/axo.jpg" width="300">
 
 ##### Forming
