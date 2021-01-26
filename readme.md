@@ -24,7 +24,6 @@ The documentation is divided in 4 phases:
     (Spatial Analysis, Corridors and Shafts, Designing the lattice with voxel 
     removal and ABM growth)
 
-    
 * A4_Forming:
     Finalizing the results with polygonization and designing the borders of the voxels. 
     (Polygonization and renders)
