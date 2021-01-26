@@ -212,7 +212,7 @@ and 1 is the closest
 
 </td></tr></tbody></table>
 
-<img src="../img/Closeness to facade_icon.png" width="300"> 
+<img src="../img/Closeness to facade_icon.png" width="500"> 
 
 #### Closeness to a specific facade (high resolution)
 
@@ -246,7 +246,7 @@ and 1 is the closest</p>
 
 </td></tr></tbody></table>
 
-<img src="../img/Closeness to NE facade_icon.png" width="300"> 
+<img src="../img/Closeness to NE facade_icon.png" width="500"> 
 
 #### Quietness from street noise 
 >Orient according to traffic noise fall-off
