@@ -8,21 +8,21 @@ Based on the ladybug sunpath the shadow envelope is calculated. To do so a ray i
 
 For Skylight blocking all these steps are repeated, but instead of loading a sunpath, a sphere is created to represent the sky. Instead of shooting rays towards the sunpoints, the rays are being shot to the skypoints. 
 
-<center><img src="https://media.discordapp.net/attachments/785803868356476958/803590073899155456/shadow_and_skylight_blocking.jpg?width=948&height=670" style="width:280px;">
+<center><img src="https://media.discordapp.net/attachments/785803868356476958/803590073899155456/shadow_and_skylight_blocking.jpg?width=948&height=670">
 
 *method of skylight and sun blocking* </center>
 
 Fundamentally our building should be of least disturbance for the surrounding area, so it would not make sense to keep voxels that cast too much shadow or block too much skylight. Therefore, the voxels that cast too much shadow and block too much skylight from the context are removed.
 
-<center><img src="https://cdn.discordapp.com/attachments/775754717346791494/801507211003822190/shadow.png" style="width:280px;">
+<center><img src="https://cdn.discordapp.com/attachments/775754717346791494/801507211003822190/shadow.png">
 
 *Shadow calculation*
 
-<iframe src="https://thumbs.gfycat.com/ValidImaginativeChihuahua-size_restricted.gif" style="width:150%; height:430px;" frameborder="0"></iframe>
+<iframe src="https://thumbs.gfycat.com/ValidImaginativeChihuahua-size_restricted.gif" style="width:150%; height:295px;" frameborder="0"></iframe>
 
 *Threshold* 
 
-<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/2.2_newfulllattice.png?raw=true" style="width:280px;">
+<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/2.2_newfulllattice.png?raw=true">
 
 *New envelope*
 </center>

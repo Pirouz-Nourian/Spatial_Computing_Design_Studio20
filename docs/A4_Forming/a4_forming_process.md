@@ -11,10 +11,10 @@ The way the 152 pieces are sorted is done by a distance from the piece towards a
 <iframe frameborder="0" style="width:100%;height:193px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=Grasshopperscript.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1CGnwSmRQPMmgTsY0JmWY-r1alWDR8-cj%26export%3Ddownload"></iframe>
 
 ## symmetry = 152 pieces
-<img src="https://cdn.discordapp.com/attachments/775754717346791494/803293065761783848/152_pieces.jpg" style="width:280px;">
+<img src="https://cdn.discordapp.com/attachments/775754717346791494/803293065761783848/152_pieces.jpg">
 
 ## assymetry = more pieces 
-<img src="https://cdn.discordapp.com/attachments/775754717346791494/803293112804835328/160_pieces.jpg" style="width:280px;">
+<img src="https://cdn.discordapp.com/attachments/775754717346791494/803293112804835328/160_pieces.jpg">
 
 
 
@@ -22,11 +22,11 @@ The way the 152 pieces are sorted is done by a distance from the piece towards a
 Out of the possible 24 subtiles, it is only necessary to use 10 of them, the rest could be used for exceptions or when shapes are more complicated. In the 10 subtiles, there are 2 subtiles missing. There is no distinction between floor and roof and no distinction between roof corner and floor corner. As of now if when adding a railing to the roof of the building, this railing will also appear on the bottom of the building. 
 
 
-<img src="https://cdn.discordapp.com/attachments/775754717346791494/803358655361187871/different_facade_pieces.jpg" style="width:280px;">
+<img src="https://cdn.discordapp.com/attachments/775754717346791494/803358655361187871/different_facade_pieces.jpg">
 *different facade types*
 
 
-<img src="https://cdn.discordapp.com/attachments/775754717346791494/803363901935845486/polygonisatie_model.JPG" style="width:280px;">
+<img src="https://cdn.discordapp.com/attachments/775754717346791494/803363901935845486/polygonisatie_model.JPG">
 *polygonization model*
 
 
@@ -34,15 +34,13 @@ Out of the possible 24 subtiles, it is only necessary to use 10 of them, the res
 In the polygonization script itself, there are also still some challenges. Loading in textures and giving it to objects without making a mesh out of it works fine. But when the object file is made a mesh, it loses its texture coordinates. Our group managed to extract texture coordinates from an OBJ and give them to the object that is made a mesh in the jupyter notebook, but the link between textures + texture coordinates and the generated tiles from the subset is missing when exporting the final results or running everything through the poligonization script. Perhaps in the future another group can solve and implement this. 
 To give the building a varying appearance, instead of having the same look everywhere throughout the building, stencils were implemented. Due to our floors being 2 voxels high, this brought a challenge. To vary a floor from down to top, it was necessary to design a tileset for the top as well as the bottom of the floor. While selecting these singular voxels as a stencil, another problem appeared. When separating 1 voxel from a bigger number of voxels, it will change from being a wall, to being a corner. The design of the singular voxel will have to be placed on the corner now. Since there is no distinction in the subtiles between a top or a bottom corner, this singular voxel will be symmetrical in both directions. 
 
-<img src="https://cdn.discordapp.com/attachments/775754717346791494/803300933651791902/all_tiles_hoofdstuk_4_polygonisatie.jpg" style="width:280px;">
+<img src="https://cdn.discordapp.com/attachments/775754717346791494/803300933651791902/all_tiles_hoofdstuk_4_polygonisatie.jpg">
 
-<img src="https://cdn.discordapp.com/attachments/775754717346791494/803300928626753566/used_tiles_hoofdstuk_4_polygonisatie.jpg" style="width:280px;">
+<img src="https://cdn.discordapp.com/attachments/775754717346791494/803300928626753566/used_tiles_hoofdstuk_4_polygonisatie.jpg">
 
-<img src="https://cdn.diiscordapp.com/attachments/775754717346791494/803300920514314250/tiles_changing_hoofdstuk_4_polygonisatie.jpg" style="width:280px;">
+<img src="https://cdn.diiscordapp.com/attachments/775754717346791494/803300920514314250/tiles_changing_hoofdstuk_4_polygonisatie.jpg">
 
-<img src="https://cdn.discordapp.com/attachments/775754717346791494/803358655361187871/different_facade_pieces.jpg" style="width:280px;">
+<img src="https://cdn.discordapp.com/attachments/775754717346791494/803358655361187871/different_facade_pieces.jpg">
 
 
 This process is yet to be perfect, but the solutions seems to be not to far away. If the linkage between the textures+ texture coordinates and the generated tiles, the 2 extra subtiles are added, the usage of stencils is improved, this should be a good way to design the exterior of the building in a quick and modular way. 
-
-

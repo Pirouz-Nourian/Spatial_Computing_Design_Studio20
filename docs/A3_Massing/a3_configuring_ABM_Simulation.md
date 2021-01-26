@@ -103,8 +103,8 @@ The given entrances for blue and given analysis for yellow are loaded in as csv 
 # **The Generative Relations Simulation**
 After obtaining all the input necessary for the growth model (distance caltulations, solar simulations etc.) it is imporant to be able to make decisions based on that. For this, the script for the Multiple-criteria decision analysis for agents was used and further developed to our needs.  
 
-With the method explained before, the stencils and area calculations were made. The final ABM (Agent Based Model) growth script can be found here 
-(INSERT LINKKKKKKKKKKKKKKKKKKK)!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+With the method explained before, the stencils and area calculations were made. The final ABM (Agent Based Model) growth script can be found [here](https://edaakaltun.github.io/spatial_computing_project_template/notebooks/7_ABM_growth/). 
+
 
 ## **How it works**
 <center> <img src="https://cdn.discordapp.com/attachments/784009094474366977/803280396954370088/unknown.png"></center>
@@ -172,6 +172,8 @@ Different housing tiles are generated, that together carry all needed functions.
 <center><img src="https://cdn.discordapp.com/attachments/784009094474366977/803382410254614538/met_stencils_Pagina_1.jpg">
 
 *function stencil concepts: student housing and corridor*
+
+
 <img src="https://cdn.discordapp.com/attachments/784009094474366977/803382435085287454/met_stencils_Pagina_2.jpg">
 
 *conceptual configuration of the growth of housing units*

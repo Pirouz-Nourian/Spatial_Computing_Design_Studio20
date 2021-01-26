@@ -8,7 +8,7 @@ nav:
       - Product: "A1_Planning/a1_planning_product.md"
   - A2_Configuring: 
       - Process: 
-        - Space criterias: "A2_Configuring/a2_configuring_Spacecriteria.md"
+        - Space criteria: "A2_Configuring/a2_configuring_Spacecriteria.md"
         - Voxelsize determination: "A2_Configuring/a2_configuring_Determiningvoxelsize.md"
         - Voxelizing the lattice: "A2_Configuring/a2_configuring_Voxelizingthelot.md"
       - Product: "A2_Configuring/a2_configuring_product.md"
