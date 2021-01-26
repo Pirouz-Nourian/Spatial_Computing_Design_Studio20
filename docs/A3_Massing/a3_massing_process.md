@@ -8,7 +8,7 @@ For generating the building, a concatenation of code is needed. To visualize thi
 
 This process has four main steps: 
 1.	The calculation of the voxel values 
-2.	The selection of the aailable envelope
+2.	The selection of the available envelope
 3.	The placement of all functions in the envelope with the growth model 
 4.	The polygonization of the façade
 
