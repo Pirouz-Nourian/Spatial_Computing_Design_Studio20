@@ -1,7 +1,7 @@
 # Project Apidae
 <center> <img src="https://cdn.discordapp.com/attachments/784009094474366977/803614295744053258/unknown.png" alt="collective" style="width800px;"> </center>
 
-This is a project repository of Minor Spatial Computing 2020-2021, project group 1. The mid-term and Final submission's process, final products and underlying code/input can be found in this repository. 
+This is the project repository of Minor Spatial Computing 2020-2021, project group 1. The mid-term and Final submission's process, final products and underlying code/input can be found in this repository. 
 
 ## Folder Structure
 The documentation is divided in 4 phases:
