@@ -51,8 +51,7 @@ To not cause too much shadow or block too much skylight from the context, the vo
 
 *New envelope*
 
-________________________________________________
-##  Sun and Skylight improvements
+###  Sun and Skylight improvements
 Although these scripts are functional, there are still some improvements that could be made. 
     -	Factoring the influence of voxels inside the envelope on the sun/skylight and shadow/ skylight blocking. 
         o	For the initial stage of storing data and removing voxels, solely using the influence of the context on the voxels to be blocking sun or skylight is sufficient. But for later stages when the building is generated (link to growth model), it would be an improvement to take the influence of light and shadow of voxels on each other. This would make that script even heavier, because it will have to calculate a light and shadow value each time it adds voxels. Besides that, a distinction should made with the outer voxels and inner voxels, to have some depth in the building. This depth should also be specified. To solve this, the growth model could be normally ran at first, and then after it has finished going through an evaluation loop to check the shadow and skylight blocking on the context.
@@ -372,6 +371,8 @@ Evaluation over time for starter housing (16):
 ### **Improvement points**
 * Distance calculation and evaluation between spaces: 
 We werent able to implement distance calculations between spaces, so spaces do not pull on each other, in fact they are next to each other only because they have the same preferences. 
+* Further development of the evaluation
+The current evaluation does not take into account whether a specific voxel would've been more valuable for another kind of agent, so it does not assess already occupied voxels by agents other than itself. It only assesses itself. This could be one of the further improvements on the evaluation.
 * Less timeframes (calculations behind)
 It is better to find a way to do the frames code wise more efficiently since the current one has to be run the amount of voxels the biggest agent is. Which is kind of inefficient since maybe all others are already done halfway. 
 * Squareness (conditional neighbour or different stencil) 

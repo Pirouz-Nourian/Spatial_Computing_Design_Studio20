@@ -46,17 +46,6 @@ nav:
   - Quotes: "quotes.md"
   - Reflection: "reflection.md"
 
-
-theme: 
-  name: material
-  logo: img/logo/apidae_solo_black.png
-  favicon: img/logo/apidae.png
-  font:
-    text: Tajawal
-# material
-# windmill-dark
-  palette:
-
 theme: 
   name: material
   logo: img/logo/apidae_solo_black.png
