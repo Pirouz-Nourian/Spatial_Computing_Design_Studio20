@@ -4,8 +4,6 @@
 
 Before we dive into the several analyses we did, we first want to implement our concept into our model because this will substantially change the shape of our building.
 
-![title](../../../img/Flowchart_atrium.png)
-
 ### Envelope
 
  To do this we first allocated a voxel in the center of the building, by first calculating the length of the x-direction, and then calculating y-direction of the voxelized envelope, and dividing both by 2. The center of the building represents the heart and will eventually be the atrium. 
