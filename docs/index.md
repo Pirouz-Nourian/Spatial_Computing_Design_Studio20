@@ -67,7 +67,6 @@ The documentation is divided in 4 phases:
     (KPI, Program of Requirements, Diagrams) with the starting point as described 
     in this home page as input. 
 
-
 * A2_Configuring:
     Setting up the plot, determining voxel size. In principle, formulating the 
     spatial concept of the building.
@@ -80,7 +79,6 @@ The documentation is divided in 4 phases:
     (Spatial Analysis, Corridors and Shafts, Designing the lattice with voxel 
     removal and ABM growth)
 
-    
 * A4_Forming:
     Finalizing the results with polygonization and designing the borders of the voxels. 
     (Polygonization and renders)
