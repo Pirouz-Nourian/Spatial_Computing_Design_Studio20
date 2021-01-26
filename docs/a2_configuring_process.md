@@ -252,7 +252,7 @@ Initialize a distance lattice full of 0s
 
 </td></tr></tbody></table>
 
-<img src="../img/Quietness from street noise (2).png width="300"> 
+<img src="../img/Quietness from street noise3.png width="300"> 
 
 #### Entrance closeness
 >Ensure access to an entrance

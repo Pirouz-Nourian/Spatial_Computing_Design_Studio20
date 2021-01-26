@@ -42,9 +42,9 @@ The system consists of 4 parts: the permanent structure and the adaptable facade
 <br><img src="../img/Underground Parking and bikes.PNG" width="500">
 
 <u>A few examples:</u>
-<br><img src="../img/V0_Example_1.png" width="300">
-<img src="../img/V0_Example_2.png" width="400">
-<img src="../img/V0_Example_3.png" width="400">
+<br><img src="../img/V0_Example_1.PNG" width="300">
+<img src="../img/V0_Example_2.PNG" width="400">
+<img src="../img/V0_Example_3.PNG" width="400">
 
 
 #### Flexible tiling 
