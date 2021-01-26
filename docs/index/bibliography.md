@@ -9,19 +9,11 @@ Title | source
  Scientias | [source](https://www.scientias.nl/co2-uitstoot-van-de-bouw-bereikt-recordhoogte/#:~:text=Gebouwen%20en%20de%20bouw%20zorgen,van%20de%20bouw%20een%20recordhoogte)
  Maarec | [source](https://agdev.anr.udel.edu/maarec/honey-bee-biology/the-colony-and-its-organization/#:~:text=Honey%20bees%20are%20social%20insects,the%20multitude%20of%20solitary%20insects)
  Wikipedia | [source](https://en.wikipedia.org/wiki/Apidae)
- 
+ acoustic frontiers| [source](https://www.acousticfrontiers.com/wp-content/uploads/2015/03/17a-View-angle-plan.gif)
+ Wognai| [source](https://img.wongnai.com/p/1920x0/2019/05/02/3efb4ab0fcaf4ec9aa591c4e65618821.jpg)
+ Wognai| [source](https://img.wongnai.com/p/1920x0/2019/05/02/3efb4ab0fcaf4ec9aa591c4e65618821.jpg)
 
 
-
-
-
- [**1 Cinematheque**](https://www.acousticfrontiers.com/wp-content/uploads/2015/03/17a-View-angle-plan.gif)
-35 m2 for 15 people
-70 m2 for 30 people. There are big cinemas nearby, so therefore the community has a small cinematheque.
-
-[**2 Co-cooking**](https://img.wongnai.com/p/1920x0/2019/05/02/3efb4ab0fcaf4ec9aa591c4e65618821.jpg)
-Cooking in pairs (or more?); if full time used: 160 = 80 pairs. Assuming cooking around 16:00-20:00, 1 hour each pair: 80/4 = 20cooking units needed.
-per co-cooking unit 6m2 * 20 = 120 m2 + storage space 40 m2 + 15% = 190 m2
 
 [**3 Library**](https://www.planning.org/pas/reports/report241.htm)
 10 seats per 1k users. Community library: 217+4100 members = 43.17 seats. 
