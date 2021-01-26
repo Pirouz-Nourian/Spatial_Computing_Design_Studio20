@@ -39,8 +39,9 @@ spaces with different functions. This voxel size became a base for the voxel clo
     - Tread width: minimum is 220 mm
     - Head room: minimum is 2300 mm
 
-![stair_dimensions](../img/stair_dimensions.PNG)
-![stair_3D](../img/stairs_3D.PNG)
+<img src="../img/stair_dimensions.PNG" width="300"> 
+<img src="../img/stairs_3D.PNG" width="300"> 
+
 
 #### Notebook Flowchart 
 The computation process is reflected in the flowchart. 
