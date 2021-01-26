@@ -11,7 +11,7 @@ To generate these values, different computations are being made, and are being e
 Based on the ladybug sunpath the solar envelope is calculated. To do so a ray is cast from all the centroids of the voxels towards all the points on the sunpath. If a ray is not intersected by the context, then this voxel receives sunlight from this point. If the ray is intersected by the context, then the voxel does not receive sunlight from this point. This  envelope is then interpolated to a highres value. 
 
 For Skylight all these steps are repeated, but instead of loading a sunpath, a sphere is created to represent the sky. Instead of shooting rays towards the sunpoints, the rays are being shot to the skypoints. 
-<center> <img src="https://cdn.discordapp.com/attachments/785803868356476958/803590070753427486/sun_and_skylight.jpg> </center>
+<center><img src="https://cdn.discordapp.com/attachments/785803868356476958/803590070753427486/sun_and_skylight.jpg> </center>
 
 
 For the sun and skylight values a similar argument could be made as for the shadow and skylight blocking. For sake of the building one could argue that only the voxels with the best sun and skylight access should be used. However, this would result in removing the voxels on the ground floor. Since building can’t float in the sky (yet), and for the accessibility of public functions its best to have them on the ground floor, the data of sunlight and skylight is stored inside the voxels for the growth model (link to growth model).
