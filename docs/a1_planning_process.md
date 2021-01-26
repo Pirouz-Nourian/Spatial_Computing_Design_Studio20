@@ -4,7 +4,7 @@
 The objective for this course was to develop and create housing, work and recreational spaces. This has to be done in a way that is both beneficial to the users and neigbouring community, while also taking sustainablity into account. 
 <br />
 
-#### Programme of requirements
+#### Program of requirements
 
 The design brief states that the plot in [Rotterdam, The block between Vijverhofstraat, Zomerhofstraat, Schoterbosstraat, and Teilingerstraat](https://www.google.com/maps/place/Startup+Noord/@51.9292516,4.4767546,373m/data=!3m2!1e3!4b1!4m5!3m4!1s0x47c434a9cf625753:0xb8615a4c444b9d57!8m2!3d51.9292516!4d4.4779013) is to be redeveloped. Here we could choose between the compulsory or optional plot as shown in the figure below. 
 
@@ -48,7 +48,7 @@ Having visited the site and conducted research on the context and local communit
 > **Densify the city with sustainable living and working space, which benefit both the user and neigbouring community, with tailored modular and flexible units.**
 
 
-#### Sustainability & Flexilbility 
+#### Sustainability & Flexibility 
 The driving force behind this project is a design for sustainable and modular buildings. The main idea is that
 modular buidling have longer lifecycles, because new modules can be added or removed from the volume or
 adapted to new uses. This system and the sustainable solutions are further discussed in the Forming chapter.

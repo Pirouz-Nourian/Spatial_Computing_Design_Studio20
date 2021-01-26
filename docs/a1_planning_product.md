@@ -1,7 +1,6 @@
 # Product
 
 #### Metrodiagram
-#### Network
 
 The first step of design involved creating a network graph reflecting main trips inside the building based on our design goals:
 
