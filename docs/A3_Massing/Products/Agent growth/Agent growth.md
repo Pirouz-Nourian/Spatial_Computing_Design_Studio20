@@ -2,6 +2,10 @@
 
 ### Explanation
 
+After the agents are positioned on their prefered spot in the seed allocation. They can now grow to fill the envelope. This will give an justifiable placement and shape of each function within the envelope. Each function will occupy another voxel that has the best value based on the data of the envelope, the criteria of the function and its relation with other functions. Each function has a preference to grow horizontally or in all directions to get better spatial qualities of certain spaces. The growing process will go on for each function until it has reached its maximum area.
+
+### Envelope 
+
 ![Title](../../../img/ABM_1.png)
 
 ![Title](../../../img/ABM_2.png)
