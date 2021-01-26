@@ -27,6 +27,8 @@ The same we did for all the glass.
 
  <span style="color: #76AB24;">* We didn't succeed to succesfully aply the tileset for the balconies. The lattice almost becomes like a checkerboard, and therefore the Boolean Marching Cubes algorithm doesn't recognize a lot of corners.*</span>
 
+  <span style="color: #76AB24;">* Also we know that this is not the best way to do the texturing. We are sure that there are ways to do this in one script without having to export all the materials seperately, but for now this solution lead to a proper end result.*</span>
+
 ### Pseudo code
 
 ``` Python
@@ -57,4 +59,5 @@ Run the Boolean marching cube algorithm for every single lattice
 Create the facade by assigning a tile set with a cube lattice
 Save the final mesh
 ```
-[Polygonization full notebook](..........)
+
+[Polygonization full notebook](/spatial_computing_project_template/index/scripts/polygonization/)
