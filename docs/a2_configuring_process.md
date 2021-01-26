@@ -39,8 +39,8 @@ spaces with different functions. This voxel size became a base for the voxel clo
     - Tread width: minimum is 220 mm
     - Head room: minimum is 2300 mm
 
-![Stair_dimensions](../img/stair_dimensions.png)
-![Stair_3D](../img/stairs_3D.png)
+![stair_dimensions](../img/stair_dimensions.PNG)
+![stair_3D](../img/stairs_3D.PNG)
 
 #### Notebook Flowchart 
 The computation process is reflected in the flowchart. 
@@ -48,9 +48,9 @@ The computation process is reflected in the flowchart.
 For optimization purposes, we used 3 lattices with different voxel sizes. The resulting data was always interpolated for
 our main lattice with voxel size 3240x3240.
 
-![Flowchart_notebooks](../img/flowchart_notebooks.png)
+![Flowchart_notebooks](../img/Flowchart_notebooks.png)
 
-[Flowchart_notebooks](../img/flowchart_notebooks.png)
+[Flowchart_notebooks](../img/Flowchart_notebooks.png)
 <a href="../pdf/flowchart_notebooks.pdf" class="image fit"><img src="images/marr_pic.jpg" alt=""></a>
 
 #### Computation Flowchart
@@ -61,7 +61,7 @@ our main lattice with voxel size 3240x3240.
 
 The created envelope will be used as the base availability lattice on which all other calculations for static data and the growing of the agends are built upon. 
 
-<img src="../img/Solar envelope in lattice.PNG" width="500"> 
+<img src="../img/Solar envelope in lattice.png" width="500"> 
 
 <table><thead><tr class="header"><th>Pseudocode</th><th></th></tr></thead><tbody><tr class="odd"><td>Input</td><td>Voxelized envelope, context mesh</td></tr><tr class="even"><td>Output</td><td><p>Solar envelope</p></td></tr><tr class="odd"><td>Code</td><td><p>Create a list of all vectors pointing towards the sun locations over the year.</p>
 
@@ -87,7 +87,7 @@ of light blocked.</p>
 
 Export this lattice as the new availability lattice.</p></td></tr></tbody></table>
 
-<img src="../img/Solar icons3.PNG" width="500"> 
+<img src="../img/Solar icons3.png" width="500"> 
 
 #### Solar accessibility
 >Ensure spaces get enough sunlight
@@ -96,7 +96,7 @@ This data is used for the growing algorithm by certain agents that prefer
 a high solar accessibility, for instance: the residential quarters and study
 spaces.
 
-<img src="../img/Solar accesibility in lattice.PNG" width="500"> 
+<img src="../img/Solar accesibility in lattice.png" width="500"> 
 
 <table><thead><tr class="header"><th>Pseudocode</th><th></th></tr></thead><tbody><tr class="odd"><td>Input</td><td>Solar envelope, context mesh</td></tr><tr class="even"><td>Output</td><td><p>Solar accesibility lattice
 </p></td></tr><tr class="odd"><td>Code</td><td><p>Create a list of all vectors pointing towards the sun locations over the year.</p>
@@ -116,14 +116,14 @@ least amount of light.</p>
 <p>Export the newly created lattice that lists the values of solar accessibility
 in a range from 0 to 1.</p></td></tr></tbody></table>
 
-<img src="../img/Solar icons.PNG" width="500"> 
+<img src="../img/Solar icons.png" width="500"> 
 
 #### Sky view factor
 >Ensure functions are able to see enough of the sky
 This data is used for the growing algorithm by certain agents that prefer
 a high sky view factor, for instance: the office spaces and garden.
 
-<img src="../img/Sky view factor in lattice.PNG" width="500"> 
+<img src="../img/Sky view factor in lattice.png" width="500"> 
 
 <table><thead><tr class="header"><th>Pseudocode</th><th></th></tr></thead><tbody><tr class="odd"><td>Input</td><td>Solar envelope, context mesh, dome mesh</td></tr><tr class="even"><td>Output</td><td><p>Sky view factor lattice</p></td></tr><tr class="odd"><td>Code</td><td><p>Instead of creating a list of vectors pointing towards the sun locations over the year, append the normals of a dome mesh to a list, created to
 map the sky in equal proportions. </p>
@@ -143,7 +143,7 @@ factor and 0 the opposite.</p>
 <p>Export the newly created lattice that lists the values of the sky view factor
 in a range from 0 to 1.</p></td></tr></tbody></table>
 
-<img src="../img/Solar icons2.PNG" width="500"> 
+<img src="../img/Solar icons2.png" width="500"> 
 
 
 #### Floor level preference 
@@ -152,7 +152,7 @@ This data is used for the growing algorithm by certain agents that prefer
 a proximity to certain floors, for instance: the hub and garden prefer to
 be on the ground floor.
 
-<img src="../img/Floor closeness in lattice.PNG" width="500"> 
+<img src="../img/Floor closeness in lattice.png" width="500"> 
 
 <table><thead><tr class="header"><th>Pseudocode</th><th></th></tr></thead><tbody><tr class="odd"><td>Input</td><td>Solar envelope</td></tr><tr class="even"><td>Output</td><td><p>Floor level preference</p></td></tr><tr class="odd"><td>Code</td><td><ul><li>Create a list of entries based on the height of the imported lattice</li>
 <li>Create a matrix that maps the neighbouring entries as if connected from
@@ -166,7 +166,7 @@ bottom to top to in a one dimensional array</li>
 <li>Multiply this newly created lattice with the solar envelope to set all
 unoccupied voxels to 0 and export it</li></ul></td></tr></tbody></table>
 
-<img src="../img/Ground floor preference.PNG" width="500"> 
+<img src="../img/Ground floor preference.png" width="500"> 
 
 
 #### Closeness to the facade (high resolution)
@@ -174,7 +174,7 @@ unoccupied voxels to 0 and export it</li></ul></td></tr></tbody></table>
 
 This is another parameter to optimize the placement of spaces that need direct daylight or adjacency to the street. 
 
-<img src="../img/closeness to facade.PNG" width="500"> 
+<img src="../img/closeness to facade.png" width="500"> 
 
 <table><thead><tr class="header"><th>Pseudocode</th><th></th></tr></thead><tbody><tr class="odd"><td>Input</td><td>Availability lattice, custom stencil</td></tr><tr class="even"><td>Output</td><td><p>Facade closeness lattice</p></td></tr><tr class="odd"><td>Code</td><td><p><li>Define stencil as Von Neumann neighborhood with top and bottom neighbors removed.</li>
 <li>Apply the stencil to the voxel envelope.</li>
@@ -193,7 +193,7 @@ This is another parameter to optimize the placement of spaces that need direct d
 
 </td></tr></tbody></table>
 
-<img src="../img/Closeness to facade_icon.PNG" width="300"> 
+<img src="../img/Closeness to facade_icon.png" width="300"> 
 
 #### Closeness to a specific facade (high resolution)
 
@@ -201,7 +201,7 @@ This is another parameter to optimize the placement of spaces that need direct d
 
 Some spaces and entrances require access to a specific facade based on traffic routes and greenery on the site. While they need to be dajcent to the facade, they do not need to be fixed in a specific place. The data field is used to create axes on each facade, to let the program choose the best location on it.
 
-<img src="../img/closeness to facade.PNG" width="500"> 
+<img src="../img/closeness to facade.png" width="500"> 
 
 <table><thead><tr class="header"><th>Pseudocode</th><th></th></tr></thead><tbody><tr class="odd"><td>Input</td><td>Availability lattice, custom stencil</td></tr><tr class="even"><td>Output</td><td><p>Specific facade closeness lattice</p></td></tr><tr class="odd"><td>Code</td><td><p><li>efine stencil where only one voxel represents the neighborhood and this neighbor is oriented in the direction of the desired facade</li>
 <li>Apply the stencil to the voxel envelope.</li>
@@ -220,14 +220,14 @@ Some spaces and entrances require access to a specific facade based on traffic r
 
 </td></tr></tbody></table>
 
-<img src="../img/Closeness to NE facade_icon.PNG" width="300"> 
+<img src="../img/Closeness to NE facade_icon.png" width="300"> 
 
 #### Quietness from street noise 
 >Orient according to traffic noise fall-off
 
 The two main streets around the plot produce significant traffic noise. According to European Environment Agency, these streets produce 50 and 70db of noise. By mapping the noise fall-off from the street, the growth algorithm can take into account the spaces where quietness is especially preferable, such as the library.
 
-<img src="../img/Quietness from street noise_2.PNG" width="500"> 
+<img src="../img/Quietness from street noise_2.png" width="500"> 
 
 <table><thead><tr class="header"><th>Pseudocode</th><th></th></tr></thead><tbody><tr class="odd"><td>Input</td><td>Avalability lattice, meshes representing the streets with different noise levels</td></tr><tr class="even"><td>Output</td><td><p>Quietness from street noise lattice</p></td></tr><tr class="odd"><td>Code</td><td><p>Load several meshes representing streets with different noise levels.
 
@@ -252,14 +252,14 @@ Initialize a distance lattice full of 0s
 
 </td></tr></tbody></table>
 
-<img src="../img/Quietness from street noise (2).PNG" width="300"> 
+<img src="../img/Quietness from street noise (2).png width="300"> 
 
 #### Entrance closeness
 >Ensure access to an entrance
 
 To make sure the agents who need to be close to an entrace can grow in that direction, an entrance accessibility lattice must be created.
 
-<img src="../img/entrance access.PNG" width="500"> 
+<img src="../img/entrance access.png" width="500"> 
 
 <table><thead><tr class="header"><th>Pseudocode</th><th></th></tr></thead><tbody><tr class="odd"><td>Input</td><td>Voxelized envelope, entrance locations based on street accessibility</td></tr><tr class="even"><td>Output</td><td><p>Entrance Lattice</p></td></tr><tr class="odd"><td>Code</td><td>Set the entrance voxels based on the entrance locations.
 <br>For each non-entrance voxel: 
@@ -269,5 +269,5 @@ To make sure the agents who need to be close to an entrace can grow in that dire
 <br>Construct the entrance lattice. 
 </td></tr></tbody></table>
 
-<img src="../img/Accessibility_coloured.PNG" width="500"> 
+<img src="../img/Accessibility_coloured.png" width="500"> 
 

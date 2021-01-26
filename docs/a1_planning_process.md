@@ -53,7 +53,7 @@ The driving force behind this project is a design for sustainable and modular bu
 modular buidling have longer lifecycles, because new modules can be added or removed from the volume or
 adapted to new uses. This system and the sustainable solutions are further discussed in the Forming chapter.
 
- <img src="../img/Sustainability.png" width="700">
+ <img src="../img/Sustainability.PNG" width="700">
 
 #### Design goals
 
@@ -64,6 +64,6 @@ The residential functions are <strong>clustered</strong> around their preferred 
 
 #### Context connection analysis 
 Before designing residential perspectives, we analyzed the main circulation routes around the plot. This would later help us pin down connections between spaces within the graph and specific entrances in the configuring stage.
-![context](../img/context.png)
+![context](../img/context.PNG)
 
 

@@ -6,7 +6,7 @@
 The first step of design involved creating a network graph reflecting main trips inside the building based on our design goals:
 
 [Metrodiagram](../pdf/Metrodiagram.pdf)
-![Metrodiagram](../img/Metrodiagram.png)
+![Metrodiagram](../img/Metrodiagram.PNG)
 
 While designing the graph and human experiences reflected by it, we referred to our design goals.
 
