@@ -18,7 +18,7 @@ For the sun and skylight values a similar argument could be made as for the shad
 
 
 
-<center> <img src="https://media.discordapp.net/attachments/775754717346791494/801507207664762950/sun.png?width=901&height=676">
+<center> <img src="https://cdn.discordapp.com/attachments/784009094474366977/803623386152566874/sun.png">
 
 *Sun availability calculation*</center>
 
