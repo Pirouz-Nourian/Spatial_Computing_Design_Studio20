@@ -106,9 +106,9 @@ ________________________________________________
 
 [Figures from A3_Massing_process: spatial analysis](https://edaakaltun.github.io/spatial_computing_project_template/A3_Massing/a3_configuring_Spatial_Analysis/)
 
-<center> <img src="https://cdn.discordapp.com/attachments/775754717346791494/803300922296893470/sun_and_shadow_hoofdstuk_3_sun_and_shadow.jpg"></center>
+<center><img src="https://cdn.discordapp.com/attachments/775754717346791494/803300922296893470/sun_and_shadow_hoofdstuk_3_sun_and_shadow.jpg"></center>
 
-<center> <img src="https://cdn.discordapp.com/attachments/775754717346791494/801507207664762950/sun.png"></center>
+<center><img src="https://cdn.discordapp.com/attachments/784009094474366977/803623386152566874/sun.png">
 
 <img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/midterm/lowreshighres.png?raw=true">
 
