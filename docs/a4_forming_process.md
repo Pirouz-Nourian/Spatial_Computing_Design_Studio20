@@ -5,7 +5,7 @@
 
 
 #### Modularity
-Keeping with our main goal of creating a sustainable and modular system, we designed individual voxels as spatial modules that can be interconnected to create spaces with different programs. We aimed for a designed which chould be easily adapted if and when the buiding had to change, meaning modules could be added or removed or their function could be easily changed.
+Keeping with our main goal of creating a sustainable and modular system, we designed individual voxels as spatial modules that can be interconnected to create spaces with different programs. We aimed for a design which chould be easily adapted if and when the buiding had to change, meaning modules could be added or removed or their function could be easily changed.
 <img src="../img/modularity.PNG" width="700">
 
 #### Modular system

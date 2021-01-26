@@ -27,7 +27,8 @@ nav:
     - Floor closeness notebook: Notebooks/_Floor closeness notebook.ipynb
     - Entrance closeness notebook: Notebooks/_Entrance closeness notebook.ipynb
     - Quietness notebook: Notebooks/_Quietness notebook.ipynb
-    - MCDA growth & shafts and corridors notebook: Notebooks/solar_studies.ipynb
+    - MCDA growth & shafts and corridors notebook: Notebooks/_MCDA growth & shafts and corridors notebook.ipynb
+    - Forming facade notebook: Notebook/_Forming facade notebook.ipynb
 
 
 theme:

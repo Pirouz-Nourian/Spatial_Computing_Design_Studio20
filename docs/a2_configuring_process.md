@@ -10,6 +10,8 @@ qualities.
 [Growth hierarchy](../pdf/hierarchy.pdf)
 <a href="../pdf/hierarchy.pdf" class="image fit"><img src="images/marr_pic.jpg" alt=""></a>
 ![Hierarchy](../img/hierarchy.png)
+<img src="../img/REL_Explanation.PNG" width="500"> 
+
 <br>According to our design strategy with privacy gradients and the
 decision to cluster functions around hubs, a hierarchy of spaces
 arises. When the growth algorithm seeds and grows spaces, the
@@ -28,7 +30,7 @@ to grow towards the garden, and the garden does not indicate
 any preference for growing towards the co-cooking, a hierarchy
 arises: co-cooking follows the garden, not the other way around.</p>
 
-<img src="../img/REL_Explanation.PNG" width="500"> 
+
 
 
 #### Voxel size 
@@ -217,8 +219,7 @@ and 1 is the closest
 >Orient for site accessability on a specific side
 
 In accordance to pre-existing program, routes and greenery on the site,
-some spaces and entrances require access from a specific facade. By
-setting their preference to this facade, an axis is created along which the
+some spaces and entrances require access from a specific facade. By setting their preference to this facade, an axis is created along which the
 algorithm can seed the space.
 
 <img src="../img/closeness to specific facade.png" width="500"> 
