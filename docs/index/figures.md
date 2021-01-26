@@ -3,16 +3,16 @@
 ##### Planning
 
 [Plot](https://sanderbentvelsen.github.io/spatial_computing_project_template/a1_planning_process/)
-![the Plot](../img/plot.png)
+<br><img src="../img/plot.png" width="300">
 
 [Sustainability](https://sanderbentvelsen.github.io/spatial_computing_project_template/a1_planning_process/)
 <br><img src="../img/Sustainability.PNG" width="700">
 
 [Design goals](https://sanderbentvelsen.github.io/spatial_computing_project_template/a1_planning_process/)
-![design_goal_1](../img/design_goal_1.png)
-![design_goal_5](../img/design_goal_5.png)
-![design_goal_3](../img/design_goal_3.png)
-![design_goal_4](../img/design_goal_4.png)
+<br><img src="../img/design_goal_1.png" width="300">
+<br><img src="../img/design_goal_5.png" width="300">
+<br><img src="../img/design_goal_3.png" width="300">
+<br><img src="../img/design_goal_4.png" width="300">
 
 [Context](https://sanderbentvelsen.github.io/spatial_computing_project_template/a1_planning_process/)
 ![context](../img/context.PNG)
