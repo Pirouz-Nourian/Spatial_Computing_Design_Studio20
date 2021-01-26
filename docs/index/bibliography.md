@@ -1,8 +1,4 @@
 # Bibliography
-
-> Here you should cite all references and materials that you have used in your project. This is in addition to citation in the documentation itself.
-
-
 Title | source 
 ---------|----------
  Bouwbesluit Online | [source](https://www.bouwbesluitonline.nl/docs/wet/bb2012)
@@ -13,103 +9,17 @@ Title | source
  Wognai| [source](https://img.wongnai.com/p/1920x0/2019/05/02/3efb4ab0fcaf4ec9aa591c4e65618821.jpg)
  American Planning Association | [source](https://www.planning.org/pas/reports/report241.htm)
  Spacebase | [source](https://www.spacebase.com/en/)
- Wikimedia | [source](https://www.spacebase.com/en/)
+ Wikimedia | [source](https://upload.wikimedia.org/wikipedia/commons/d/d7/Amsterdam_Fab_Lab_at_The_Waag_Society.JPG)
+ appartement & eigenaar | [source](https://www.appartementeneigenaar.nl/vve-onderhoud/entree/entree-appartementencomplex)
+ Building for everyone  | [source](http://universaldesign.ie/Built-Environment/Building-for-Everyone/2-Entrances%20and%20Horizontal%20Circulation.pdf)
+ Dimensions | [source](https://www.dimensions.com/element/90-degree-parking-spaces-layouts)
+ 's Heerenloo | [source](https://www.sheerenloo.nl/in-de-buurt/bosweg-30-31-32-33-34-35-36-37-38-1)
+ Total Food Service | [source](https://totalfood.com/how-to-create-a-restaurant-floor-plan/)
+ Game Estate | [source](https://www.gamestate.com/theHague/)
+ GE current | [source](https://www.gecurrent.com/ideas/how-is-the-grocery-store-footprint-changing#:~:text=Grocery%20Stores%20Get%20Smarter%20and%20Smaller&text=While%20the%20average%20size%20of,regularly%20measuring%20closer%20to%2012%2C000)
+ European Comission | [source](https://ec.europa.eu/oib/pdf/mit-standard-building-specs_en.pdf)
+ Tauro | [source](https://www.tauro.nl/office-spaces)
+ Heartline Fitness | [source](https://heartlinefitness.com/5-basic-rules-thumb-sizing-fitness-centers-clubs/#:~:text=In%20terms%20of%20allocating%20square,%2C%20closets%2C%20restrooms%2C%20etc)
+ pinimg | [source](https://i.pinimg.com/originals/ea/e4/cc/eae4ccc2374571e1da4113891b892a86.jpg)
 
 
-[**5 Fab labs**](https://upload.wikimedia.org/wikipedia/commons/d/d7/Amsterdam_Fab_Lab_at_The_Waag_Society.JPG)
-8 m2 per fab lab tafel. 
-310*0.12 = +/- 40 members are in hobby clubs
-15 tables * 8 = 120 m2 + 15% = 138 m2
-
-[**6 entrance hall**](https://www.appartementeneigenaar.nl/vve-onderhoud/entree/entree-appartementencomplex)
-100+80+30 = 210 / 6 = 35
-35 * 1m2 = 35 m2
-+
-+/- 310 people need to enter. Let's say 4 entrances (every four cardinal direction): 310/4 = 78 people need to enter.
-[+/- 30m2 per entrance](http://universaldesign.ie/Built-Environment/Building-for-Everyone/2-Entrances%20and%20Horizontal%20Circulation.pdf) 
-
-
-[**7 parking**](https://www.dimensions.com/element/90-degree-parking-spaces-layouts)
-+/- 22 m2 * amount of cars + entrance etc.
-0.5 parking lot per apartment (80+30+100 * 0.5 = 210) = 105 spots
-2310 m2 + 90 m2 entrance etc = 2400 m2 underground parking.
-
-[**8 assisted living**](https://www.sheerenloo.nl/in-de-buurt/bosweg-30-31-32-33-34-35-36-37-38-1)
-(Beschermd wonen ‘s Heeren Loo: 225-230 m2 per group of 6-7)
-30 units = 225*5 (30/6) = 1125 m2
-
-
-[**11 cafe pub restaurant**](https://totalfood.com/how-to-create-a-restaurant-floor-plan/) 
-200 seats
-3000+2000 = 465 m2
-
-[**12 arcade**](https://www.gamestate.com/theHague/)
-600 m2
-
-[**13 shop**](https://www.gecurrent.com/ideas/how-is-the-grocery-store-footprint-changing#:~:text=Grocery%20Stores%20Get%20Smarter%20and%20Smaller&text=While%20the%20average%20size%20of,regularly%20measuring%20closer%20to%2012%2C000)
-12000 sq ft = 1115 m2
-
-[**14 Co working spaces**](https://ec.europa.eu/oib/pdf/mit-standard-building-specs_en.pdf)
-“The ideal architectural module of office space is 1.20 meters, but could be between 1.20 and 1.40 meters” 4*1.40 + 20% space between/routing = 6.8 m2
-80 students/starters : 20 co working spaces. 20*6.8 m2 = 136 m2
-
-[**15 Start up office**](https://www.tauro.nl/office-spaces)
-Modular units rentable from 25m2 
-100 starters, 50 units (external rentable when empty)
-1250 m2
-
-[**16 Gym**](https://heartlinefitness.com/5-basic-rules-thumb-sizing-fitness-centers-clubs/#:~:text=In%20terms%20of%20allocating%20square,%2C%20closets%2C%20restrooms%2C%20etc)
-310 internal, 20% = 62 tenants. 
-4100 externals, 20% = 820 tenants. Nearby (walking distance) gym amount: +/- 12
-820/4 [ours will be 4th big one](https://cdn.discordapp.com/attachments/779254012746530854/781827970826108958/unknown.png); there's actually more but assuming the are smaller in capacity) = +/- 205
-62+205 = approx 267 people will use the gym = 10-12 square feet for each member (1.1m2). 
-= 267*12 = 3204 square foot = +/= 300m2
-
-[**18 coffee hub assisted living**](https://i.pinimg.com/originals/ea/e4/cc/eae4ccc2374571e1da4113891b892a86.jpg)
-10 m2 per hub, 3 hubs in between every unit group = 30 m2
-
-[**19 coffee hub starters**](https://i.pinimg.com/originals/ea/e4/cc/eae4ccc2374571e1da4113891b892a86.jpg)
-Every 20 units 10m2 hub = 50m2
-
-[**20 coffee hub students**](https://i.pinimg.com/originals/ea/e4/cc/eae4ccc2374571e1da4113891b892a86.jpg)
-Every 20 1 hub, 4 * 10m2 = 40 m2
-
-
-
-
-
- <table>
-    <thead>
-        <tr class="header">
-            <th>
-                Title
-            </th>
-            <th>
-                Source
-            </th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr class="odd">
-            <td>
-                1
-            </td>
-            <td>
-                URL
-            </td>
-        </tr>
-        <tr class="even">
-            <td>
-                2
-            </td>
-            <td>
-                <p>
-                    URL
-                </p>
-                <p>
-                    BOOK
-                </p>
-            </td>
-        </tr>
-    </tbody>
-</table>

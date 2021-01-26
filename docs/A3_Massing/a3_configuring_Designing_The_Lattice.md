@@ -16,7 +16,13 @@ Fundamentally our building should be of least disturbance for the surrounding ar
 
 <center><img src="https://cdn.discordapp.com/attachments/775754717346791494/801507211003822190/shadow.png">
 
-*Shadow calculation*
+*Sun blocking calculation*
+
+
+
+<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/2.0_skyview.png?raw=true">
+
+*skylight blocking calculation*
 
 <iframe src="https://thumbs.gfycat.com/ValidImaginativeChihuahua-size_restricted.gif" style="width:150%; height:295px;" frameborder="0"></iframe>
 

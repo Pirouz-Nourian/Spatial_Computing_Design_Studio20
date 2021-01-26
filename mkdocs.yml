@@ -47,10 +47,6 @@ nav:
       - Figures: "index/figures.md"
       - Presentations: "index/presentations.md"
       - Bibliography: "index/bibliography.md"
-  - Documenting (TBR):
-      - Instructions: "documenting/instructions.md"
-      - Folder Structure: "documenting/folder_structure.md"
-      - Guidelines: "documenting/guidelines.md"
   - Quotes: "quotes.md"
   - Reflection: "reflection.md"
 

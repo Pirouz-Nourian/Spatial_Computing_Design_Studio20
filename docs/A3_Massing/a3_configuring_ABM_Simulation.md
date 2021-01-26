@@ -98,15 +98,45 @@ The following table has been made based on the agent/space criterias, this has b
 
 The given entrances for blue and given analysis for yellow are loaded in as csv files. For the making of those csv files, address their corresponding script.
 
+### **Housing plan modularity with stencils**
+
+A highly modular building needs to be adaptable and reusable for different functions over time. The standardised voxels are very suitable for generating this, but more importantly, they give freedom to generate many different housing plans. For the agent based model, an extra layer of information could be added by growing stencil-based for all housing, co-working spaces and start-up offices. 
+Different housing tiles are generated, that together carry all needed functions. For each housing type, a tile library should be made to generate rooms and spaces that fulfil all requirements. These tiles each have markings along the sides, where closed walls, windows, openings to public functions or openings to indoor functions are determined. This way, each house will form based on the markings and their personal library. By generating the housing units like this, all houses will automatically be correctly connected to a corridor, the depth of the building will be limited to the depth of a house and each house will have sufficient daylight and have all their functions available. An extra layer to this would then be the implementation of placement of open and closed facades for each house, coherent with the sun orientation of the building, but also the view. For this the demand of sky visibility and sunlight availability could be calculated for each potential window, which would then also limit the occurrence of two houses growing opposite of each other with minimal free space between them. 
+
+<center><img src="https://cdn.discordapp.com/attachments/784009094474366977/803382410254614538/met_stencils_Pagina_1.jpg">
+
+*function stencil concepts: student housing and corridor*
+
+
+<img src="https://cdn.discordapp.com/attachments/784009094474366977/803382435085287454/met_stencils_Pagina_2.jpg">
+
+*conceptual configuration of the growth of housing units*
+</center>
+
+The concept of these stencil-based growth is visualised in the picture above. The timeframe of this course limited the elaboration on this complex growth model, but thoughts have been put into it. 
+
+<center><img src="https://cdn.discordapp.com/attachments/784009094474366977/803384607834898432/plattegrondenTekengebied_4.png">
+<img src="https://cdn.discordapp.com/attachments/784009094474366977/803384610809184296/plattegrondenTekengebied_7.png">
+<img src="https://cdn.discordapp.com/attachments/784009094474366977/803384611396780062/plattegrondenTekengebied_10.png">
+
+*simplified housing plan stencils*
+ </center>
+
+Instead, simpler housing plans are generated. Still based on the voxel-sized plan, but with a standardisation for each housing unit, where there are just a few fixed stencils for each building. This is also not implemented in the growth model due to time limitations. 
+ 
+
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR3BSCNWlacKeNAtlluEjTCw5SMh3Tet-m3ixMxbSwR_aIhWDu0YJLZGvVQdgqWNg/pubhtml?gid=1634426511&amp;single=true&amp;widget=true&amp;headers=false"style="width:150%; height:600px;"></iframe>
 
-# **The Generative Relations Simulation**
+________________________________________________
+
+
+## **The Generative Relations Simulation**
 After obtaining all the input necessary for the growth model (distance caltulations, solar simulations etc.) it is imporant to be able to make decisions based on that. For this, the script for the Multiple-criteria decision analysis for agents was used and further developed to our needs.  
 
 With the method explained before, the stencils and area calculations were made. The final ABM (Agent Based Model) growth script can be found [here](https://edaakaltun.github.io/spatial_computing_project_template/notebooks/7_ABM_growth/). 
 
 
-## **How it works**
+### **How it works**
 <center> <img src="https://cdn.discordapp.com/attachments/784009094474366977/803280396954370088/unknown.png"></center>
 The ABM (Agent Based Model) growth script runs over a given timeframe. This timeframe is set for it to grow a voxel/stencil per frame. Due to the implementation of stencils with different z axis, the script becomes more efficient (since it covers more voxels per frame). 
 
@@ -121,7 +151,7 @@ After this is done for all time frames, the new lattice is constructed with the 
 
 For this particular case the code has been ran through 2500 frames.
 
-### **Occupying with different stencils**
+#### **Occupying with different stencils**
 For making sure the agents with different kinds of stencils corresponding to their height preferences occupy the necessary amount of voxel in the z axis, a variable has been made and used in the occupation function. 
 ```python
 # making a variable that gives the height of the stencils in voxel (coincidentally +1 since all stencils grow with 1 voxel per id)
@@ -164,35 +194,8 @@ def mult_occupation(selected_neigh_3d_address, a_id, a_height, agn_locs, agn_src
                 occ_lattice[selected_neigh_3d_id] = a_id
 ```
 
-## Housing plan modularity with stencils
 
-A highly modular building needs to be adaptable and reusable for different functions over time. The standardised voxels are very suitable for generating this, but more importantly, they give freedom to generate many different housing plans. For the agent based model, an extra layer of information could be added by growing stencil-based for all housing, co-working spaces and start-up offices. 
-Different housing tiles are generated, that together carry all needed functions. For each housing type, a tile library should be made to generate rooms and spaces that fulfil all requirements. These tiles each have markings along the sides, where closed walls, windows, openings to public functions or openings to indoor functions are determined. This way, each house will form based on the markings and their personal library. By generating the housing units like this, all houses will automatically be correctly connected to a corridor, the depth of the building will be limited to the depth of a house and each house will have sufficient daylight and have all their functions available. An extra layer to this would then be the implementation of placement of open and closed facades for each house, coherent with the sun orientation of the building, but also the view. For this the demand of sky visibility and sunlight availability could be calculated for each potential window, which would then also limit the occurrence of two houses growing opposite of each other with minimal free space between them. 
-
-<center><img src="https://cdn.discordapp.com/attachments/784009094474366977/803382410254614538/met_stencils_Pagina_1.jpg">
-
-*function stencil concepts: student housing and corridor*
-
-
-<img src="https://cdn.discordapp.com/attachments/784009094474366977/803382435085287454/met_stencils_Pagina_2.jpg">
-
-*conceptual configuration of the growth of housing units*
-</center>
-
-The concept of these stencil-based growth is visualised in the picture above. The timeframe of this course limited the elaboration on this complex growth model, but thoughts have been put into it. 
-
-<center><img src="https://cdn.discordapp.com/attachments/784009094474366977/803384607834898432/plattegrondenTekengebied_4.png">
-<img src="https://cdn.discordapp.com/attachments/784009094474366977/803384610809184296/plattegrondenTekengebied_7.png">
-<img src="https://cdn.discordapp.com/attachments/784009094474366977/803384611396780062/plattegrondenTekengebied_10.png">
-
-*simplified housing plan stencils*
- </center>
-
-Instead, simpler housing plans are generated. Still based on the voxel-sized plan, but with a standardisation for each housing unit, where there are just a few fixed stencils for each building. This is also not implemented in the growth model due to time limitations. 
- 
-
-
-### **Evaluation**
+#### **Evaluation**
 The current evaluation part of the code measures if an agent is satisfied with the given evaluation value through the program table. If the agent is not satisfied, it allows the agent to grow towards better voxels, where less valuable voxels are swapped for better ones. If the agent is satisfied, it stays the same and stops growing once it reaches it's max area value. 
 
 The agent satisfaction has been tracked over the final result (2500 frames). With this data Panda tables have been made and visualized through graphs. This way, the agent satisfaction can be tracked without constantly having to look at the visualization and voxel growth manually. See graphs below for the results. The agent names correspond to their agent id in the program.
@@ -206,9 +209,14 @@ Evaluation over time for Assisted living (11), Student housing (17) and Start-up
 Evaluation over time for starter housing (16):
 <center> <img src="https://cdn.discordapp.com/attachments/784009094474366977/803322623199150130/B02eVgwU5jOiAAAAAElFTkSuQmCC.png"></center>
 
+________________________________________________
+
+
 ### **Final growth**
 
 <iframe src="https://media3.giphy.com/media/WDhRzS8AIleGliAs9s/giphy.gif" style="width:150%; height:300px;" frameborder="0"></iframe>
+
+________________________________________________
 
 ### **Improvement points**
 * Distance calculation and evaluation between spaces: 

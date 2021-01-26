@@ -5,10 +5,12 @@ This documentation is part of the final project of the minor Spatial Computing i
 For more information regarding the minor see link below:
 
 [Course Description](https://www.tudelft.nl/bk/studeren/minoren-en-keuzevakken/spatial-computing-in-architectural-design/)
+________________________________________________
 
 ## Contact us!
 
 apidaemethod@gmail.com
+________________________________________________
 
 ## Project Apidae members
 Project group 1 consists of the following students:

@@ -6,10 +6,12 @@
 ![Image of greenery in the enviroment](../img/kaarten_groen.png)
 
 ![Image of route](../img/kaarten_route.png)
+________________________________________________
 
 [Figures from A1_Planning_product](https://edaakaltun.github.io/spatial_computing_project_template/A1_Planning/a1_planning_product/)
 <iframe src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=definitieve%20schema%27s.png#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1LK3u-VFVCQU9oLzMVKHYZSxz8NfHBf6B%26export%3Ddownload" style="width:150%; height:700px;" frameborder="0">
 </iframe>
+________________________________________________
 
 [Figures from A2_Planning_process: Voxelsize determination](https://edaakaltun.github.io/spatial_computing_project_template/A2_Configuring/a2_configuring_Determiningvoxelsize/)
 
@@ -17,9 +19,10 @@
 
 <img src="https://cdn.discordapp.com/attachments/775754717346791494/782968683973705728/3d_representation_of_grid.jpg">
 
-<img src="https://cdn.discordapp.com/attachments/775754717346791494/803200924239659048/TRAP_2.jpg" alt="collective" style="width:300px;"> 
+<img src="https://cdn.discordapp.com/attachments/775754717346791494/803200924239659048/TRAP_2.jpg" alt="collective" style="width:600px;"> 
 
-<img src="https://media.discordapp.net/attachments/775754717346791494/803196044015304734/trap.jpg?width=765&height=541" alt="collective" style="width:300px;"> 
+<img src="https://media.discordapp.net/attachments/775754717346791494/803196044015304734/trap.jpg?width=765&height=541" alt="collective" style="width:600px;"> 
+________________________________________________
 
 [Figures from A2_Planning_process: Space criteria](https://edaakaltun.github.io/spatial_computing_project_template/A2_Configuring/a2_configuring_Spacecriteria/)
 
@@ -28,12 +31,14 @@
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSmJnATJOBL1HdyT0rUhv993Z_nf_2vW9hOOsqYQvNYhO_EVGhiPI_OFTCAWAi-FQ/pubhtml?gid=1171988855&single=true" style="width:150%; height:600px;" frameborder="0">
 </iframe>
+________________________________________________
 
 [Figures from A2_Planning_process: Voxelization](https://edaakaltun.github.io/spatial_computing_project_template/A2_Configuring/a2_configuring_Voxelizingthelot/)
 
 <img src="https://cdn.discordapp.com/attachments/784009094474366977/803578469933252658/mesh.png">
 
 <img src="https://cdn.discordapp.com/attachments/784009094474366977/803578466447786074/ful_lattice.png">
+________________________________________________
 
 [Figures from A3_Massing_process: ABM](https://edaakaltun.github.io/spatial_computing_project_template/A3_Massing/a3_configuring_ABM_Simulation/)
 
@@ -64,6 +69,7 @@
 <center> <img src="https://cdn.discordapp.com/attachments/784009094474366977/803322623199150130/B02eVgwU5jOiAAAAAElFTkSuQmCC.png"></center>
 
 <iframe src="https://media3.giphy.com/media/WDhRzS8AIleGliAs9s/giphy.gif" style="width:150%; height:300px;" frameborder="0"></iframe>
+________________________________________________
 
 [Figures from A3_Massing_process: Designing the lattice](https://edaakaltun.github.io/spatial_computing_project_template/A3_Massing/a3_configuring_Designing_The_Lattice/)
 
@@ -78,10 +84,12 @@
 <img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/4.1_averagevoxelval.png?raw=true">
 
 <img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/4.2_new_avail_lattice.png?raw=true">
+________________________________________________
 
 [Figures from A3_Massing_process: Intro](https://edaakaltun.github.io/spatial_computing_project_template/A3_Massing/a3_configuring_intro/)
 
 <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=endterm%20flowchart#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1Lfeg7-sNSGbExCiPKm857f5V9qonFM3n%26export%3Ddownload"></iframe>
+________________________________________________
 
 [Figures from A3_Massing_process: shafts and corridors](https://edaakaltun.github.io/spatial_computing_project_template/A3_Massing/a3_configuring_shafts/)
 
@@ -94,6 +102,7 @@
 <img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/5.1_corridors_groundfloor.png?raw=true">
 
 <img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/6.4_shafts_and_corridors.png?raw=true">
+________________________________________________
 
 [Figures from A3_Massing_process: spatial analysis](https://edaakaltun.github.io/spatial_computing_project_template/A3_Massing/a3_configuring_Spatial_Analysis/)
 
@@ -122,6 +131,7 @@
 <img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/3.6_lattice_housing.png?raw=true">
 
 <img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/3.7_lattice_comcen_entrance.png?raw=true">
+________________________________________________
 
 [Figures from A3_Massing_process: product](https://edaakaltun.github.io/spatial_computing_project_template/A3_Massing/a3_massing_product/)
 
@@ -130,6 +140,8 @@
 <iframe src="https://media3.giphy.com/media/2XG01ZsHY4wzcGtt3L/giphy.gif" style="width:150%; height:430px;" frameborder="0"></iframe>
 
 <iframe src="https://media3.giphy.com/media/WDhRzS8AIleGliAs9s/giphy.gif" style="width:150%; height:300px;" frameborder="0"></iframe>
+________________________________________________
+
 
 [Figures from A4_Forming_process](https://edaakaltun.github.io/spatial_computing_project_template/A4_Forming/a4_forming_process/)
 
@@ -150,6 +162,8 @@
 <img src="https://cdn.diiscordapp.com/attachments/775754717346791494/803300920514314250/tiles_changing_hoofdstuk_4_polygonisatie.jpg" style="width:600px;">
 
 <img src="https://cdn.discordapp.com/attachments/775754717346791494/803358655361187871/different_facade_pieces.jpg" style="width:600px;">
+________________________________________________
+
 
 [Figures from A4_Forming_product](https://edaakaltun.github.io/spatial_computing_project_template/A4_Forming/a4_forming_product/)
 
