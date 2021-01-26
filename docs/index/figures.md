@@ -1,8 +1,4 @@
 # Figures
-
-> Here you should include all of your figures and links to the pages that they have been used in.
-![title](../img/ name.png 
-
 ##Home
 <br>Figure 1: Logo. To be found in [Home](/index.md).
 <figure>
