@@ -5,9 +5,9 @@ With the sun access analysis we wanted to gain insight into the amount of sunlig
 
 We have started this analysis by importing the final envelope and are again computing intersections between rays and the context. Now we are actually shooting rays upwards. When an intersection between the ray and the context is found, the voxel does not fully see the sun and thus, has a lower percentage of sun access.
 
-### Envelope
+### Sun access lattice
 
-![Title](../../../img/sun.jpg)
+![Title](../../../img/sun_access.jpg)
 
 ### Pseudo code
 

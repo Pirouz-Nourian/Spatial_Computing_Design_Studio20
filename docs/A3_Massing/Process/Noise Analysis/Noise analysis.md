@@ -31,7 +31,7 @@ Output: Noise field lattice
 
 ```
 
-[Noise field full notebook](/spatial_computing_project_template/index/scripts/noise_field/)
+[Noise field full notebook](/spatial_computing_project_template/index/scripts/noise%20field/)
 
 ### Interior noise
 
