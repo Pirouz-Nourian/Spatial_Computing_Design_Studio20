@@ -60,23 +60,21 @@ This is where the apidae method comes into play. The apidae method scientificall
 The documentation is divided in 4 phases:
 ```html
 * A1_Planning: 
-    Preliminary spatial analysis on the site and idea proposal 
-    (KPI, Program of Requirements, Diagrams) with the starting point as input. 
+    Preliminary spatial analysis on the site and idea proposal regarding design goals.
+    (KPI, Program of Requirements, Diagrams) with the starting point as described in this home page as input. 
 
-    Formulate the design problems, form a programme of requirements, form a network, formulate your design principles and the idea (spatial sequences/experience/stories visible in a network).
 
 * A2_Configuring:
-    Setting up the plot, determining voxel size
-
-    Formulate a spatial (topological) concept, design a modular circulation manifold on a pixel/voxel grid.
+    Setting up the plot, determining voxel size. In principle, formulating the spatial concept of the building.
+    (Lattice contruction and determining voxelsize)
 
 * A3_Massing:
-    Logically place the functional spaces in between bridges within the building envelope.
+    Computing envelopes and using those in order to logically place functional spaces and form shafts and corridors. After this, allowing the spaces to grow with the given criterias. 
+    (Spatial Analysis, Corridors and Shafts, Designing the lattice with voxel removal and ABM growth)
 
-    All the 
     
 * A4_Forming:
-    Document the process and products and provide explanations to ensure reusability of materials.
-    
-    Shafts and corridors, Multi criteria, Polygonization
+    Finalizing the results with polygonization and designing the borders of the voxels. 
+    (Polygonization and renders)
+
 ```

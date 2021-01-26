@@ -7,6 +7,7 @@ This is the theory behind the script. Unfortunately, in practice, there are some
 The way the 152 pieces are sorted is done by a distance from the piece towards a point. By altering the geometry, these distances do not always stay completely the same though. In 5 “new geometries” tests, in 2 to 5 pieces out of 152 pieces, the order had changed.  This can be solved by manually changing the slider to the correct position. In the 5 test runs the change of the slider was a maximum of 5 up or down.
 
 ## **Pseudocode Perfect shape grasshopper script**
+*you can zoom in on the flowchart with the bar below that appears when hovering over the diagram*
 <iframe frameborder="0" style="width:100%;height:193px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=Grasshopperscript.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1CGnwSmRQPMmgTsY0JmWY-r1alWDR8-cj%26export%3Ddownload"></iframe>
 
 ## symmetry = 152 pieces
@@ -40,10 +41,6 @@ To give the building a varying appearance, instead of having the same look every
 <img src="https://cdn.diiscordapp.com/attachments/775754717346791494/803300920514314250/tiles_changing_hoofdstuk_4_polygonisatie.jpg" style="width:280px;">
 
 <img src="https://cdn.discordapp.com/attachments/775754717346791494/803358655361187871/different_facade_pieces.jpg" style="width:280px;">
-
-
-
-
 
 
 This process is yet to be perfect, but the solutions seems to be not to far away. If the linkage between the textures+ texture coordinates and the generated tiles, the 2 extra subtiles are added, the usage of stencils is improved, this should be a good way to design the exterior of the building in a quick and modular way. 

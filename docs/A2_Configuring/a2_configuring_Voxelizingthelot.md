@@ -1,4 +1,5 @@
-## Voxelizing the lattice
+# Voxelizing the lattice
+
 As the final voxelsize is determined, the location can be voxelized. The given 'compulsory envelope' is being filled with voxels sized 1.8m * 1.8m * 1.8m, which results in the full lattice. 
 
 <img src="https://cdn.discordapp.com/attachments/784009094474366977/803578469933252658/mesh.png">

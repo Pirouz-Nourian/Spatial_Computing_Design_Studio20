@@ -1,5 +1,7 @@
-## Determining voxelsize
-In order to determine the voxelsize that our growth simulation will work with, a case study has been done. The voxel size has been based on stair sizing because ----------------------.
+# Determining voxelsize
+
+In order to determine the voxelsize that our growth simulation will work with, a case study has been done. The starting point to generate a workable voxel size is the sizing of the stairs. Because of the functionality and the limited flexibility this stairsize is fundamental in use of the building and therefore functions as the main guide towards a useful gridsize.
+
 ### Starting points
 *Stairs*
 Free space residences +/- 270 cm 
@@ -84,5 +86,3 @@ The tartan grid is the place where the structural profiles or the walls can come
 <img src="https://cdn.discordapp.com/attachments/775754717346791494/803200924239659048/TRAP_2.jpg" alt="collective" style="width:300px;"> 
 
 <img src="https://media.discordapp.net/attachments/775754717346791494/803196044015304734/trap.jpg?width=765&height=541" alt="collective" style="width:300px;"> 
-<br>
-</br>

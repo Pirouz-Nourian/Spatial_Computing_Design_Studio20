@@ -1,3 +1,32 @@
+# designing the growth lattice
+For generating the final building, not all voxels are appropriate to use. In this simulation, the growth lattice is being limited by two factors. With generating the building the surroundings are taken into account, and decided is that the building may not cast too much shadow to buildings in the surrounding. Next to that, a limit on the used ground floor space is asked, as 30% of the plot should be reserved for greenery.
+
+
+### Sun and Skylight 
+Based on the ladybug sunpath the shadow envelope is calculated. To do so a ray is cast from the centroids of all the voxel that have received sun, towards the context. If the ray does not intersect the context, then the voxel does not cast a shadow. The shadow envelope is then interpolated to a highres value. 
+
+
+For Skylight blocking all these steps are repeated, but instead of loading a sunpath, a sphere is created to represent the sky. Instead of shooting rays towards the sunpoints, the rays are being shot to the skypoints. 
+
+<center><img src="https://media.discordapp.net/attachments/785803868356476958/803590073899155456/shadow_and_skylight_blocking.jpg?width=948&height=670" style="width:280px;">
+
+*method of skylight and sun blocking* </center>
+
+Fundamentally our building should be of least disturbance for the surrounding area, so it would not make sense to keep voxels that cast too much shadow or block too much skylight. Therefore, the voxels that cast too much shadow and block too much skylight from the context are removed.
+
+<center><img src="https://cdn.discordapp.com/attachments/775754717346791494/801507211003822190/shadow.png" style="width:280px;">
+
+*Shadow calculation*
+
+<iframe src="https://thumbs.gfycat.com/ValidImaginativeChihuahua-size_restricted.gif" style="width:150%; height:430px;" frameborder="0"></iframe>
+
+*Threshold* 
+
+<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/2.2_newfulllattice.png?raw=true" style="width:280px;">
+
+*New envelope*
+</center>
+
 ## greenery
 For the plot, 30% should be dedicated to becoming a greenspace. The location of this greenspace could be generated in three different ways: 
 
@@ -10,11 +39,16 @@ Because of the complexity of this system and the lack of worth if not done well,
  
 For each voxel, the multiplication of all values that are associated with that location are being taken. Then this value is being summed for all voxels in the z-direction, creating a two dimensional value for each location. After normalizing this value, it is copied to all z-voxels so if a value is lower than the threshold, all voxels in that z-direction are being removed. 
 
-<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/4.1_averagevoxelval.png?raw=true">
+<center><img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/4.1_averagevoxelval.png?raw=true">
 
+*average voxel value* 
+</center>
 By then determining the minimum voxel value that is needed to clear 30% of the location, all values that are lower are being removed and all other voxels are being multiplied with the availability lattice that had been generated based on shadow. This results in the final availability lattice, and in the space dedicated for greenery. 
 
-<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/4.2_new_avail_lattice.png?raw=true">
+<center><img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/4.2_new_avail_lattice.png?raw=true">
+
+*final availability lattice* 
+</center>
 
 ### Evaluation of the location and the shape of the greenery 
 Because of the many entrances that have been generated at the more accessible side of the plot, the distance values of these voxels are relatively impactful for the average value lattice, leaving a low-valued space at the north of the plot. This directly results in a greenspace that is not as open-oriented, but that is more encapsulated behind the building and oriented towards local users. This fits in with our concept of the greenery, that would be a place for retreat and also a place to have a food garden for the neighbourhood and the communal kitchen. 

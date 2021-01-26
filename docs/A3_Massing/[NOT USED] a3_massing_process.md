@@ -141,7 +141,6 @@ ________________________________________________
 
 
 ## **KPI's to agent criteria** 
-explain what our criteria for the agents are and how they relate to the KPI's
 The following criteria have been implemented in the agent based simulation:
 
 * Matrix based relations between spaces (Collectivity)
