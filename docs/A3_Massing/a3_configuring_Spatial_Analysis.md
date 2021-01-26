@@ -18,12 +18,12 @@ For the sun and skylight values a similar argument could be made as for the shad
 
 
 
-<center> <img src="https://cdn.discordapp.com/attachments/785803868356476958/803590070753427486/sun_and_skylight.jpg">
+<center> <img src="https://media.discordapp.net/attachments/775754717346791494/801507207664762950/sun.png?width=901&height=676">
 
-*Sun availability calculation*
+*Sun availability calculation*</center>
 
 
-<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/2.0_skyaccess.png?raw=true">
+<center><img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/2.0_skyaccess.png?raw=true">
 
 *skylight availability calculation* </center>
 
