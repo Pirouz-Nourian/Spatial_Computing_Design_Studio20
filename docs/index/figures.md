@@ -91,9 +91,9 @@
 
 [![Title](../img/corridors_metronetwork.png)](/spatial_computing_project_template/A3_Massing/Products/Shortest%20paths/Shortest%20paths/#corridors)
 
-[![Title](../../../img/ABM_1.png)](/spatial_computing_project_template/A3_Massing/Products/Agent%20growth/Agent%20growth/)
+[![Title](../img/ABM_1.png)](/spatial_computing_project_template/A3_Massing/Products/Agent%20growth/Agent%20growth/)
 
-[![Title](../../../img/ABM_2.png)](/spatial_computing_project_template/A3_Massing/Products/Agent%20growth/Agent%20growth/)
+[![Title](../img/ABM_2.png)](/spatial_computing_project_template/A3_Massing/Products/Agent%20growth/Agent%20growth/)
 
 ## Forming
 
