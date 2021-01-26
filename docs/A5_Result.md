@@ -2,7 +2,7 @@
 
 ### Plans
 
-The last part of our process are the results. We have created maps of the different type of living areas according to our voxelsize. Because they all consist of the same sizes the units can be used like a puzzle and over time, could be easily changed into different functions.
+The last part of our process is the results. We have created maps of the different type of living areas according to our voxelsize. Because they all consist of the same sizes the units can be used like a puzzle and over time, could be easily changed into different functions.
 
 ***Student room***
 
@@ -22,9 +22,11 @@ The last part of our process are the results. We have created maps of the differ
 
 ### Section
 
+![title](img/axo.jpg) 
 
 ### Urban Plan
+In the urban plan drawing you can clearly see the the connections between the green spaces. There is a path going from the hofbogen, the park and the raingarden to the hart of the building.
 
-
-### Renders 
+![title](img/urban_plan.jpg) 
+ 
 

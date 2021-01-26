@@ -27,6 +27,6 @@ As you can see we can cluster some function. With notion it's much easier to ass
 
 ## Metro Network
 
-Finally we combined all the drawins above into one big complete metro network, in which we just spread out our combined sequences with an entrance each, on the right spot following on the bubble diagram. 
+Finally we combined all the drawings above into one big complete metro network, in which we spread out our combined sequences with an entrance, each on the right spot following on the bubble diagram. 
 
 <iframe src="https://drive.google.com/file/d/1yMHorXpLPfnwIGiIIhFcOogj66GRHLWt/preview" width="640" height="480"></iframe>

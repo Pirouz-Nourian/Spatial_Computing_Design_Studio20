@@ -36,10 +36,11 @@ nav:
           Green access analysis: "index/scripts/green.ipynb"
           Noise analysis: "index/scripts/noise field.ipynb"
           Shafts and shortest paths: "index/scripts/corridors.ipynb"
-      - Figures: "index/figures.md"
       - Presentations: "index/presentations.md"
+      - Film: "index/film.md"
       - Bibliography: "index/bibliography.md"
-
+      - Figures: "index/figures.md"
+      
 theme:
   name: "material"
   palette:
