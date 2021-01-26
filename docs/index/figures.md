@@ -6,7 +6,7 @@
 ![the Plot](../img/plot.png)
 
 [Sustainability](https://sanderbentvelsen.github.io/spatial_computing_project_template/a1_planning_process/)
- <img src="../img/Sustainability.PNG" width="700">
+<br><img src="../img/Sustainability.PNG" width="700">
 
 [Design goals](https://sanderbentvelsen.github.io/spatial_computing_project_template/a1_planning_process/)
 ![design_goal_1](../img/design_goal_1.png)
