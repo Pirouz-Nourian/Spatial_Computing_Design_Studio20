@@ -9,13 +9,13 @@
 <br><img src="../img/Sustainability.PNG" width="700">
 
 [Design goals](https://sanderbentvelsen.github.io/spatial_computing_project_template/a1_planning_process/)
-<img src="../docs/img/design_goal_1.png" width="300">
-<img src="../docs/img/design_goal_5.png" width="300">
-<img src="../docs/img/design_goal_3.png" width="300">
-<img src="../docs/img/design_goal_4.png" width="300">
+![context](../img/design_goal_1.png.PNG) | width=100)
+![context](../img/design_goal_5.png.PNG) | width=100)
+![context](../img/design_goal_3.png.PNG) | width=100)
+![context](../img/design_goal_4.png.PNG) | width=100)
 
 [Context](https://sanderbentvelsen.github.io/spatial_computing_project_template/a1_planning_process/)
-![context](../img/context.PNG) width=100)
+![context](../img/context.PNG)|width=100)
 
 ![Metrodiagram](../img/Metrodiagram.PNG)
 <iframe src="../pdf/Residential perspectives.pdf" style="width:100%; height:400px;" frameborder="0"></iframe>
