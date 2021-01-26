@@ -24,7 +24,7 @@ Fundamentally our building should be of least disturbance for the surrounding ar
 
 *skylight blocking calculation*
 
-<iframe src="https://thumbs.gfycat.com/ValidImaginativeChihuahua-size_restricted.gif" style="width:150%; height:295px;" frameborder="0"></iframe>
+<iframe src="https://thumbs.gfycat.com/ValidImaginativeChihuahua-size_restricted.gif" style="width:150%; height:430px;" frameborder="0"></iframe>
 
 *Threshold* 
 
