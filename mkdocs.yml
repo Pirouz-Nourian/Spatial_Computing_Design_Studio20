@@ -2,29 +2,29 @@ site_name: The Green Valley
 
 nav:
   - Home: "index.md"
-  - A1_Planning: 
-      - Process: "A1_Planning/Process.md"
-      - Product: "A1_Planning/Products.md"
-  - A2_Configuring:
-      - Process: "A2_Configuring/Process.md"
-      - Product: "A2_Configuring/Products.md"
-  - A3_Massing:
+  - Planning: 
+      - Process: "Planning/Process.md"
+      - Product: "Planning/Products.md"
+  - Configuring:
+      - Process: "Configuring/Process.md"
+      - Product: "Configuring/Products.md"
+  - Massing:
       - Process:
-          Atrium Allocation: "A3_Massing/Process/Atrium allocation/Atrium allocation.md" 
-          Shadow casting analysis: "A3_Massing/Process/Shadow casting analysis/Shadow analysis.md"
-          Visibility analysis: "A3_Massing/Process/Visibility analysis/Visibility analysis.md"        
-          Sun access analysis: "A3_Massing/Process/Sun access analysis/Sun analysis.md"
-          Public entrance analysis: "A3_Massing/Process/Public entrance analysis/Public entrance analysis.md"
-          Green acces analysis: "A3_Massing/Process/Green acces analysis/Green acces analysis.md"
-          Noise analysis: "A3_Massing/Process/Noise Analysis/Noise analysis.md"
+          Atrium Allocation: "Massing/Process/Atrium allocation/Atrium allocation.md" 
+          Shadow casting analysis: "Massing/Process/Shadow casting analysis/Shadow analysis.md"
+          Visibility analysis: "Massing/Process/Visibility analysis/Visibility analysis.md"        
+          Sun access analysis: "Massing/Process/Sun access analysis/Sun analysis.md"
+          Public entrance analysis: "Massing/Process/Public entrance analysis/Public entrance analysis.md"
+          Green acces analysis: "Massing/Process/Green acces analysis/Green acces analysis.md"
+          Noise analysis: "Massing/Process/Noise Analysis/Noise analysis.md"
       - Product: 
-          Seed allocation: "A3_Massing/Products/Seed allocation/Seed allocation.md"
-          Shortest paths: "A3_Massing/Products/Shortest paths/Shortest paths.md"
-          Agent growth: "A3_Massing/Products/Agent growth/Agent growth.md"
-  - A4_Forming: 
-      - Process: "A4_Forming/Process.md"
-      - Product: "A4_Forming/Products.md"
-  - A5_Result: "A5_Result.md"      
+          Seed allocation: "Massing/Products/Seed allocation/Seed allocation.md"
+          Shortest paths: "Massing/Products/Shortest paths/Shortest paths.md"
+          Agent growth: "Massing/Products/Agent growth/Agent growth.md"
+  - Forming: 
+      - Process: "Forming/Process.md"
+      - Product: "Forming/Products.md"
+  - Result: "Result.md"      
   - About: "about.md"
   - index:
       - scripts: 

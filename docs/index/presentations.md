@@ -1,7 +1,9 @@
 # Presentations
 
 ## Book
-<iframe src="https://docs.google.com/gview?url=https://github.com/shervinazadi/spatial_computing_project_template/blob/master/docs/pdf/SpatialComputing.pdf?raw=true&embedded=true" style="width:100%; height:400px;" frameborder="0"></iframe>
 
+<iframe src="https://drive.google.com/file/d/1T--Gjcr58hj-RnqO_Q_1PxsWMzomzDQD/preview" width="640" height="480"></iframe>
 
 ## Poster
+
+<iframe src="https://drive.google.com/file/d/1MnMiEDkWP3MYBxUhaIdtiNvbDVH9rjtF/preview" width="640" height="480"></iframe>
