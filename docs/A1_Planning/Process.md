@@ -45,31 +45,40 @@ But since this is of course a very broad notion of a design goal we have parted 
 
 We started this project of course with an envelope. This is the complete optional envelope which is given to us by the supervisors from the TU-Delft and is based on regulations of the municipality. 
 
-![title](../img/Axo_envelope.png)
+![title](../img/1. Axo_envelope.png)
 
-### Modularity
+### Public greenery
 
-Before we create any form whatsoever we want to state the clear notion that we are designing a system with a modular grid as a result. This fact has some useful properties; first of all we think that a modular building is very sustainable in the sense of de-construction. 
+The first thing we examined was the public greenery in the nearby neighborhood of the building. We found that there where three important green spaces, namely the Hofbogen which will be a flourishing park in the future. Then there is the small but important park between the Almondestraat and the Schoterbosstraat on the North East side of the building. And finally on the South East side of the plot there will be a Raingarden. A green area which will be able to collect and drain  a lot of rain. All these three green spaces are perfectly fit to recreate as well. 
 
-![title](../img/Axo_modularity.png)
+![title](../img/2. Axo_green.png)
 
-### Green
+### Connection 
 
-![title](../img/Axo_green.png)
+We think that these three public green spaces are very important to people, because it's super healthy and people can recreate and meet other people. Therefor we want an optimal connection with them. That's why we came up with the idea to create a direct connection from the centre of the building to these spaces.
 
-### Connection
+![title](../img/3. Axo_connection_green.png)
 
-![title](../img/Axo_concept.png)
+### Heart
 
-### Centre
+Because of this connection to the centre of our building, what will appear is a heart of the building. A place where this connections meet, and where the different building parts meet. 
 
-![title](../img/Axo_hart.png)
+![title](../img/4. Axo_heart.png)
 
+### Functions
+
+As you can see our building will be sort of parted into three. After an investigation of our program of requirements and the functions which are already there in the ZoHo quarter, this actually perfectly fits into the urban network of the plot. We make a distinction between a living, working and recreation area. 
+
+![title](../img/5. Axo_Function.png)
 
 ### Visibility
 
-![title](../img/Axo_visibility.png)
+As a result of our conceptual shape of the building we think that we can easily improve the visibility of the envelope. There will namely also be visual connection because we have parted the building in three. This is something we need to examine. 
+
+![title](../img/6. Axo_visibility.png)
 
 ### Noise
 
-![title](../img/Axo_Noise.png)
+After our building has taken shape we do also want to examine the noise because the plot is located in the centre of a huge city like Rotterdam. 
+
+![title](../img/7. Axo_Geluid.png)
