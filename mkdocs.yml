@@ -17,12 +17,18 @@ nav:
   - Reflection: "a5_reflection.md"
   - About: "about.md"
   - Index:
-      - Scripts: "index/scripts.md"
       - Figures: "index/figures.md"
       - Presentations: "index/presentations.md"
-      - Bibliography: "index/bibliography.md"
+
   - Notebooks:
-    - Solar notebook: Notebooks/solar_studies.ipynb
+    - Voxelize notebook: Notebooks/_Voxelize notebook.ipynb
+    - Solar studies notebook: Notebooks/_Solar studies notebook.ipynb
+    - Facade closeness notebook: Notebooks/_Facade closeness notebook.ipynb
+    - Floor closeness notebook: Notebooks/_Floor closeness notebook.ipynb
+    - Entrance closeness notebook: Notebooks/_Entrance closeness notebook.ipynb
+    - Quietness notebook: Notebooks/_Quietness notebook.ipynb
+    - MCDA growth & shafts and corridors notebook: Notebooks/solar_studies.ipynb
+
 
 theme:
   name: "material"

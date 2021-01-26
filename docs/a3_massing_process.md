@@ -150,8 +150,3 @@ lattice</p>
 
 <br>export the shafts and corridors lattice </p>
 </td></tr></tbody></table>
-
-#### Floorplan
-<img src="../img/Floorplan.PNG" width="500"> 
-<img src="../img/Legenda_floorplan.PNG" width="500">
-<img src="../img/axo.jpg" width="300">

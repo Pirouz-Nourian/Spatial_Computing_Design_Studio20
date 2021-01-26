@@ -9,6 +9,7 @@ qualities.
 #### Weights and preferences hierarchy
 [Growth hierarchy](../pdf/hierarchy.pdf)
 <a href="../pdf/hierarchy.pdf" class="image fit"><img src="images/marr_pic.jpg" alt=""></a>
+![Hierarchy](../img/hierarchy.png)
 <br>According to our design strategy with privacy gradients and the
 decision to cluster functions around hubs, a hierarchy of spaces
 arises. When the growth algorithm seeds and grows spaces, the
@@ -26,8 +27,8 @@ the metro diagram, this is also reflected in the REL chart. However, because the
 to grow towards the garden, and the garden does not indicate
 any preference for growing towards the co-cooking, a hierarchy
 arises: co-cooking follows the garden, not the other way around.</p>
-![Hierarchy](../img/hierarchy.png)
 
+<img src="../img/REL_Explanation.PNG" width="500"> 
 
 
 #### Voxel size 
@@ -208,7 +209,7 @@ This is another parameter to optimize the placement of spaces that need direct d
 
 Some spaces and entrances require access to a specific facade based on traffic routes and greenery on the site. While they need to be dajcent to the facade, they do not need to be fixed in a specific place. The data field is used to create axes on each facade, to let the program choose the best location on it.
 
-<img src="../img/closeness to facade.png" width="500"> 
+<img src="../img/closeness to specific facade.png" width="500"> 
 
 <table><thead><tr class="header"><th>Pseudocode</th><th></th></tr></thead><tbody><tr class="odd"><td>Input</td><td>Availability lattice, custom stencil</td></tr><tr class="even"><td>Output</td><td><p>Specific facade closeness lattice</p></td></tr><tr class="odd"><td>Code</td><td><p><li>efine stencil where only one voxel represents the neighborhood and this neighbor is oriented in the direction of the desired facade</li>
 <li>Apply the stencil to the voxel envelope.</li>

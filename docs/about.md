@@ -18,10 +18,13 @@ Reflectionist:
     Sander Bentvelsen
 
 ### Tutors:
+
 Responsible instructor:
 
-    Dr.ir. P. Nourian 
+    Ir. P. Nourian (TU Delft, Design Informatics- PZN)
 
-Instructor:
+Instructors:
 
-    Prof.dr.ir. I.S. Sariyildiz
+    Ir. Shervin Azadi (TU Delft, Design Informatics - SAZ)
+
+    Ir. Hans Hoogenboom (TU Delft, Design Informatics - HHG)

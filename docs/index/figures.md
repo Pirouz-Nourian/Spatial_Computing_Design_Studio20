@@ -79,7 +79,10 @@
 [Icon closeness to facade](https://sanderbentvelsen.github.io/spatial_computing_project_template/a2_configuring_process/)
 <br><img src="../../img/Closeness to facade_icon.png" width="300">
 
-[Icon closeness to NE facade](https://sanderbentvelsen.github.io/spatial_computing_project_template/a2_configuring_process/)
+[Closeness to specific facade](https://sanderbentvelsen.github.io/spatial_computing_project_template/a2_configuring_process/)
+<br><img src="../../img/closeness to specific facade.png" width="300">
+
+[Icon closeness to specific facade](https://sanderbentvelsen.github.io/spatial_computing_project_template/a2_configuring_process/)
 <br><img src="../../img/Closeness to NE facade_icon.png" width="300">
 
 [Quietness from street noise](https://sanderbentvelsen.github.io/spatial_computing_project_template/a2_configuring_process/)
