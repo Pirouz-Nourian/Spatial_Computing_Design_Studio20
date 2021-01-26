@@ -2,7 +2,16 @@
 
 > Here you should cite all references and materials that you have used in your project. This is in addition to citation in the documentation itself.
 
-<table>
+
+Column A | Column B 
+---------|----------
+ A1 | B1 
+ A2 | B2 
+ A3 | B3 
+
+
+
+ <table>
     <thead>
         <tr class="header">
             <th>

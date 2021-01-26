@@ -15,17 +15,27 @@ nav:
   - A4_Forming:
       - Process: "A4_Forming/a4_forming_process.md"
       - Product: "A4_Forming/a4_forming_product.md"
-  - Final_Deliverables: "Final_Deliverables/readme.md"
+  - Final_Deliverables: "Final_Deliverables/finalstuff.md"
   - Index:
       - Scripts:
-        - Voxelization highres and lowres: "insert"
-        - Solar enveloppe + interpolation: "insert"
-        - Shadow analysis + interpolation: "insert"
-        - Skyview: "insert"
-        - Noise: "insert"
-        - Pathfinding + interpolation: "insert"
-        - Agent based generation: "insert"
-        - Shaping: "insert"
+        - Voxelization highres and lowres: "notebooks/1_voxelization.ipynb"
+        - Sun and shadow analysis: "notebooks/2.1_lattice_sun_and_shadow.ipynb"
+        - Sun block analysis: "notebooks/2.2_full_lattice_sun_sky_blocking.ipynb"
+        - Skyview: "notebooks/3.1_lattices_skylight.ipynb"
+        - Quietness: "notebooks/3.2_lattice_quietness.ipynb"
+        - Distance calculation, Public entrances: "notebooks/3.3_lattice_public_entrances.ipynb"
+        - Distance calculation, Gym entrance: "notebooks/3.4_lattice_gym.ipynb"
+        - Distance calculation, Parking entrance: "notebooks/3.5_lattice_parking_entrance.ipynb"
+        - Distance calculation, Housing entrance: "notebooks/3.6_lattice_housing.ipynb"
+        - Distance calculation, Comunity Center entrance: "notebooks/3.7_lattice_comcen_entrance.ipynb"
+        - Full lattice: "notebooks/4_full_lattice_minus_greenery.ipynb"
+        - Corridors ground floor: "notebooks/5.1_corridors_groundfloor.ipynb"
+        - Corridors upper floor: "notebooks/5.2_corridors_upper_floors.ipynb"
+        - Shafts: "notebooks/5.3_shafts.ipynb"
+        - Distance calculation, ground floor: "notebooks/6.1_lattice_distance_community.ipynb"
+        - Distance calculation, upper floors: "notebooks/6.2_lattice_distance_upper_floors.ipynb"
+        - Agent Based Model growth simulation: "notebooks/7_ABM_growth.ipynb"
+        - Polygonization: "notebooks/8_polygonization.ipynb"
       - Figures: "index/figures.md"
       - Presentations: "index/presentations.md"
       - Bibliography: "index/bibliography.md"
@@ -35,6 +45,17 @@ nav:
       - Guidelines: "documenting/guidelines.md"
   - Quotes: "quotes.md"
   - Reflection: "reflection.md"
+
+
+theme: 
+  name: material
+  logo: img/logo/apidae_solo_black.png
+  favicon: img/logo/apidae.png
+  font:
+    text: Tajawal
+# material
+# windmill-dark
+  palette:
 
 theme: 
   name: material
