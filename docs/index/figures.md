@@ -9,10 +9,10 @@
 <br><img src="../img/Sustainability.PNG" width="700">
 
 [Design goals](https://sanderbentvelsen.github.io/spatial_computing_project_template/a1_planning_process/)
-<br><img src="../docs/img/design_goal_1.png" width="300">
-<br><img src="../img/design_goal_5.png" width="300">
-<br><img src="../img/design_goal_3.png" width="300">
-<br><img src="../img/design_goal_4.png" width="300">
+<img src="../docs/img/design_goal_1.png" width="300">
+<img src="../docs/img/design_goal_5.png" width="300">
+<img src="../docs/img/design_goal_3.png" width="300">
+<img src="../docs/img/design_goal_4.png" width="300">
 
 [Context](https://sanderbentvelsen.github.io/spatial_computing_project_template/a1_planning_process/)
 ![context](../img/context.PNG)
