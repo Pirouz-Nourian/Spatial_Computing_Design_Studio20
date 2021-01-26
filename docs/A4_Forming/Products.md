@@ -2,10 +2,10 @@
 
 On this page you can see the vizualizations of our final building. 
 
-![title](../img/FINAL_Renders_2.png)
+![title](../img/Render_Hofbogen.jpg)
 
-![title](../img/FINAL_Renders_3.png)
+![title](../img/Render_Park.jpg)
 
-![title](../img/FINAL_Renders_4.png)
+![title](../img/Render_Brug.jpg)
 
-![title](../img/FINAL_Renders_5.png)
+![title](../img/Render_Gevel.jpg)
