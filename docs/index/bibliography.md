@@ -11,16 +11,10 @@ Title | source
  Wikipedia | [source](https://en.wikipedia.org/wiki/Apidae)
  acoustic frontiers| [source](https://www.acousticfrontiers.com/wp-content/uploads/2015/03/17a-View-angle-plan.gif)
  Wognai| [source](https://img.wongnai.com/p/1920x0/2019/05/02/3efb4ab0fcaf4ec9aa591c4e65618821.jpg)
- Wognai| [source](https://img.wongnai.com/p/1920x0/2019/05/02/3efb4ab0fcaf4ec9aa591c4e65618821.jpg)
+ American Planning Association | [source](https://www.planning.org/pas/reports/report241.htm)
+ Spacebase | [source](https://www.spacebase.com/en/)
+ Wikimedia | [source](https://www.spacebase.com/en/)
 
-
-
-[**3 Library**](https://www.planning.org/pas/reports/report241.htm)
-10 seats per 1k users. Community library: 217+4100 members = 43.17 seats. 
-2500 square feet = 232 m2
-
-[**4 Workshop room**](https://www.spacebase.com/en/)
-20 covid proof spaces for workshop, or 50 standing = 200 m2 (20 in 200m2 is possible too, but tighter)
 
 [**5 Fab labs**](https://upload.wikimedia.org/wikipedia/commons/d/d7/Amsterdam_Fab_Lab_at_The_Waag_Society.JPG)
 8 m2 per fab lab tafel. 
@@ -44,15 +38,6 @@ Title | source
 (Beschermd wonen ‘s Heeren Loo: 225-230 m2 per group of 6-7)
 30 units = 225*5 (30/6) = 1125 m2
 
-<p> <span style="color:yellow"> <b>
-9 starter housing </span></b>
-(80m2 per unit)
-100*80 = 8000</p>
-
-<p> <span style="color:yellow"> <b>
-10 student housing </span></b>
-(reference floor plan)
-+/- 30 m2 * 80 + 15% transport etc = 2400 m2</p>
 
 [**11 cafe pub restaurant**](https://totalfood.com/how-to-create-a-restaurant-floor-plan/) 
 200 seats
