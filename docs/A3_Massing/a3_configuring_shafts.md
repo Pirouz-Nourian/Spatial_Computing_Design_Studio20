@@ -12,7 +12,7 @@ As is shown in the depth analysis (a translation of the topological map, with th
 The division in functions (housing entrance and communal entrance) corresponds with the initial location of the functions, where all communal functions are located on the first two floors and the housing functions, along with the co-working spaces and the start-up offices, grow above this. This results in two types of corridor networks; one connecting all communal functions and all shafts to upper floors, and one connecting all functions that grow on the upper floors, along with the shafts.
 For the growth of the communal corridors, the initial seeds of these functions are being placed. Because the location of the shafts is more related to the location of the entrances than it is to the seeds of the voxels, the shafts are located based on these entrance locations.
 
-<center><img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/6.3_shafts.png?raw=true">
+<center><img src="https://raw.githubusercontent.com/EdaAkaltun/spatial_computing_project_template/master/docs/img/finalscreenshots/size_restricted.gif">
 
 *shaft locations based on entrances* 
 </center>

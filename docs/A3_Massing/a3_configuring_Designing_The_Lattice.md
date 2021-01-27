@@ -24,8 +24,8 @@ Fundamentally our building should be of least disturbance for the surrounding ar
 
 *skylight blocking calculation*
 
-<img src="https://thumbs.gfycat.com/ValidImaginativeChihuahua-size_restricted.gif" style="width:150%;" >
-<!-- ![](../img/finalscreenshots/size_restricted.gif) -->
+<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/size_restricted.gif?raw=true" style="width:150%;" >
+
 *Threshold* 
 
 <img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/2.2_newfulllattice.png?raw=true">

@@ -20,6 +20,7 @@ In order to implement the design criteria as mentioned before, those had to be c
 For the space heights and space areas a different approach had to be made since those are hardcoded criteria coming from the Program of Requirements. Hence, those explained in the next paragraph. 
 
 <center> <img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/oldgrowth.gif?raw=true" style="width:150%;"></center>
+
 *Midterm ABM growth simulation*
 </center>
 

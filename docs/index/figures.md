@@ -42,7 +42,7 @@ ________________________________________________
 
 [Figures from A3_Massing_process: ABM](https://edaakaltun.github.io/spatial_computing_project_template/A3_Massing/a3_configuring_ABM_Simulation/)
 
-<iframe src="https://thumbs.gfycat.com/LittleAdmiredBufeo-size_restricted.gif" style="width:150%; height:295px;" frameborder="0"></iframe> 
+<img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/oldgrowth.gif?raw=true" style="width:150%;">
 
 <img src="https://cdn.discordapp.com/attachments/784009094474366977/803249271100014612/unknown.png">
 
@@ -68,7 +68,7 @@ ________________________________________________
 
 <center> <img src="https://cdn.discordapp.com/attachments/784009094474366977/803322623199150130/B02eVgwU5jOiAAAAAElFTkSuQmCC.png"></center>
 
-<iframe src="https://media3.giphy.com/media/WDhRzS8AIleGliAs9s/giphy.gif" style="width:150%; height:300px;" frameborder="0"></iframe>
+<center> <img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/finalgrowth.gif?raw=true" style="width:150%;"></center>
 ________________________________________________
 
 [Figures from A3_Massing_process: Designing the lattice](https://edaakaltun.github.io/spatial_computing_project_template/A3_Massing/a3_configuring_Designing_The_Lattice/)
@@ -77,7 +77,7 @@ ________________________________________________
 
 <img src="https://cdn.discordapp.com/attachments/775754717346791494/801507211003822190/shadow.png" style="width:600px;">
 
-<iframe src="https://thumbs.gfycat.com/ValidImaginativeChihuahua-size_restricted.gif" style="width:150%; height:430px;" frameborder="0"></iframe>
+<img src="https://raw.githubusercontent.com/EdaAkaltun/spatial_computing_project_template/master/docs/img/finalscreenshots/size_restricted.gif">
 
 <img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/2.2_newfulllattice.png?raw=true" style="width:600px;">
 
@@ -135,11 +135,11 @@ ________________________________________________
 
 [Figures from A3_Massing_process: product](https://edaakaltun.github.io/spatial_computing_project_template/A3_Massing/a3_massing_product/)
 
-<iframe src="https://media3.giphy.com/media/9PX5rcQ64S6fxFSiho/giphy.gif" style="width:150%; height:430px;" frameborder="0"></iframe>
+<img src="https://raw.githubusercontent.com/EdaAkaltun/spatial_computing_project_template/master/docs/img/finalscreenshots/calcgifs.gif" style="width:150%;" >
 
-<iframe src="https://media3.giphy.com/media/2XG01ZsHY4wzcGtt3L/giphy.gif" style="width:150%; height:430px;" frameborder="0"></iframe>
+<img src="https://raw.githubusercontent.com/EdaAkaltun/spatial_computing_project_template/master/docs/img/finalscreenshots/growthgif.gif" style="width:150%;" >
 
-<iframe src="https://media3.giphy.com/media/WDhRzS8AIleGliAs9s/giphy.gif" style="width:150%; height:300px;" frameborder="0"></iframe>
+<img src="https://raw.githubusercontent.com/EdaAkaltun/spatial_computing_project_template/master/docs/img/finalscreenshots/finalgrowth.gif" style="width:150%;" >
 ________________________________________________
 
 
