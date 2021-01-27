@@ -1,3 +1,5 @@
+# The Green Valley
+
 Welcome to the project repository for the course Computational Design Studio 2020/2021 of [group 4](/spatial_computing_project_template/about/), The Green Valley. This course is part of the minor Spatial Computing in Architectural design at the TU Delft. 
 
 The course has given us an introduction to a participatory generative approach to architectural design. We have learned about mathematical and computational skills in geometry, topology and graph theory and used these skills to make analyses, simulations and optimizations on a building envelope.  
