@@ -1,36 +1,30 @@
-# Spatial Computing Project Template
+Welcome to the project repository for the course Computational Design Studio 2020/2021 of [group 4](/spatial_computing_project_template/about/), The Green Valley. This course is part of the minor Spatial Computing in Architectural design at the TU Delft. 
 
-This is a project template for Spatial Computing Students. Students shall fork this repository and use it as the basis of their project. Mid-term and Final submission is expected through pull GitHub.
+The course has given us an introduction to a participatory generative approach to architectural design. We have learned about mathematical and computational skills in geometry, topology and graph theory and used these skills to make analyses, simulations and optimizations on a building envelope.  
+Because the form of the project is systematically derived from functional requirements, we have learned, not to make a building in the usual parametric style, but how to develop computational design workflows.
 
-## Folder Structure
+This project repository is a demonstration of our operational workflow, in which we will show the [planning](/spatial_computing_project_template/A1_Planning/Process/) the [configuring](/spatial_computing_project_template/A2_Configuring/Process/), the [massing](/spatial_computing_project_template/A3_Massing/Process/Atrium%20allocation/Atrium%20allocation/), the [forming](/spatial_computing_project_template/A4_Forming/Process/) and the [result](/spatial_computing_project_template/A5_Result/) of the new building. 
 
-The folders in student projects should strictly follow the structure of the folders in this repository. The main folders are four assignment folder (corresponding to each assignment) and one folder for final deliverables of your project. In general, the **process** sub-folders include all the necessary code, notebook, files, and models that you have used to achieve the final product of that assignment. It also includes document that represent the process of the assignment such as flowcharts, diagrams and pseudo-codes. The **product** sub-folder sh
+## About
 
-Here is run down of the overall structure:
 
-* A1_Planning
-  * Process
-  * Product
-* A2_Configuring
-  * Process
-  * Product
-* A3_Massing
-  * Process
-  * Product
-* A4_Forming
-  * Process
-  * Product
-* Final_Deliverables
-    > Here you will include all the final deliverables of your project.
-* docs
-    > Here you will write and edit the source of your documentation in [MarkDown](https://guides.github.com/features/mastering-markdown/). An example is included in the template to help you begin documenting your project.
-* site 
-    > you should leave this directory empty. It will be filled by automatic documentation generator [MkDocs](https://mkdocs.readthedocs.io)
+**Group 4**
 
-### Guidelines
+* Xam Adan
 
-* File Size: No file bigger than 50mb is recommended. No file bigger than 100mb is allowed.
-* Duplicates: Do NOT include duplicates in your files.
-* Naming Convention: Avoid using special characters or spaces in file and folder names. Instead, use "_" to separate words in the names.
-* Video and Animation files should not be included the repository. They should be uploaded to online video services (YouTube, Vimeo, etc). You should embed those video link in your documentation. (GIF files are allowed in your repo)
-* Geometric Models (.3dm, .obj, etc) should be compressed before being added to repository.
+* Frank Vahstal
+
+* Lotte Zwolsman
+
+**Tutors**</p><p>
+
+* Dr. Ir. P. Nourian
+
+* Ir. Hans Hoogenboom
+
+* Ir. Shervin Azadi
+
+
+**Course**</p><p>
+Computational Design Studio (BK7083)</p><p>
+This course is part of the minor Spatial Computing in Architectural design (BK-MI-197), TU Delft. 
