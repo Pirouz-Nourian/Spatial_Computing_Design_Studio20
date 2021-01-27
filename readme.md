@@ -1,36 +1,28 @@
-# Spatial Computing Project Template
+# Spatial Computing Project - Zoho’s Pearl
 
-This is a project template for Spatial Computing Students. Students shall fork this repository and use it as the basis of their project. Mid-term and Final submission is expected through pull GitHub.
+<figure>
+  <img align="right" src="img\overige\logo.png" alt="Logo" style="width:20%; height:20%;">
+</figure>
 
-## Folder Structure
+*&nbsp;&nbsp;&nbsp;&nbsp;Our project is named **Zoho’s Pearl**. In this analogy Rotterdam can be seen as the clamshell. Worn and rough on the outside due to its history and pronounced character, but beautiful on the inside, strengthened by its ever changing character and ability to stimulate growth. A strong shield that contains the foundations for beautiful flourishing development. In our case these foundations are found in the neighbourhood of Zoho. Where it was once a run down business area, we now see the first steps of renewal. During our design process we took the foundations offered to create a pearl worthy of Zoho. A building that will not only consist of living and working, but will be a social hub for the entire neighbourhood. We seek to stimulate inhabitants to network and grow in their environment. Similar to how the pearl will transform Zoho, we believe it will encourage inhabitants to flourish on an individual level.*
 
-The folders in student projects should strictly follow the structure of the folders in this repository. The main folders are four assignment folder (corresponding to each assignment) and one folder for final deliverables of your project. In general, the **process** sub-folders include all the necessary code, notebook, files, and models that you have used to achieve the final product of that assignment. It also includes document that represent the process of the assignment such as flowcharts, diagrams and pseudo-codes. The **product** sub-folder sh
+----
 
-Here is run down of the overall structure:
+&nbsp;&nbsp;&nbsp;&nbsp; This web portal is the result of the course [BK7083](https://www.tudelft.nl/bk/studeren/minoren-en-keuzevakken/spatial-computing-in-architectural-design/) "Computational Design Studio" given in the minor program Spatial Computing in Architectural Design at the Technical University of Delft. During this minor, we have formulated a programme of requirements and subsequently used mathematical spatial computing constructs to design and simulate the optimum building. 
+&nbsp;&nbsp;&nbsp;&nbsp; The assignment of this course consists of a computational design for the site in the area of the Rotterdamse Maakkwartier. Currently, this building (also known as ZOHO) is used for residency, workshops, studios and startups. This is why the ZOHO is promoted with the following: 
+*<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For and by makers in design, art, culture, media, tech, food, architecture and urban planning. All pioneers who want to use their craftsmanship to strengthen themselves, ZOHO, and the city in an innovative way. (Stichting ZOHOCITIZENS Ondernemerscollectief, 2018)*
+<br>The aim of this project is to design a new building that fits into the requirements given by the tutors, the (imaginary) future residents and ourselves, using diverse python scripts. 
 
-* A1_Planning
-  * Process
-  * Product
-* A2_Configuring
-  * Process
-  * Product
-* A3_Massing
-  * Process
-  * Product
-* A4_Forming
-  * Process
-  * Product
-* Final_Deliverables
-    > Here you will include all the final deliverables of your project.
-* docs
-    > Here you will write and edit the source of your documentation in [MarkDown](https://guides.github.com/features/mastering-markdown/). An example is included in the template to help you begin documenting your project.
-* site 
-    > you should leave this directory empty. It will be filled by automatic documentation generator [MkDocs](https://mkdocs.readthedocs.io)
+&nbsp;&nbsp;&nbsp;&nbsp; The structure of this webpage is based on the design process we went through: Planning, Configuring, Massing and Forming. Planning and Configuring are divided into two extra folders: ‘Process’ and ‘Products’. In the folders ‘Process’ the research, which was needed for the final products and conclusions, is documented. The conclusions can therefore be found in the folder ‘Products’. The other ones consist of the various Notebooks with each the same structure (flowchart - additional diagrams - pseudo code - visualisations of the results.)
 
-### Guidelines
+----
 
-* File Size: No file bigger than 50mb is recommended. No file bigger than 100mb is allowed.
-* Duplicates: Do NOT include duplicates in your files.
-* Naming Convention: Avoid using special characters or spaces in file and folder names. Instead, use "_" to separate words in the names.
-* Video and Animation files should not be included the repository. They should be uploaded to online video services (YouTube, Vimeo, etc). You should embed those video link in your documentation. (GIF files are allowed in your repo)
-* Geometric Models (.3dm, .obj, etc) should be compressed before being added to repository.
+# About
+This web portal has been made for the course BK7083 ‘’Computational Design Studio’’ given in the minor program Spatial Computing in Architectural Design at the Technical University of Delft. The course was guided by Dr. Ir. P. Nourian, Ir. H. Hoogenboom and Ir. S. Azadi.
+This web portal documents the design process made by group 2, which concludes the following students:
+
+| Name | Role |
+| --- | --- |
+| Jirri | Puzzle Solver |
+| Milou  | Journalist |
+| Nancy | Reflectionist |
