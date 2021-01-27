@@ -19,13 +19,9 @@ In order to implement the design criteria as mentioned before, those had to be c
 
 For the space heights and space areas a different approach had to be made since those are hardcoded criteria coming from the Program of Requirements. Hence, those explained in the next paragraph. 
 
-
-<center><iframe src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/oldgrowth.gif" style="width:150%; height:295px;" frameborder="0"></iframe> 
-
+<center> <img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/oldgrowth.gif?raw=true" style="width:150%;"></center>
 *Midterm ABM growth simulation*
 </center>
-
-
 
 ### **Space heights to stencils **
 In order to implement the height differences of spaces given from the Porgram of Requirements into the Apidae method, the initial given stencil for all agents (see left stencil in the picture below) has been expanded in the z axis. In the code, this has been done for 1, 2, 3, 4 and 5 voxels high. The highest stencil is 5 x 1.8m = 9 meters into the z axis and 1.8m on the x and y axis. The picture below shows, in the order of mention, the neighbors for a stencil that is 1.8m high, 3.6m high and 5.4m high.
@@ -216,7 +212,7 @@ ________________________________________________
 
 ### **Final growth**
 
-<iframe src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/finalgrowth.gif?raw=true" style="width:150%; height:300px;" frameborder="0"></iframe>
+<center> <img src="https://github.com/EdaAkaltun/spatial_computing_project_template/blob/master/docs/img/finalscreenshots/finalgrowth.gif?raw=true" style="width:150%;"></center>
 
 ________________________________________________
 
