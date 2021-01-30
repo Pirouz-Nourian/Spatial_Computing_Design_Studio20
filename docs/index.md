@@ -4,7 +4,7 @@ This is a website for the Spatial Computing project at the minor of Spatial Comp
 
 We are a group of four students following the course BK7083: Computational Design Studio. Here you can see our progress and discoveries made during this course. The progress is split up into four parts: Planning, Configuring, Massing and Forming. There is also an index given where there is a more in depth view of the code and the progress we made along the way.
 
-![Render 1](../img/Rener-1_V1.png)
+![Render 1](https://sanderbentvelsen.github.io/spatial_computing_project_template/img/Rener-1_V1.png)
 
 ### Students:
 Puzzle solver:
