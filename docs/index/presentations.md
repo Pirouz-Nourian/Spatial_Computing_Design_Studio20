@@ -10,5 +10,5 @@
 
 ##Final - Poster
 
-This is our [poster](..\img\overige\Poster.jpg) for the final presentation
-![Final poster](..\img\overige\Poster.jpg)
+This is our [poster](../img/overige/Poster.jpg) for the final presentation
+![Final poster](../img/overige/Poster.jpg)
