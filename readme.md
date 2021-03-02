@@ -204,7 +204,7 @@ The subjects taught in this course are the essentials of:
 
 - Spatial Mathematics: Linear Algebra, Geometry, Topology, and Graph Theory
 - Computer Graphics (Boundary Representations and Raster Representations)
-- Programming in Python & VEX [BK-7083] & C++ [BK-7084]
+- Programming in Python [BK-7083] & [BK-7084]
 - Space Planning (i.e. configurative design, determining the 'Space Syntax')
 - Grammatical Design (e.g. L-Systems, Graph Grammars, Design Games)
 - Evidence-Based Design (e.g. Pattern Language)
@@ -220,7 +220,7 @@ The practical skills learnt in this minor are the essentials of:
 - Generative Design (using Cellular Automata, Agent-Based Modelling, Particle Systems, Combinatorial Design)
 - Technical Communication (Problem Definition, Problem Formulation, Flowchart Drawing, Pseudocode Writing)
 - Infographics
-- Programming (within Rhino & Grasshopper using Python [BK-7083] and
+- Programming (within Jupyter Notebooks using Python, Numpy, and [topoGenesis](https://github.com/shervinazadi/topoGenesis) [BK-7083] and
     coding C++ modules [BK-7084])
 
 ### License
