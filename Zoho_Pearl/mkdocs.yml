@@ -1,0 +1,53 @@
+site_name: Spatial Computing Project - Zoho’s Pearl
+
+nav:
+  - Home: "index.md"
+  - Planning: # "a1_planning.md"
+      - Process: "a1.1_Process.md"
+      - Products: "a1.1_Product.md"
+  - Configuring: #"a2_configuring.md"
+      - Process: "a2.1_Process.md"
+      - Products: "a2.1_Product.md"
+      - Notebook 1 - Voxelization: "a2.2_Notebook1.md"
+  - Massing: #"a3_massing.md"
+      - Notebook 2 - Solar envelope: "a3.2_Notebook2.md"
+      - Notebook 3 - Combine date: "a3.2_Notebook3.md"
+  - Forming: #"a4_forming.md"
+      - Notebook 4 - Solar outside: "a4.2_Notebook4.md"
+      - Notebook 5 - Sound: "a4.2_Notebook5.md"
+      - Notebook 6 - Scale sound: "a4.2_Notebook6.md"
+      - Notebook 7 - Roof access: "a4.2_Notebook7.md"
+      - Notebook 8 - Lower growing resolution: "a4.2_Notebook8.md"
+      - Notebook 9 - Generative Relations mcda: "a4.2_Notebook9.md"
+      - Notebook 10 - Raise growing resolution: "a4.2_Notebook10.md"
+      - Notebook 11 - Prepare for revit pipeline: "a4.2_Notebook11.md"
+      - Notebook 12 - Generative Relations corridors: "a4.2_Notebook12.md"
+      - Results: "a4.2_Results.md"
+      - Renders: "a4.3_Renders.md"
+  - About: "about.md"
+  - Index:
+      - Scripts: "index/scripts.md"
+      - Figures: "index/figures.md"
+      - Presentations: "index/presentations.md"
+      - Bibliography: "index/bibliography.md"
+
+theme:
+  name: "material"
+  palette:
+    primary: red
+  features:
+    - search
+
+markdown_extensions:
+  - codehilite
+  - pymdownx.keys
+  - pymdownx.highlight
+  - pymdownx.emoji
+  - pymdownx.tasklist
+
+plugins:
+  - search
+  - mknotebooks:
+      enable_default_jupyter_cell_styling: false
+      enable_default_pandas_dataframe_styling: false
+  - git-revision-date-localized
