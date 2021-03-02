@@ -1,0 +1,73 @@
+site_name: The Green Valley
+
+nav:
+  - Home: "index.md"
+  - Planning: 
+      - Process: "Planning/Process.md"
+      - Product: "Planning/Products.md"
+  - Configuring:
+      - Process: "Configuring/Process.md"
+      - Product: "Configuring/Products.md"
+  - Massing:
+      - Process:
+          Atrium Allocation: "Massing/Process/Atrium allocation/Atrium allocation.md" 
+          Shadow casting analysis: "Massing/Process/Shadow casting analysis/Shadow analysis.md"
+          Visibility analysis: "Massing/Process/Visibility analysis/Visibility analysis.md"        
+          Sun access analysis: "Massing/Process/Sun access analysis/Sun analysis.md"
+          Public entrance analysis: "Massing/Process/Public entrance analysis/Public entrance analysis.md"
+          Green acces analysis: "Massing/Process/Green acces analysis/Green acces analysis.md"
+          Noise analysis: "Massing/Process/Noise Analysis/Noise analysis.md"
+      - Product: 
+          Seed allocation: "Massing/Products/Seed allocation/Seed allocation.md"
+          Shortest paths: "Massing/Products/Shortest paths/Shortest paths.md"
+          Agent growth: "Massing/Products/Agent growth/Agent growth.md"
+  - Forming: 
+      - Process: "Forming/Process.md"
+      - Product: "Forming/Products.md"
+  - Result: "Result.md"      
+  - About: "about.md"
+  - index:
+      - scripts: 
+          Voxelization: "index/scripts/Voxelize.ipynb"
+          Atrium allocation: "index/scripts/atrium_allocation.ipynb"
+          Shadow casting analysis: "index/scripts/shadow.ipynb"
+          Visibility analysis: "index/scripts/visibility.ipynb"
+          Sun access analysis: "index/scripts/sun.ipynb"
+          Public entrance analysis: "index/scripts/entrance_access.ipynb"
+          Green access analysis: "index/scripts/Green.ipynb"
+          Noise analysis: "index/scripts/noise field.ipynb"
+          Shafts and shortest paths: "index/scripts/corridors.ipynb"
+          Agent based model: "index/scripts/abm.ipynb" 
+          Polygonization: ""          
+      - Presentations: "index/presentations.md"
+      - Film: "index/film.md"
+      - Bibliography: "index/bibliography.md"
+      - Figures: "index/figures.md"
+
+theme:
+  name: "material"
+  palette:
+    - scheme: default
+      primary: white
+      accent: orange
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+    - scheme: default
+      primary: orange
+      accent: orange
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+  font:
+    text: Roboto
+
+markdown_extensions:
+  - codehilite
+  - pymdownx.keys
+  - pymdownx.highlight
+  - pymdownx.emoji
+
+plugins:
+  - mknotebooks
