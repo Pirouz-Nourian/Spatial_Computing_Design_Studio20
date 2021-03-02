@@ -1,0 +1,86 @@
+site_name: Project Apidae
+
+nav:
+  - Home: "index.md"
+  - About: "about.md"
+  - A1_Planning: 
+      - Process: "A1_Planning/a1_planning_process.md"
+      - Product: "A1_Planning/a1_planning_product.md"
+  - A2_Configuring: 
+      - Process: 
+        - Space criteria: "A2_Configuring/a2_configuring_Spacecriteria.md"
+        - Voxelsize determination: "A2_Configuring/a2_configuring_Determiningvoxelsize.md"
+        - Voxelizing the lattice: "A2_Configuring/a2_configuring_Voxelizingthelot.md"
+      - Product: "A2_Configuring/a2_configuring_product.md"
+  - A3_Massing:
+      - Process:
+        - Intro: "A3_Massing/a3_configuring_intro.md"
+        - Spatial Analysis: "A3_Massing/a3_configuring_Spatial_Analysis.md"
+        - Designing the Lattice: "A3_Massing/a3_configuring_Designing_The_Lattice.md"
+        - Shafts and Corridors: "A3_Massing/a3_configuring_shafts.md"
+        - ABM Growth: "A3_Massing/a3_configuring_ABM_Simulation.md"
+      - Product: "A3_Massing/a3_massing_product.md"
+  - A4_Forming:
+      - Process: "A4_Forming/a4_forming_process.md"
+      - Product: "A4_Forming/a4_forming_product.md"
+  - Final_Deliverables: "Final_Deliverables/finalstuff.md"
+  - Index:
+      - Scripts:
+        - Voxelization highres and lowres: "notebooks/1_voxelization.ipynb"
+        - Sun and shadow analysis: "notebooks/2.1_lattice_sun_and_shadow.ipynb"
+        - Sun block analysis: "notebooks/2.2_full_lattice_sun_sky_blocking.ipynb"
+        - Skyview: "notebooks/3.1_lattices_skylight.ipynb"
+        - Quietness: "notebooks/3.2_lattice_quietness.ipynb"
+        - Distance calculation, Public entrances: "notebooks/3.3_lattice_public_entrances.ipynb"
+        - Distance calculation, Gym entrance: "notebooks/3.4_lattice_gym.ipynb"
+        - Distance calculation, Parking entrance: "notebooks/3.5_lattice_parking_entrance.ipynb"
+        - Distance calculation, Housing entrance: "notebooks/3.6_lattice_housing.ipynb"
+        - Distance calculation, Comunity Center entrance: "notebooks/3.7_lattice_comcen_entrance.ipynb"
+        - Full lattice: "notebooks/4_full_lattice_minus_greenery.ipynb"
+        - Corridors ground floor: "notebooks/5.1_corridors_groundfloor.ipynb"
+        - Corridors upper floor: "notebooks/5.2_corridors_upper_floors.ipynb"
+        - Shafts: "notebooks/5.3_shafts.ipynb"
+        - Distance calculation, ground floor: "notebooks/6.1_lattice_distance_community.ipynb"
+        - Distance calculation, upper floors: "notebooks/6.2_lattice_distance_upper_floors.ipynb"
+        - Agent Based Model growth simulation: "notebooks/7_ABM_growth.ipynb"
+        - Polygonization: "notebooks/8_polygonization.ipynb"
+      - Figures: "index/figures.md"
+      - Presentations: "index/presentations.md"
+      - Bibliography: "index/bibliography.md"
+  - Quotes: "quotes.md"
+  - Reflection: "reflection.md"
+
+theme: 
+  name: material
+  logo: img/logo/apidae_solo_black.png
+  favicon: img/logo/apidae.png
+  font:
+    text: Tajawal
+# material
+# windmill-dark
+  palette:
+    scheme: slate
+    primary: amber
+    accent: green
+  features:
+    - search.suggest
+    - search.share
+    - header.autohide
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/EdaAkaltun/spatial_computing_project_template
+
+plugins:
+  - mknotebooks:
+      enable_default_jupyter_cell_styling: false
+      enable_default_pandas_dataframe_styling: false
+  - search:
+      lang: en
+
+markdown_extensions:
+  - codehilite
+  - pymdownx.keys
+  - pymdownx.highlight
+  - pymdownx.emoji

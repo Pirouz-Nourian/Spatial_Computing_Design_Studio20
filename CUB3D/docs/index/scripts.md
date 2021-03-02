@@ -10,7 +10,18 @@ for cell_neigh in cell_neighbors:
         if neigh != -1 and neigh > cell:
             edges.append((cell, neigh))
 ```
+<<<<<<< HEAD:CUB3D/docs/index/scripts.md
 
 ``` python
 print("hello world")
 ```
+=======
+      - Voxelization highres and lowres: "insert"
+      - Solar enveloppe + interpolation: "insert"
+      - Shadow analysis + interpolation: "insert"
+      - Skyview: "insert"
+      - Noise: "insert"
+      - Pathfinding + interpolation: "insert"
+      - Agent based generation: "insert"
+      - Shaping: "insert"
+>>>>>>> AP:Apidae/docs/index/scripts.md
