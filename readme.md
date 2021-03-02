@@ -25,7 +25,7 @@ the transformation of a site, a program of requirements, key performance
 indicators, and the preferences of the prospective inhabitants into a
 building.
 
-[![IMAGE ALT TEXT HERE](https://github.com/Pirouz-Nourian/Spatial_Computing_Design_Studio20/blob/master/_course_info/VideoThumbnail_Youtube.PNG)](https://youtu.be/iu5jNzi5j24)
+[![IMAGE ALT TEXT HERE](https://github.com/shervinazadi/Spatial_Computing_Design_Studio20/blob/master/_course_info/VideoThumbnail_Youtube.PNG)](https://youtu.be/iu5jNzi5j24)
 
 
 ## People
